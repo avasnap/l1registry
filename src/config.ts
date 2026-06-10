@@ -70,7 +70,9 @@ export function loadConfig(flags: Record<string, string | boolean>): Config {
   if (enumSource !== "pchain" && enumSource !== "dataapi") {
     throw new Error(`invalid source: ${enumSource} (expected pchain|dataapi)`);
   }
-  const dataApiKey = (flags["api-key"] as string) ?? env.DATA_API_KEY ?? null;
+  // empty string counts as absent (e.g. an unset CI secret)
+  const rawKey = (flags["api-key"] as string) ?? env.DATA_API_KEY;
+  const dataApiKey = rawKey ? String(rawKey) : null;
   // --no-enrich wins over --enrich; default: enrich only if a key is present
   let enrich = asBool(flags.enrich, asBool(env.ENRICH, dataApiKey !== null));
   if (flags["no-enrich"]) enrich = false;

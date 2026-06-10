@@ -1,0 +1,49 @@
+name: registry sync
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6h, off the top of the hour
+  workflow_dispatch:
+
+concurrency:
+  group: registry-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - run: bun install --frozen-lockfile
+
+      - name: sync registry
+        env:
+          # optional; keyless Glacier works but is rate-limited harder
+          DATA_API_KEY: ${{ secrets.DATA_API_KEY }}
+        run: bun run src/index.ts sync --enrich
+
+      - name: commit & push if the registry changed
+        run: |
+          # runs.json changes on every run; only commit when actual registry
+          # content moved, so the history stays one-commit-per-real-change.
+          if git diff --quiet -- data/mainnet/blockchains.json data/mainnet/subnets.json data/mainnet/validators.json; then
+            echo "no registry changes; skipping commit"
+            exit 0
+          fi
+          summary=$(jq -r 'to_entries | max_by(.value.startedAt) | .value
+            | "sync: \(.diff.blockchains.new | length) new, \(.diff.blockchains.changed | length) changed, \(.diff.blockchains.wentStale | length) stale (\(.totals.blockchains) blockchains, \(.totals.subnets) subnets)"' \
+            data/mainnet/runs.json)
+          git config user.name "Avasnap"
+          git config user.email "avasnap.xyz@gmail.com"
+          git add data/
+          git commit -m "$summary"
+          git push

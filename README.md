@@ -159,8 +159,15 @@ branch** → branch `main`, folder `/ (root)`. The site serves `index.html` and
 To browse locally: `bunx serve .` (or any static file server — `file://` won't
 work because the page fetches the JSON files).
 
-## Cron
+## Automated sync (GitHub Actions)
 
-`sync` is safe to re-run on a schedule; each run appends to `runs.json` and
-writes `reports/run-<runId>.json` with the diff since the previous run. Commit
-and push `data/` afterwards to update the published explorer.
+[.github/workflows/sync.yml](.github/workflows/sync.yml) runs
+`registry sync --enrich` every 6 hours (and on manual dispatch). When registry
+content actually changed it commits `data/` with a diff summary
+(`sync: 2 new, 3 changed, 0 stale (…)`) and pushes — which redeploys the Pages
+explorer. No-op runs are skipped, so the commit history reads as a changelog
+of the P-Chain. Set a `DATA_API_KEY` repo secret to enrich with an AvaCloud
+key instead of keyless (rate-limited) access.
+
+`sync` is also safe to run locally on a cron; each run appends to `runs.json`
+and writes `reports/run-<runId>.json` with the diff since the previous run.
