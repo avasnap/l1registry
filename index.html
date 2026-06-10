@@ -113,6 +113,7 @@ const COLS = [
   { key: "subnetId",      label: "Subnet",  val: d => short(d.subnetId), cls: "mono" },
   { key: "vmType",        label: "VM",      val: d => d.vmType },
   { key: "evmChainId",    label: "EVM id",  val: d => d.evmChainId ?? "" },
+  { key: "_validators",   label: "Vals",    val: d => d._validators ?? "" },
   { key: "isL1",          label: "L1",      val: d => d.isL1 ? "✓" : "", cls: d => d.isL1 ? "yes" : "no" },
   { key: "isPermissioned",label: "Perm.",   val: d => d.isPermissioned === true ? "✓" : d.isPermissioned === false ? "" : "?", cls: "no" },
   { key: "accessTier",    label: "Tier",    val: d => `<span class="badge tier-${esc(d.accessTier)}">${esc(d.accessTier)}</span>`, raw: true },
@@ -237,6 +238,7 @@ async function openDetail(d) {
       fetchJson(`${DATA}/runs.json`),
     ]);
     chains = Object.values(c); subnets = s; runs = r;
+    chains.forEach(d => d._validators = subnets[d.subnetId]?.validatorSummary?.count ?? null);
     renderCards(); renderPresets(); render();
     for (const id of ["q", "tier", "vm", "perm"]) $(id).oninput = render;
   } catch (e) {
