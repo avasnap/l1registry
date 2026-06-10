@@ -1,0 +1,13 @@
+{
+  "name": "l1registry",
+  "version": "0.1.0",
+  "description": "Local Avalanche L1/subnet registry — enumerates, classifies, and persists every blockchain registered on the P-Chain",
+  "type": "module",
+  "scripts": {
+    "registry": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.0"
+  }
+}

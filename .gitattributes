@@ -1,0 +1,3 @@
+# Bun writes LF; keep the working tree LF so sync re-runs never produce
+# line-ending-only diffs in the committed data files.
+* text=auto eol=lf
