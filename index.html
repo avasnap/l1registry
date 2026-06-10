@@ -16,8 +16,11 @@
   body { margin:0; background:var(--bg); color:var(--text);
          font:14px/1.5 ui-sans-serif, system-ui, "Segoe UI", sans-serif; }
   .wrap { max-width: 1180px; margin: 0 auto; padding: 24px 16px 64px; }
+  .titlebar { display:flex; align-items:baseline; justify-content:space-between; gap:12px; }
   h1 { font-size: 22px; margin: 0 0 4px; }
   h1 .ava { color: var(--accent); }
+  .titlebar a { color: var(--link); text-decoration: none; font-size: 13px; white-space: nowrap; }
+  .titlebar a:hover { text-decoration: underline; }
   .sub { color: var(--dim); margin-bottom: 20px; }
   .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:20px; }
   .card { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:12px 16px; }
@@ -69,7 +72,10 @@
 </head>
 <body>
 <div class="wrap">
-  <h1><span class="ava">▲</span> Avalanche L1 Registry</h1>
+  <div class="titlebar">
+    <h1><span class="ava">▲</span> Avalanche L1 Registry</h1>
+    <a href="https://github.com/avasnap/l1registry">source + data on GitHub ↗</a>
+  </div>
   <div class="sub" id="runinfo">loading…</div>
   <div class="cards" id="cards"></div>
   <div class="controls">
