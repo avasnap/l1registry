@@ -32,6 +32,9 @@
     border-radius:6px; padding:6px 10px; font-size:14px;
   }
   input[type=search] { flex:1; min-width:200px; }
+  .toggle { display:flex; align-items:center; gap:6px; color:var(--dim); font-size:13px;
+            cursor:pointer; user-select:none; white-space:nowrap; }
+  .toggle input { accent-color: var(--accent); }
   .chip { background:var(--panel); border:1px solid var(--border); color:var(--text);
           border-radius:999px; padding:5px 12px; font-size:13px; cursor:pointer; }
   .chip.active { border-color:var(--accent); color:var(--accent); font-weight:600; }
@@ -83,6 +86,7 @@
     <select id="tier"><option value="">tier: all</option><option>A</option><option>B</option><option>C</option><option>unreachable</option></select>
     <select id="vm"><option value="">vm: all</option><option>subnet-evm</option><option>custom</option><option>unknown</option></select>
     <select id="perm"><option value="">permissioned: all</option><option value="yes">permissioned</option><option value="no">public</option></select>
+    <label class="toggle"><input type="checkbox" id="hasvals"> hide 0-validator</label>
   </div>
   <div class="controls" id="presets"></div>
   <table>
@@ -158,6 +162,7 @@ function visibleChains() {
     (!tier || d.accessTier === tier) &&
     (!vm || d.vmType === vm) &&
     (!perm || d.isPermissioned === (perm === "yes")) &&
+    (!$("hasvals").checked || d._validators > 0) &&
     (!q || [d.name, d.blockchainId, d.subnetId, d.evmChainId].some(v => v != null && String(v).toLowerCase().includes(q)))
   ).sort((a, b) => {
     const av = a[sortKey], bv = b[sortKey];
@@ -240,7 +245,7 @@ async function openDetail(d) {
     chains = Object.values(c); subnets = s; runs = r;
     chains.forEach(d => d._validators = subnets[d.subnetId]?.validatorSummary?.count ?? null);
     renderCards(); renderPresets(); render();
-    for (const id of ["q", "tier", "vm", "perm"]) $(id).oninput = render;
+    for (const id of ["q", "tier", "vm", "perm", "hasvals"]) $(id).oninput = render;
   } catch (e) {
     document.querySelector(".wrap").insertAdjacentHTML("beforeend",
       `<div class="err">Failed to load registry data (${esc(e.message)}). ` +
