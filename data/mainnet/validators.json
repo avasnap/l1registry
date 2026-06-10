@@ -2906,6 +2906,25 @@
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
     "staleSince": null
   },
+  "11111111111111111111111111111111LpoYY:NodeID-6eoSDoZcG3eGsPKyHcvZobN3vFAenPPKm": {
+    "_id": "11111111111111111111111111111111LpoYY:NodeID-6eoSDoZcG3eGsPKyHcvZobN3vFAenPPKm",
+    "subnetId": "11111111111111111111111111111111LpoYY",
+    "nodeId": "NodeID-6eoSDoZcG3eGsPKyHcvZobN3vFAenPPKm",
+    "weight": "581328194562916",
+    "blsPublicKey": "0x936e3135fbac3821f88d5cdc4fc9f14e75e95341116d7bb759645308df7ac31d72a6bb01e2e94b9d86c5686c9eeec7a0",
+    "proofOfPossession": "0xb471c56551e780e98815e335cd8f729ca040b29f11a88bd457e224b2b2f77d27ba90e3a1239347b9138169fb90d221b2083395d1b6bf89a252636e2af24d3c9102a072699238224abddc9d0b5c26c1020fa7ce6106cd68b2a7f2cae69dd9cb87",
+    "connected": true,
+    "uptime": 100,
+    "startTime": "1781126341",
+    "endTime": "1782504000",
+    "validationId": null,
+    "stale": false,
+    "contentHash": "01a5eb472a82290d9e9bcdff0314d9f961770e379399a7a1a21b8be55b82bd00",
+    "firstSeenAt": "2026-06-10T21:23:30.559Z",
+    "lastSeenAt": "2026-06-10T21:23:30.559Z",
+    "lastUpdatedAt": "2026-06-10T21:23:30.559Z",
+    "staleSince": null
+  },
   "11111111111111111111111111111111LpoYY:NodeID-6fMecjLjZPAmSgDj7FF5Eiz7oYwfxPJZz": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-6fMecjLjZPAmSgDj7FF5Eiz7oYwfxPJZz",
     "subnetId": "11111111111111111111111111111111LpoYY",
