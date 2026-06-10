@@ -105,7 +105,7 @@ const short = (s) => s && s.length > 18 ? s.slice(0, 9) + "…" + s.slice(-6) : 
 
 const PRESETS = [
   { key: "all",            label: "All",             f: () => true },
-  { key: "public-evm-l1s", label: "Public EVM L1s",  f: d => d.vmType === "subnet-evm" && d.isPermissioned === false && d.isL1 === true },
+  { key: "public-evm-l1s", label: "Public EVM L1s",  f: d => d.isEvm === true && d.isPermissioned === false && d.isL1 === true },
   { key: "covered",        label: "Tier A (indexed)",f: d => d.dataApiCovered === true },
   { key: "unreachable",    label: "Unreachable",     f: d => d.isPermissioned === true || d.accessTier === "unreachable" },
   { key: "custom-vm",      label: "Custom VM",       f: d => d.vmType === "custom" },
@@ -115,9 +115,11 @@ const COLS = [
   { key: "name",          label: "Name",    val: d => d.name || "(unnamed)" },
   { key: "blockchainId",  label: "Blockchain", val: d => short(d.blockchainId), cls: "mono" },
   { key: "subnetId",      label: "Subnet",  val: d => short(d.subnetId), cls: "mono" },
-  { key: "vmType",        label: "VM",      val: d => d.vmType },
+  { key: "vmType",        label: "VM",      val: d => d.vmType === "custom" && d.isEvm ? "evm (modified)" : d.vmType },
   { key: "evmChainId",    label: "EVM id",  val: d => d.evmChainId ?? "" },
   { key: "_validators",   label: "Vals",    val: d => d._validators ?? "" },
+  { key: "rpcVerified",   label: "RPC",     val: d => d.rpcVerified === true ? "✓" : d.rpcVerified === false ? "✗" : "",
+                                            cls: d => d.rpcVerified ? "yes" : "no" },
   { key: "isL1",          label: "L1",      val: d => d.isL1 ? "✓" : "", cls: d => d.isL1 ? "yes" : "no" },
   { key: "isPermissioned",label: "Perm.",   val: d => d.isPermissioned === true ? "✓" : d.isPermissioned === false ? "" : "?", cls: "no" },
   { key: "accessTier",    label: "Tier",    val: d => `<span class="badge tier-${esc(d.accessTier)}">${esc(d.accessTier)}</span>`, raw: true },
@@ -214,9 +216,9 @@ async function openDetail(d) {
     <div class="dhead"><h2>${esc(d.name || "(unnamed)")}</h2>
       <button class="x" onclick="this.closest('dialog').close()">✕</button></div>
     <div class="dbody">
-      ${kv(d, ["blockchainId","subnetId","vmId","vmType","evmChainId","isL1","isPermissioned",
+      ${kv(d, ["blockchainId","subnetId","vmId","vmType","isEvm","evmChainId","isL1","isPermissioned",
                "accessTier","dataApiCovered","managerChainId","managerAddress","conversionId",
-               "l1ConversionTxHash","rpcEndpoints","firstSeenAt","lastSeenAt","lastUpdatedAt","stale"])}
+               "l1ConversionTxHash","rpcVerified","rpcEndpoints","firstSeenAt","lastSeenAt","lastUpdatedAt","stale"])}
       ${d.conflicts?.length ? `<h3>classification conflicts</h3><div class="v mono">${esc(JSON.stringify(d.conflicts))}</div>` : ""}
       <h3>provenance</h3>${kv(d.provenance ?? {}, Object.keys(d.provenance ?? {}))}
       ${sub ? `<h3>subnet</h3>${kv(sub, ["controlKeys","threshold","locktime","blockchainIds","validatorSummary"])}` : ""}

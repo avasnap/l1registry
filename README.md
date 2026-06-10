@@ -91,17 +91,33 @@ changes (detected via a stable hash of the non-timestamp fields) bump
   is on; disagreements land in `conflicts`.
 - **vmType** — `subnet-evm` iff vmId = `srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy`;
   `unknown` only when the vmId is missing; otherwise `custom`.
+- **isEvm** — canonical `subnet-evm` vmId **or** the Data API reports an
+  `evmChainId`. Many chains run modified/forked Subnet-EVM builds under their
+  own vmId (`vmType: custom`) but are ordinary EVM chains; this flag catches
+  them. Without enrichment the second signal is unavailable, so modified forks
+  degrade to `unreachable` on P-Chain-only runs.
 - **accessTier** (routing recommendation for later ingestion milestones):
   - `A` — indexed by the Data API (`dataApiCovered`)
-  - `B` — public subnet-evm with a known RPC (seed list: [config/rpc-endpoints.json](config/rpc-endpoints.json))
-  - `C` — public subnet-evm, no convenient RPC (self-host candidate)
-  - `unreachable` — permissioned/private or custom VM
+  - `B` — public EVM chain (`isEvm`) with a known RPC (seed list: [config/rpc-endpoints.json](config/rpc-endpoints.json))
+  - `C` — public EVM chain, no convenient RPC (self-host candidate)
+  - `unreachable` — permissioned/private or non-EVM VM
 
-## Known RPC endpoints
+## RPC endpoints & probing
 
 [config/rpc-endpoints.json](config/rpc-endpoints.json) maps
-`blockchainId → [rpcUrl, …]`. Chains listed there with a public VM get
-`accessTier: B`. Extend it as you discover endpoints.
+`blockchainId → [rpcUrl, …]` for manually curated endpoints. On top of that,
+every sync probes candidate endpoints for public EVM chains (the config list
+plus the derived AvaCloud gateway URL
+`https://subnets.avax.network/<name-slug>/<network>/rpc`) with `eth_chainId`,
+requiring the answer to match the chain's `evmChainId`. Results land in:
+
+- `rpcVerified` — `true` (≥1 endpoint answered correctly this run), `false`
+  (candidates probed, none worked), `null` (not probed: permissioned or no
+  candidates)
+- `rpcEndpoints` — config-known plus verified-derived endpoints; any entry
+  here moves a public EVM chain to `accessTier: B`
+
+Disable with `--no-probe-rpcs` / `PROBE_RPCS=false`.
 
 ## Sample run report
 

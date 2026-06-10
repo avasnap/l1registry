@@ -19,6 +19,7 @@ common flags (env var in parens):
   --enrich / --no-enrich   (ENRICH)         --api-key <key>    (DATA_API_KEY)
   --api-base <url>         (DATA_API_BASE)  --persist-genesis  (PERSIST_GENESIS)
   --persist-raw            (PERSIST_RAW)    --report-dir <dir> (REPORT_DIR)
+  --probe-rpcs / --no-probe-rpcs (PROBE_RPCS, default on)
 `;
 
 const { positional, flags } = parseArgs(process.argv.slice(2));

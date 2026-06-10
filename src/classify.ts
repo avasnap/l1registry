@@ -22,20 +22,32 @@ export function classifyIsL1(
 }
 
 /**
+ * A chain counts as EVM if it runs the canonical Subnet-EVM VMID or if the
+ * Data API reports an EVM chain id for it — many chains run modified/forked
+ * Subnet-EVM builds under their own vmId but are ordinary EVM chains.
+ */
+export function classifyIsEvm(vmType: VmType, evmChainId: number | null): boolean {
+  return vmType === "subnet-evm" || evmChainId !== null;
+}
+
+/**
  * §6 accessTier — a routing recommendation for downstream ingestion:
  *   A: already indexed by the Data API.
- *   B: public subnet-evm with a known public RPC.
- *   C: public subnet-evm without a convenient RPC (self-host candidate).
- *   unreachable: permissioned/private, or custom VM with no available binary.
+ *   B: public EVM chain with a known public RPC.
+ *   C: public EVM chain without a convenient RPC (self-host candidate).
+ *   unreachable: permissioned/private, or non-EVM VM with no available binary.
+ * Keyed on isEvm (not vmType) so modified Subnet-EVM forks classify as
+ * reachable; without Data API enrichment they degrade to unreachable since
+ * the EVM signal is unavailable.
  */
 export function classifyAccessTier(opts: {
   dataApiCovered: boolean;
-  vmType: VmType;
+  isEvm: boolean;
   isPermissioned: boolean | null;
   rpcEndpoints: string[];
 }): AccessTier {
   if (opts.dataApiCovered) return "A";
   if (opts.isPermissioned !== false) return "unreachable"; // true or unknown
-  if (opts.vmType !== "subnet-evm") return "unreachable";
+  if (!opts.isEvm) return "unreachable";
   return opts.rpcEndpoints.length > 0 ? "B" : "C";
 }

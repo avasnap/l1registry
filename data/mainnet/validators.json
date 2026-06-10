@@ -7516,12 +7516,12 @@
     "startTime": "1779847553",
     "endTime": "1781129331",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "f3212d4a24a2d1031daacbc1a310a0f4904824f8e3af89a69146e5bd4206f30b",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-06-10T23:24:58.195Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-F5Ecwd5qinZSTxacdEfWWsnz2eXyp8uK6": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-F5Ecwd5qinZSTxacdEfWWsnz2eXyp8uK6",

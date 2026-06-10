@@ -75,6 +75,8 @@ export interface BlockchainRecord {
   vmId: string | null;
   vmType: VmType;
   evmChainId: number | null;
+  /** canonical Subnet-EVM vmId OR Data API reports an evmChainId (modified forks) */
+  isEvm: boolean;
   isL1: boolean;
   isPermissioned: boolean | null;
   managerChainId: string | null;
@@ -83,6 +85,9 @@ export interface BlockchainRecord {
   l1ConversionTxHash: string | null;
   validatorManager: { blockchainId: string; contractAddress: string } | null;
   rpcEndpoints: string[];
+  /** true: ≥1 endpoint answered eth_chainId correctly this run;
+   *  false: candidates probed, none worked; null: not probed */
+  rpcVerified: boolean | null;
   dataApiCovered: boolean;
   accessTier: AccessTier;
   genesisData: unknown | null;

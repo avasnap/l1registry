@@ -5,9 +5,8 @@ import { type Doc, Store } from "./store";
 /** Named slices required by §9 of the milestone spec. */
 const NAMED_QUERIES: Record<string, { predicate: (d: Doc) => boolean; desc: string }> = {
   "public-evm-l1s": {
-    predicate: (d) =>
-      d.vmType === "subnet-evm" && d.isPermissioned === false && d.isL1 === true,
-    desc: "public subnet-evm L1s (Tier B/C ingestion candidates)",
+    predicate: (d) => d.isEvm === true && d.isPermissioned === false && d.isL1 === true,
+    desc: "public EVM L1s, canonical or modified subnet-evm (Tier B/C candidates)",
   },
   unreachable: {
     predicate: (d) => d.isPermissioned === true || d.accessTier === "unreachable",

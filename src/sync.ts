@@ -1,10 +1,11 @@
 import { randomUUID } from "node:crypto";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { classifyAccessTier, classifyIsL1, classifyVmType } from "./classify";
+import { classifyAccessTier, classifyIsEvm, classifyIsL1, classifyVmType } from "./classify";
 import type { Config } from "./config";
 import { DataApiClient } from "./dataapi";
 import { PChainClient, PRIMARY_NETWORK_ID } from "./pchain";
+import { candidateUrls, probeRpc } from "./rpcprobe";
 import { Store } from "./store";
 import type {
   BlockchainRecord,
@@ -162,7 +163,42 @@ export async function runSync(cfg: Config): Promise<RunReport> {
       }
     }
 
-    // 5. Classify + build records.
+    // 5a. Probe candidate RPC endpoints (config-known + derived AvaCloud
+    // gateway URLs) for public EVM-ish chains; eth_chainId must answer and
+    // match the expected evmChainId where known.
+    const probeMap = new Map<string, { verified: string[]; anyOk: boolean }>();
+    if (cfg.probeRpcs) {
+      const probeLimit = pLimit(8);
+      await Promise.all(
+        chains.map((c) =>
+          probeLimit(async () => {
+            const sub = bySubnet.get(c.subnetId);
+            if (sub?.info?.isPermissioned !== false) return; // private or unknown
+            const known =
+              (knownRpcEndpoints as Record<string, string[]>)[c.blockchainId] ?? [];
+            const apiChain = sub.dataApi?.blockchains?.find(
+              (b) => b.blockchainId === c.blockchainId,
+            );
+            const evmChainId = apiChain?.evmChainId ?? null;
+            if (!classifyIsEvm(classifyVmType(c.vmId), evmChainId) && known.length === 0)
+              return;
+            const candidates = candidateUrls(c.name, cfg.network, known);
+            if (candidates.length === 0) return;
+            const results = await Promise.all(candidates.map((u) => probeRpc(u)));
+            const verified = results
+              .filter((r) => r.ok && (evmChainId === null || r.chainId === evmChainId))
+              .map((r) => r.url);
+            probeMap.set(c.blockchainId, { verified, anyOk: verified.length > 0 });
+          }),
+        ),
+      );
+      log(
+        "info",
+        `rpc probe: ${[...probeMap.values()].filter((p) => p.anyOk).length} of ${probeMap.size} probed chains have a working endpoint`,
+      );
+    }
+
+    // 5b. Classify + build records.
     const chainsBySubnet = new Map<string, string[]>();
     for (const c of chains) {
       chainsBySubnet.set(c.subnetId, [
@@ -203,15 +239,21 @@ export async function runSync(cfg: Config): Promise<RunReport> {
       const vmType = classifyVmType(c.vmId);
       const evmChainId = apiChain?.evmChainId ?? null;
       if (evmChainId !== null) provenance.evmChainId = "dataapi";
+      const isEvm = classifyIsEvm(vmType, evmChainId);
+      provenance.isEvm = "derived";
 
-      const rpcEndpoints =
+      const knownRpcs =
         (knownRpcEndpoints as Record<string, string[]>)[c.blockchainId] ?? [];
-      if (rpcEndpoints.length > 0) provenance.rpcEndpoints = "config";
+      const probe = probeMap.get(c.blockchainId);
+      const rpcEndpoints = [...new Set([...knownRpcs, ...(probe?.verified ?? [])])];
+      const rpcVerified = probe ? probe.anyOk : null;
+      if (knownRpcs.length > 0) provenance.rpcEndpoints = "config";
+      else if (rpcEndpoints.length > 0) provenance.rpcEndpoints = "derived";
 
       const dataApiCovered = coveredIds.has(c.blockchainId);
       const accessTier = classifyAccessTier({
         dataApiCovered,
-        vmType,
+        isEvm,
         isPermissioned,
         rpcEndpoints,
       });
@@ -232,6 +274,7 @@ export async function runSync(cfg: Config): Promise<RunReport> {
         vmId: c.vmId,
         vmType,
         evmChainId,
+        isEvm,
         isL1,
         isPermissioned,
         managerChainId: info?.managerChainID ?? null,
@@ -240,6 +283,7 @@ export async function runSync(cfg: Config): Promise<RunReport> {
         l1ConversionTxHash: api?.l1ConversionTransactionHash ?? null,
         validatorManager: api?.l1ValidatorManagerDetails ?? null,
         rpcEndpoints,
+        rpcVerified,
         dataApiCovered,
         accessTier,
         genesisData: cfg.persistGenesis ? (apiChain?.genesisData ?? null) : null,

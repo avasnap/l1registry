@@ -7,6 +7,7 @@ export interface Config {
   dataApiBase: string;
   dataApiKey: string | null;
   enrich: boolean;
+  probeRpcs: boolean;
   concurrency: number;
   rpcIntervalMs: number;
   dataDir: string;
@@ -76,6 +77,8 @@ export function loadConfig(flags: Record<string, string | boolean>): Config {
   // --no-enrich wins over --enrich; default: enrich only if a key is present
   let enrich = asBool(flags.enrich, asBool(env.ENRICH, dataApiKey !== null));
   if (flags["no-enrich"]) enrich = false;
+  let probeRpcs = asBool(flags["probe-rpcs"], asBool(env.PROBE_RPCS, true));
+  if (flags["no-probe-rpcs"]) probeRpcs = false;
 
   return {
     network,
@@ -88,6 +91,7 @@ export function loadConfig(flags: Record<string, string | boolean>): Config {
     ),
     dataApiKey: dataApiKey === null ? null : String(dataApiKey),
     enrich,
+    probeRpcs,
     concurrency: Number(flags.concurrency ?? env.CONCURRENCY ?? 4),
     rpcIntervalMs: Number(flags["rpc-interval"] ?? env.RPC_INTERVAL_MS ?? 150),
     dataDir: String(flags["data-dir"] ?? env.DATA_DIR ?? `data/${network}`),
