@@ -39,8 +39,10 @@ jobs:
             echo "no registry changes; skipping commit"
             exit 0
           fi
+          # +new ~changed -stale per collection
           summary=$(jq -r 'to_entries | max_by(.value.startedAt) | .value
-            | "sync: \(.diff.blockchains.new | length) new, \(.diff.blockchains.changed | length) changed, \(.diff.blockchains.wentStale | length) stale (\(.totals.blockchains) blockchains, \(.totals.subnets) subnets)"' \
+            | def d(x): "+\(x.new | length) ~\(x.changed | length) -\(x.wentStale | length)";
+              "sync: blockchains \(d(.diff.blockchains)) · subnets \(d(.diff.subnets)) · validators \(d(.diff.validators // {new:[],changed:[],wentStale:[]}))"' \
             data/mainnet/runs.json)
           git config user.name "Avasnap"
           git config user.email "avasnap.xyz@gmail.com"

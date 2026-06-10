@@ -147,6 +147,7 @@ export interface RunReport {
   diff: {
     blockchains: DiffReport;
     subnets: DiffReport;
+    validators: DiffReport;
   };
   errors: { scope: string; key: string; message: string }[];
 }

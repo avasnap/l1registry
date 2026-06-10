@@ -319,7 +319,7 @@ export async function runSync(cfg: Config): Promise<RunReport> {
     const failedValidatorSubnets = new Set(
       subnetResults.filter((r) => r.validators === null).map((r) => r.subnetId),
     );
-    store.syncCollection("validators", validatorDocs, runTime, (d) =>
+    const validatorsDiff = store.syncCollection("validators", validatorDocs, runTime, (d) =>
       !failedValidatorSubnets.has(String(d.subnetId)),
     );
 
@@ -350,7 +350,7 @@ export async function runSync(cfg: Config): Promise<RunReport> {
       },
       byVmType,
       byAccessTier,
-      diff: { blockchains: blockchainsDiff, subnets: subnetsDiff },
+      diff: { blockchains: blockchainsDiff, subnets: subnetsDiff, validators: validatorsDiff },
       errors,
     };
     store.saveRun(report);
