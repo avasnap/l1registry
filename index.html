@@ -82,6 +82,7 @@
     <input type="search" id="q" placeholder="search name / blockchain id / subnet id / evm chain id…">
     <select id="tier"><option value="">tier: all</option><option>A</option><option>B</option><option>C</option><option>unreachable</option></select>
     <select id="vm"><option value="">vm: all</option><option>subnet-evm</option><option>custom</option><option>unknown</option></select>
+    <select id="perm"><option value="">permissioned: all</option><option value="yes">permissioned</option><option value="no">public</option></select>
   </div>
   <div class="controls" id="presets"></div>
   <table>
@@ -149,12 +150,13 @@ function renderCards() {
 
 function visibleChains() {
   const q = $("q").value.trim().toLowerCase();
-  const tier = $("tier").value, vm = $("vm").value;
+  const tier = $("tier").value, vm = $("vm").value, perm = $("perm").value;
   const pf = PRESETS.find(p => p.key === preset).f;
   return chains.filter(d =>
     pf(d) &&
     (!tier || d.accessTier === tier) &&
     (!vm || d.vmType === vm) &&
+    (!perm || d.isPermissioned === (perm === "yes")) &&
     (!q || [d.name, d.blockchainId, d.subnetId, d.evmChainId].some(v => v != null && String(v).toLowerCase().includes(q)))
   ).sort((a, b) => {
     const av = a[sortKey], bv = b[sortKey];
@@ -236,7 +238,7 @@ async function openDetail(d) {
     ]);
     chains = Object.values(c); subnets = s; runs = r;
     renderCards(); renderPresets(); render();
-    for (const id of ["q", "tier", "vm"]) $(id).oninput = render;
+    for (const id of ["q", "tier", "vm", "perm"]) $(id).oninput = render;
   } catch (e) {
     document.querySelector(".wrap").insertAdjacentHTML("beforeend",
       `<div class="err">Failed to load registry data (${esc(e.message)}). ` +
