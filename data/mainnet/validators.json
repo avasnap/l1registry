@@ -3184,12 +3184,12 @@
     "startTime": "1779961026",
     "endTime": "1781170685",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "a232c74558f4af30d52ec0fc6a5f07157b9507f2ce5d1236d7bef380f2646ac6",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-06-11T10:58:22.099Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-6vcyXcUHsRoX9u5nzjJNeNdVdCMy7VQ53": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-6vcyXcUHsRoX9u5nzjJNeNdVdCMy7VQ53",
