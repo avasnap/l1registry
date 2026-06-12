@@ -664,6 +664,25 @@
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
     "staleSince": null
   },
+  "11111111111111111111111111111111LpoYY:NodeID-34HrFw7WVfaUokRoJ9nX6TRY4Eo4mqXL5": {
+    "_id": "11111111111111111111111111111111LpoYY:NodeID-34HrFw7WVfaUokRoJ9nX6TRY4Eo4mqXL5",
+    "subnetId": "11111111111111111111111111111111LpoYY",
+    "nodeId": "NodeID-34HrFw7WVfaUokRoJ9nX6TRY4Eo4mqXL5",
+    "weight": "2001117850854",
+    "blsPublicKey": "0x9138b885948e4fd24114a21b0f8c2fbba1959ab370d930650f6f92eef4131e3f824c4beb2f4f38fb5dc91aa4c6f2cc7b",
+    "proofOfPossession": "0xa914aec2ba88f9ac13fabe1e97dfb887c8696ff1f70ba7fd4f009f5f173e65cfa31f69fb818dad2b9e23cc6041f8b5b3137873ca7b7679610580ef4828d3529a13bf07912f5bb09554336fe9bd7a9bce1d2f02cf0b2ea7bfdb5a3061d2b3b744",
+    "connected": true,
+    "uptime": 99.9159,
+    "startTime": "1781290245",
+    "endTime": "1782501535",
+    "validationId": null,
+    "stale": false,
+    "contentHash": "97d7521cede6ff1381c64f22c3d4cb07c53ae61d9494bbdafae112cfdf6e7497",
+    "firstSeenAt": "2026-06-12T20:25:47.102Z",
+    "lastSeenAt": "2026-06-12T20:25:47.102Z",
+    "lastUpdatedAt": "2026-06-12T20:25:47.102Z",
+    "staleSince": null
+  },
   "11111111111111111111111111111111LpoYY:NodeID-34QP8d17f1XjB778dCTCsBfjL3T4PeMAf": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-34QP8d17f1XjB778dCTCsBfjL3T4PeMAf",
     "subnetId": "11111111111111111111111111111111LpoYY",
@@ -7637,6 +7656,25 @@
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
     "staleSince": null
   },
+  "11111111111111111111111111111111LpoYY:NodeID-F8HvQKYDbonSeJ3x42Ynb6ibxiJa3FWVL": {
+    "_id": "11111111111111111111111111111111LpoYY:NodeID-F8HvQKYDbonSeJ3x42Ynb6ibxiJa3FWVL",
+    "subnetId": "11111111111111111111111111111111LpoYY",
+    "nodeId": "NodeID-F8HvQKYDbonSeJ3x42Ynb6ibxiJa3FWVL",
+    "weight": "2000000000000",
+    "blsPublicKey": "0x8d95ba1e68b2c3878d0314bd5901c484b217dbd10fdd6d911ef1b59383511c320d6e5b94bb8c32080d78777bc193b331",
+    "proofOfPossession": "0xb17dc49ed01d94a87d1e2ae54cce6a39bc277aa9360a130edadd195532c20ac11602883e33bceee6a407ed06618e7cc3186e7a7de89c8f17411c4d39d52707705849ae7fc724ffcbee80381714297da149f851aab564722b4b0bc52b7795e0d5",
+    "connected": true,
+    "uptime": 99.4325,
+    "startTime": "1781280686",
+    "endTime": "1783699946",
+    "validationId": null,
+    "stale": false,
+    "contentHash": "c832f1b1f277500d3cb28e5e8c01a78ff0e48aeeb7c4de36886b0250248a85ea",
+    "firstSeenAt": "2026-06-12T20:25:47.102Z",
+    "lastSeenAt": "2026-06-12T20:25:47.102Z",
+    "lastUpdatedAt": "2026-06-12T20:25:47.102Z",
+    "staleSince": null
+  },
   "11111111111111111111111111111111LpoYY:NodeID-FBDbF8WKjoLR8NRRKJ34vEkC861NB6QYi": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-FBDbF8WKjoLR8NRRKJ34vEkC861NB6QYi",
     "subnetId": "11111111111111111111111111111111LpoYY",
@@ -7725,12 +7763,12 @@
     "startTime": "1779916682",
     "endTime": "1781294400",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "ceba659b7f99e9dbb49594fea47df42c69e702ff95b813112c2f206049ad1a0f",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-06-12T20:25:47.102Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-FEtgjYGndfWGzLZELTJJoikpSobjVKTjk": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-FEtgjYGndfWGzLZELTJJoikpSobjVKTjk",
@@ -11411,12 +11449,12 @@
     "startTime": "1779829294",
     "endTime": "1781295300",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "6eb6df1d934b92f10a2d70845f636b1895e637839b2e7f6d9db21c9f59b05196",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-06-12T20:25:47.102Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-Mdpo4kYtg8eqn61AhjTrZ51exnHLJmcpA": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-Mdpo4kYtg8eqn61AhjTrZ51exnHLJmcpA",
