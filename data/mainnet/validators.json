@@ -2709,12 +2709,12 @@
     "startTime": "1773435962",
     "endTime": "1781339160",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "9c348fa7c51d5395ee8bd45374d4a75f5a5be2b6c6407762940795804522c675",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-06-13T09:33:31.526Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-6QD1KNQkx6wj142Tv6demd3FYbghQvCM2": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-6QD1KNQkx6wj142Tv6demd3FYbghQvCM2",
