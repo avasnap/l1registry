@@ -8200,12 +8200,12 @@
     "startTime": "1778828855",
     "endTime": "1781420400",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "636b17c42bbd308e3da3dc0189271412bef6c97c6d732a26f6f6befd4e2cac74",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-06-14T09:55:34.479Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-FvyvWQYbs72Q4qaoYt583NLDE4jSH8jPk": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-FvyvWQYbs72Q4qaoYt583NLDE4jSH8jPk",
