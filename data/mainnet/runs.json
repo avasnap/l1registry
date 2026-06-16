@@ -1764,6 +1764,65 @@
     },
     "errors": []
   },
+  "96fc16e1-c1a9-448d-a26e-0897385c8c48": {
+    "_id": "96fc16e1-c1a9-448d-a26e-0897385c8c48",
+    "runId": "96fc16e1-c1a9-448d-a26e-0897385c8c48",
+    "network": "mainnet",
+    "startedAt": "2026-06-16T17:20:46.096Z",
+    "finishedAt": "2026-06-16T17:22:53.065Z",
+    "durationMs": 126969,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 430,
+      "subnets": 418,
+      "l1s": 271,
+      "legacySubnets": 146,
+      "permissioned": 146,
+      "validators": 1963
+    },
+    "byVmType": {
+      "custom": 336,
+      "subnet-evm": 94
+    },
+    "byAccessTier": {
+      "A": 33,
+      "C": 240,
+      "unreachable": 156,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-KthRBmYPByHn7jAzVZHgbU3zqBGzfgt2H",
+          "11111111111111111111111111111111LpoYY:NodeID-HReqpxf7pRpfyCiiwBWNpqyx6FuX8TBZp",
+          "11111111111111111111111111111111LpoYY:NodeID-6SamCTx3zkwaUeLcZGYBdkYmsrhVBBbmW",
+          "11111111111111111111111111111111LpoYY:NodeID-FFD7d9u2fwRqm9ZF1T9VxT1FAX2empiH7",
+          "11111111111111111111111111111111LpoYY:NodeID-6AKFYXuxWErAD6nqqFkPnbwHzXB1JC4VW",
+          "11111111111111111111111111111111LpoYY:NodeID-FvAAKfRTbxB5ANcapWNtQ2VGMFWxX3LCh",
+          "11111111111111111111111111111111LpoYY:NodeID-LKPvVELtRehiZPQo3aSWuch123JpA7H48"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-AC2FHxLu2Zx2ULsKUkU7jgKKurfDH2HCm"
+        ]
+      }
+    },
+    "errors": []
+  },
   "98944f8a-c785-490d-9602-eb89336f6a61": {
     "_id": "98944f8a-c785-490d-9602-eb89336f6a61",
     "runId": "98944f8a-c785-490d-9602-eb89336f6a61",
