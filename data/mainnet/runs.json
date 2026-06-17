@@ -2151,6 +2151,66 @@
     },
     "errors": []
   },
+  "d3e5339c-0bb7-42a5-a78a-c8f6d4f07f9a": {
+    "_id": "d3e5339c-0bb7-42a5-a78a-c8f6d4f07f9a",
+    "runId": "d3e5339c-0bb7-42a5-a78a-c8f6d4f07f9a",
+    "network": "mainnet",
+    "startedAt": "2026-06-17T16:02:04.521Z",
+    "finishedAt": "2026-06-17T16:04:11.336Z",
+    "durationMs": 126815,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 430,
+      "subnets": 418,
+      "l1s": 271,
+      "legacySubnets": 146,
+      "permissioned": 146,
+      "validators": 1966
+    },
+    "byVmType": {
+      "subnet-evm": 94,
+      "custom": 336
+    },
+    "byAccessTier": {
+      "C": 240,
+      "unreachable": 156,
+      "A": 33,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "WChFQ1twkXBLxZGo4qojC9AgizFrRdMRnPCK9FZmisY7z6pUs",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "WChFQ1twkXBLxZGo4qojC9AgizFrRdMRnPCK9FZmisY7z6pUs:NodeID-4rbw73mnNvmfMinPvP4JNkq5WCHaDTtLt",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-FAQ3BoMErm6XwchqevjBeLZsbGLttavLs",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-GzDimt9N1FpkVeAF3NpjSugM8s4eAqVoy",
+          "11111111111111111111111111111111LpoYY:NodeID-6SRTztHrJX4toRhUSTuRELhWhpPUHynA7",
+          "11111111111111111111111111111111LpoYY:NodeID-MBucJmfSNuMy7CiXWb9Zzd1Gf1yCoKwGy",
+          "11111111111111111111111111111111LpoYY:NodeID-PuYX3u6gfLje9bt6fCDFHkSwqaL8VSpv6"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-ABwfZ9vGyfQWso45E6iJo6UMqk6RCegNc",
+          "11111111111111111111111111111111LpoYY:NodeID-GMHb1GP79ooGnitQRL99dA2hYA5LN9727"
+        ]
+      }
+    },
+    "errors": []
+  },
   "d5d14d0a-1d26-4f61-b0b3-3b4a71349672": {
     "_id": "d5d14d0a-1d26-4f61-b0b3-3b4a71349672",
     "runId": "d5d14d0a-1d26-4f61-b0b3-3b4a71349672",
