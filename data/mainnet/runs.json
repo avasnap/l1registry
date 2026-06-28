@@ -4261,6 +4261,65 @@
     },
     "errors": []
   },
+  "c9b4281d-4b0a-4182-8dd7-449d2bc3ca7c": {
+    "_id": "c9b4281d-4b0a-4182-8dd7-449d2bc3ca7c",
+    "runId": "c9b4281d-4b0a-4182-8dd7-449d2bc3ca7c",
+    "network": "mainnet",
+    "startedAt": "2026-06-28T19:44:28.151Z",
+    "finishedAt": "2026-06-28T19:48:35.400Z",
+    "durationMs": 247249,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 439,
+      "subnets": 421,
+      "l1s": 273,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 1952
+    },
+    "byVmType": {
+      "custom": 345,
+      "subnet-evm": 94
+    },
+    "byAccessTier": {
+      "C": 248,
+      "unreachable": 157,
+      "A": 33,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "o4Eariv2Cx1fTvPFXYofpJfS9KgwFaiGN8KFGcCeZM9t87GJr",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [
+          "o4Eariv2Cx1fTvPFXYofpJfS9KgwFaiGN8KFGcCeZM9t87GJr:NodeID-CR8DAcovXkYckwcbnbdi97zhs9YBq4A3D"
+        ],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-GhUSE8wcdouEgd3xeCvmYhmevkdNetfXk",
+          "11111111111111111111111111111111LpoYY:NodeID-BvDJUkrDJotTxgZi96zsEe6iYQBLtz958"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-76GVpgM6nXBFFb5C7SgBe9X1vWNqjQMP3",
+          "11111111111111111111111111111111LpoYY:NodeID-KuRvT5B5aaVsbtUWf8SmjvHE1xWhtKRkf",
+          "11111111111111111111111111111111LpoYY:NodeID-M7tMCJX2PpFr4eMUt2y9oXuWfExXjCY1r",
+          "11111111111111111111111111111111LpoYY:NodeID-NPexpo2AXQ7RZC3wCKugj9q4y599pSfrb"
+        ]
+      }
+    },
+    "errors": []
+  },
   "d3e5339c-0bb7-42a5-a78a-c8f6d4f07f9a": {
     "_id": "d3e5339c-0bb7-42a5-a78a-c8f6d4f07f9a",
     "runId": "d3e5339c-0bb7-42a5-a78a-c8f6d4f07f9a",
