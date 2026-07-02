@@ -2162,6 +2162,65 @@
     },
     "errors": []
   },
+  "5638db49-330b-47b8-bdf3-29e261439516": {
+    "_id": "5638db49-330b-47b8-bdf3-29e261439516",
+    "runId": "5638db49-330b-47b8-bdf3-29e261439516",
+    "network": "mainnet",
+    "startedAt": "2026-07-02T19:50:21.267Z",
+    "finishedAt": "2026-07-02T19:52:29.028Z",
+    "durationMs": 127761,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 440,
+      "subnets": 422,
+      "l1s": 273,
+      "legacySubnets": 148,
+      "permissioned": 148,
+      "validators": 1893
+    },
+    "byVmType": {
+      "subnet-evm": 95,
+      "custom": 345
+    },
+    "byAccessTier": {
+      "C": 249,
+      "unreachable": 158,
+      "A": 32,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [
+          "11111111111111111111111111111111LpoYY:NodeID-ERsNDXmDJqFujUQ24JRNfwBiXtmKZ1Sts"
+        ],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-6a69GrGQUQULauaeXr3YLkACmKWMjTqYr",
+          "11111111111111111111111111111111LpoYY:NodeID-Krsv3YUvmYVzDCuG3KkkJE54jLZVDAmkx",
+          "11111111111111111111111111111111LpoYY:NodeID-PcbM59gvaroHFJc1thiawBqvf87CMmVwN",
+          "11111111111111111111111111111111LpoYY:NodeID-F5Ecwd5qinZSTxacdEfWWsnz2eXyp8uK6",
+          "11111111111111111111111111111111LpoYY:NodeID-CS2Rnk3PiBd6p7N2v86PiDFRT7hVWLMjm"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-AC2FHxLu2Zx2ULsKUkU7jgKKurfDH2HCm",
+          "11111111111111111111111111111111LpoYY:NodeID-AdSMHubbQcGeJYMcY9nufaieoYjh57uzp"
+        ]
+      }
+    },
+    "errors": []
+  },
   "59896124-0e5a-49cd-806a-cdf8dc3d33dd": {
     "_id": "59896124-0e5a-49cd-806a-cdf8dc3d33dd",
     "runId": "59896124-0e5a-49cd-806a-cdf8dc3d33dd",
