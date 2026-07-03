@@ -4127,6 +4127,67 @@
     },
     "errors": []
   },
+  "9d4bbaa3-e862-4b60-b7b6-1308ef750fa9": {
+    "_id": "9d4bbaa3-e862-4b60-b7b6-1308ef750fa9",
+    "runId": "9d4bbaa3-e862-4b60-b7b6-1308ef750fa9",
+    "network": "mainnet",
+    "startedAt": "2026-07-03T09:34:21.674Z",
+    "finishedAt": "2026-07-03T09:38:29.104Z",
+    "durationMs": 247430,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 441,
+      "subnets": 423,
+      "l1s": 275,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 1899
+    },
+    "byVmType": {
+      "subnet-evm": 96,
+      "custom": 345
+    },
+    "byAccessTier": {
+      "C": 251,
+      "unreachable": 157,
+      "A": 32,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [
+          "2WhgNQDsAmetGvuzYEn1sWR5tuANaAd2cCu5fpCi7bTfcWP3s9"
+        ],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [
+          "F4Ef5bcugvX5GZPkDQXnysgU9xVFpaRLvCe3EFN3FzBqouZLg"
+        ],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [
+          "F4Ef5bcugvX5GZPkDQXnysgU9xVFpaRLvCe3EFN3FzBqouZLg:NodeID-Db2KFRRmizBUf2g6czyr3sE7RgjAmaR6V"
+        ],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-32cbCiB88FfvnoSC2zy11h5dojhysgpkh",
+          "11111111111111111111111111111111LpoYY:NodeID-M4v5ofvgEFpoTaGzBDwLmdjUKTAuAmYEc",
+          "11111111111111111111111111111111LpoYY:NodeID-6ErQMoypE17KKFbdbVH47hkympRowAqCm"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-6cfGKmCWJXNfHTN3GZnFD65DbR8fgSn8H",
+          "11111111111111111111111111111111LpoYY:NodeID-A8X5CqiZhsqSEGNUNqZifHqskMvSUJBG"
+        ]
+      }
+    },
+    "errors": []
+  },
   "9f862417-3499-4c87-8b38-c4ab7dd8f9e0": {
     "_id": "9f862417-3499-4c87-8b38-c4ab7dd8f9e0",
     "runId": "9f862417-3499-4c87-8b38-c4ab7dd8f9e0",
