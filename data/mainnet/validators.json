@@ -7478,12 +7478,12 @@
     "startTime": "1781921814",
     "endTime": "1783135004",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "9d9dcbf631fdc74602b9210537ade300d97249ef9cf51e9df17a5c224f75c705",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-20T04:39:55.293Z",
     "lastUpdatedAt": "2026-06-20T04:39:55.293Z",
-    "staleSince": null
+    "staleSince": "2026-07-04T03:59:57.276Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-EYp5Zz99H7dANhLAV94Ybtriz1v4AnmQb": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-EYp5Zz99H7dANhLAV94Ybtriz1v4AnmQb",
@@ -9389,19 +9389,19 @@
     "_id": "11111111111111111111111111111111LpoYY:NodeID-HPrcWGJ6pUZWvWMyzfbE9SN28VU3PuP2F",
     "subnetId": "11111111111111111111111111111111LpoYY",
     "nodeId": "NodeID-HPrcWGJ6pUZWvWMyzfbE9SN28VU3PuP2F",
-    "weight": "500949487020322",
+    "weight": "486338358738733",
     "blsPublicKey": "0xb5697f330683a2369b217d455057186c22b97ca5e3399781c82b7b914f3c29f1c624462dad541aad95ab4ef77b1c6d74",
     "proofOfPossession": "0x8a7b003164da0e9017b189f875d316de1d1dfcbe4c446f5495fd9566543790847550707a15e4987e6e9e6105935b4ff91834a2ceed0624795792a65937a698c0d185595c2910733323c355f1246070fb4a6d66a6e74301c614339a04684982a9",
     "connected": true,
     "uptime": 100,
-    "startTime": "1781731080",
-    "endTime": "1783108800",
+    "startTime": "1783113361",
+    "endTime": "1784491200",
     "validationId": null,
     "stale": false,
-    "contentHash": "41e6a731122007844f0955e773c5610b7f4661aeda5ba48e22b753e82f5c9a5e",
+    "contentHash": "261c1451530992b5e5eec0bb5299f787863412d340b1061c4b5489830fb6818b",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-06-18T05:00:42.832Z",
-    "lastUpdatedAt": "2026-06-18T05:00:42.832Z",
+    "lastSeenAt": "2026-07-04T03:59:57.276Z",
+    "lastUpdatedAt": "2026-07-04T03:59:57.276Z",
     "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-HQKdUoQYqLKF4Bevu6kLgFLc7Uvcgy9Ph": {
@@ -12779,12 +12779,12 @@
     "startTime": "1780440313",
     "endTime": "1783134000",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "c03340d553b0ce3a70bd72e0272ee9ab32d43c0df3d5a1f6082bde9a22a57ff4",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-07-04T03:59:57.276Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-NtDMBzQGPnp7suCbyCMcdE2CFU4JXcvwX": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-NtDMBzQGPnp7suCbyCMcdE2CFU4JXcvwX",
