@@ -1615,6 +1615,88 @@
     },
     "errors": []
   },
+  "2bed74ce-a327-4382-bda0-8eebbd969d41": {
+    "_id": "2bed74ce-a327-4382-bda0-8eebbd969d41",
+    "runId": "2bed74ce-a327-4382-bda0-8eebbd969d41",
+    "network": "mainnet",
+    "startedAt": "2026-07-04T19:35:42.740Z",
+    "finishedAt": "2026-07-04T19:39:52.072Z",
+    "durationMs": 249332,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 442,
+      "subnets": 424,
+      "l1s": 275,
+      "legacySubnets": 148,
+      "permissioned": 148,
+      "validators": 1892
+    },
+    "byVmType": {
+      "custom": 346,
+      "subnet-evm": 96
+    },
+    "byAccessTier": {
+      "unreachable": 158,
+      "C": 251,
+      "A": 32,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [
+          "p3eNXxT7Myp9jLrRZvj4rzTHDQMvQVJsYLknWhcXgqSU3Dwdi"
+        ],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [
+          "24m4U5hnspQH4x5ZkNs9ZCeJ4P2cG57SbHRznPPNbgYWUyuBig"
+        ],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-5eogZcASu4bDhWxMuUF6h7VFK5SCt3msp",
+          "11111111111111111111111111111111LpoYY:NodeID-6Aed6k5Zj6vffgNdvr29Z9VcdDxk5PoMq",
+          "11111111111111111111111111111111LpoYY:NodeID-42kmqmMDkmMyw2q6gS1uLi4wiXdC2NLwW"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-13XrVPjS5dVxBKaweeG94SjY1Q6yeM4EJ",
+          "11111111111111111111111111111111LpoYY:NodeID-2BSvxuZFVVSpjrezuABMPvC6cLMwH8TT8",
+          "11111111111111111111111111111111LpoYY:NodeID-3Cbz64Z4cvF1ykJ2vP1h2VmUFwgZHRDgj",
+          "11111111111111111111111111111111LpoYY:NodeID-3qUq9jKXL43HwdMEov6KBsnCjcvWXmAoF",
+          "11111111111111111111111111111111LpoYY:NodeID-4TSV8FnyRHrVAmPALXfvLnGaHGspS5W2R",
+          "11111111111111111111111111111111LpoYY:NodeID-5zP7p1nk2KnAL4SHvgFWcF9Xei3Q13CC3",
+          "11111111111111111111111111111111LpoYY:NodeID-6DqFjxDUK7nh68zrFDE7iHfVsXvoM5yzt",
+          "11111111111111111111111111111111LpoYY:NodeID-6ETncdUXndB43iT4LijRYLHF711gWeAgJ",
+          "11111111111111111111111111111111LpoYY:NodeID-6H4xWodWdcEbwJxbyFyz8ycHpKpAPF74W",
+          "11111111111111111111111111111111LpoYY:NodeID-8byZLbVuVJbedEvsAjZxTTSqorsjz7ThK",
+          "11111111111111111111111111111111LpoYY:NodeID-9g6keiiMr9vXhaSNP3oqdxhu42LEZ3pWu",
+          "11111111111111111111111111111111LpoYY:NodeID-AR44a1cyPrD8cCNZgyhv7Tc2Lvw3ryhEu",
+          "11111111111111111111111111111111LpoYY:NodeID-AWLRFc3R7oCqHd6qe95QsEaoBPPTQYpuv",
+          "11111111111111111111111111111111LpoYY:NodeID-FaS5J4D4a2FE7GRG6SG5aTizazC1QNqWA",
+          "11111111111111111111111111111111LpoYY:NodeID-FsmksgteqNTPjyrwVV7xPgsC8SwEwKrgb",
+          "11111111111111111111111111111111LpoYY:NodeID-GnKLq2ipT4D2CMcrrGYndSCuQL58yhCR7",
+          "11111111111111111111111111111111LpoYY:NodeID-J2RTGUXRNDSx2kBU8w7Am6Y7k3LABR5iU",
+          "11111111111111111111111111111111LpoYY:NodeID-J7PjfVJgpLL3mBMUwpicPqiqDFAmNWhKA",
+          "11111111111111111111111111111111LpoYY:NodeID-JgfyD94R76Wj1KBXWkGpnsSAXLM6f6dnN",
+          "11111111111111111111111111111111LpoYY:NodeID-JwiikR8FhmnYxxGjywAZeJMFjxfpfD3L3",
+          "11111111111111111111111111111111LpoYY:NodeID-L3JrbBLmihsqtaXAPXg7acKQbGa9tjhEc",
+          "11111111111111111111111111111111LpoYY:NodeID-LF7ktpNDXo1fjHYN6MYHnitMPrHwN3pup",
+          "11111111111111111111111111111111LpoYY:NodeID-MyaTMxwSKbtrFRRypqr1nWKJ3EK6di3dF",
+          "11111111111111111111111111111111LpoYY:NodeID-P9FGdfCp7sHRcUwHERp2hzo98ifUaCZ5x",
+          "11111111111111111111111111111111LpoYY:NodeID-PF9fY3h6ZMMqPmTZZUwc7wyLnZ1rSoz5u"
+        ]
+      }
+    },
+    "errors": []
+  },
   "2db18399-dc22-44e6-851c-1774e0ce6d16": {
     "_id": "2db18399-dc22-44e6-851c-1774e0ce6d16",
     "runId": "2db18399-dc22-44e6-851c-1774e0ce6d16",

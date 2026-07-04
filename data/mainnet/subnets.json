@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 625,
-      "totalWeight": "162123401172762007"
+      "count": 602,
+      "totalWeight": "163237709583583913"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "f3700bbdeea3010ca278aaadf22d7d8a889d2f060d2d7c8cf7543f136f96bd08",
+    "contentHash": "38c66f5442abe7dce9e355544f9e377f09ab17802e565003bedcaed270022716",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-04T13:56:31.221Z",
-    "lastUpdatedAt": "2026-07-04T13:56:31.221Z",
+    "lastSeenAt": "2026-07-04T19:35:42.740Z",
+    "lastUpdatedAt": "2026-07-04T19:35:42.740Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -701,6 +701,45 @@
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
+    "staleSince": null
+  },
+  "24m4U5hnspQH4x5ZkNs9ZCeJ4P2cG57SbHRznPPNbgYWUyuBig": {
+    "_id": "24m4U5hnspQH4x5ZkNs9ZCeJ4P2cG57SbHRznPPNbgYWUyuBig",
+    "subnetId": "24m4U5hnspQH4x5ZkNs9ZCeJ4P2cG57SbHRznPPNbgYWUyuBig",
+    "isL1": false,
+    "isPermissioned": true,
+    "controlKeys": [
+      "P-avax12pdvdwgvx8tzlxc0syvxuph9mp2yuxu9a0uc8d"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "11111111111111111111111111111111LpoYY",
+    "managerChainId": "11111111111111111111111111111111LpoYY",
+    "managerAddress": null,
+    "blockchainIds": [
+      "p3eNXxT7Myp9jLrRZvj4rzTHDQMvQVJsYLknWhcXgqSU3Dwdi"
+    ],
+    "validatorSummary": {
+      "count": 0,
+      "totalWeight": "0"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "273e66bf22a6d8921e57158dd9c1ba5224e3222686ebc3e1b247797b9072227c",
+    "firstSeenAt": "2026-07-04T19:35:42.740Z",
+    "lastSeenAt": "2026-07-04T19:35:42.740Z",
+    "lastUpdatedAt": "2026-07-04T19:35:42.740Z",
     "staleSince": null
   },
   "25HsT5NZw5hrCZBgi7zqafWXyDqbU3yCV4xuA593qU54XQecy4": {
