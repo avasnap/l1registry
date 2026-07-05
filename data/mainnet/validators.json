@@ -3887,12 +3887,12 @@
     "startTime": "1781463591",
     "endTime": "1783267200",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "25d047ef8d1fc4374f0e8c8021b39ce11aced7432728d28d09fe92b6635714e8",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-14T19:56:56.527Z",
     "lastUpdatedAt": "2026-06-14T19:56:56.527Z",
-    "staleSince": null
+    "staleSince": "2026-07-05T19:41:07.125Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-7t5yL3rJ5JgME7vxa8em5sUNTPeYfmMop": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-7t5yL3rJ5JgME7vxa8em5sUNTPeYfmMop",
