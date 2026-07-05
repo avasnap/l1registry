@@ -16,7 +16,7 @@
     ],
     "validatorSummary": {
       "count": 602,
-      "totalWeight": "163237709583583913"
+      "totalWeight": "164309619308961988"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "38c66f5442abe7dce9e355544f9e377f09ab17802e565003bedcaed270022716",
+    "contentHash": "eb0816ee7ae212612991009d2ef5b817baa9d92e9bbf8ab87c8a991eef2c56d0",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-04T19:35:42.740Z",
-    "lastUpdatedAt": "2026-07-04T19:35:42.740Z",
+    "lastSeenAt": "2026-07-05T04:18:36.944Z",
+    "lastUpdatedAt": "2026-07-05T04:18:36.944Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -706,22 +706,22 @@
   "24m4U5hnspQH4x5ZkNs9ZCeJ4P2cG57SbHRznPPNbgYWUyuBig": {
     "_id": "24m4U5hnspQH4x5ZkNs9ZCeJ4P2cG57SbHRznPPNbgYWUyuBig",
     "subnetId": "24m4U5hnspQH4x5ZkNs9ZCeJ4P2cG57SbHRznPPNbgYWUyuBig",
-    "isL1": false,
-    "isPermissioned": true,
+    "isL1": true,
+    "isPermissioned": false,
     "controlKeys": [
       "P-avax12pdvdwgvx8tzlxc0syvxuph9mp2yuxu9a0uc8d"
     ],
     "threshold": 1,
     "locktime": "0",
-    "conversionId": "11111111111111111111111111111111LpoYY",
-    "managerChainId": "11111111111111111111111111111111LpoYY",
-    "managerAddress": null,
+    "conversionId": "25LdrkSK8WCTEr7L85tTbveUpQydmdgxww6dLg89kd1E3LepVs",
+    "managerChainId": "p3eNXxT7Myp9jLrRZvj4rzTHDQMvQVJsYLknWhcXgqSU3Dwdi",
+    "managerAddress": "0x0feedc0de0000000000000000000000000000000",
     "blockchainIds": [
       "p3eNXxT7Myp9jLrRZvj4rzTHDQMvQVJsYLknWhcXgqSU3Dwdi"
     ],
     "validatorSummary": {
-      "count": 0,
-      "totalWeight": "0"
+      "count": 5,
+      "totalWeight": "500"
     },
     "provenance": {
       "isL1": "derived",
@@ -736,10 +736,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "273e66bf22a6d8921e57158dd9c1ba5224e3222686ebc3e1b247797b9072227c",
+    "contentHash": "e7b734f14eb22aad9ae637417a42d2df4fe2f49d4432bdc70ce264dcb8a5a47b",
     "firstSeenAt": "2026-07-04T19:35:42.740Z",
-    "lastSeenAt": "2026-07-04T19:35:42.740Z",
-    "lastUpdatedAt": "2026-07-04T19:35:42.740Z",
+    "lastSeenAt": "2026-07-05T04:18:36.944Z",
+    "lastUpdatedAt": "2026-07-05T04:18:36.944Z",
     "staleSince": null
   },
   "25HsT5NZw5hrCZBgi7zqafWXyDqbU3yCV4xuA593qU54XQecy4": {
