@@ -3968,6 +3968,66 @@
     },
     "errors": []
   },
+  "87dc8c98-c13f-4334-ab4d-924d0da9616f": {
+    "_id": "87dc8c98-c13f-4334-ab4d-924d0da9616f",
+    "runId": "87dc8c98-c13f-4334-ab4d-924d0da9616f",
+    "network": "mainnet",
+    "startedAt": "2026-07-07T04:15:33.740Z",
+    "finishedAt": "2026-07-07T04:19:42.858Z",
+    "durationMs": 249118,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 442,
+      "subnets": 424,
+      "l1s": 276,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 1916
+    },
+    "byVmType": {
+      "custom": 346,
+      "subnet-evm": 96
+    },
+    "byAccessTier": {
+      "A": 33,
+      "C": 251,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-69c9e5A9YJoJ3UcdZj9SEvwkdY8WfY1Jz",
+          "11111111111111111111111111111111LpoYY:NodeID-31k9WBBje8QqqhNCVuz1XH6UQ3oc9APKN"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-3W61mLt8G9fVa3VNnNiStsbqmkeeSPQ5U",
+          "11111111111111111111111111111111LpoYY:NodeID-58Rq14dZFfsdbxVRf1rYsXcCoWRq367ak",
+          "11111111111111111111111111111111LpoYY:NodeID-8Bo4tinPWccoACKUwMfdR86kgJk71KNMd",
+          "11111111111111111111111111111111LpoYY:NodeID-8FUd8qBeEBPRtS6CWZmaSNSzNDyZrGse7",
+          "11111111111111111111111111111111LpoYY:NodeID-AzAXYg2iEbBs8bPcUSKNWE75YBk2TaQVf",
+          "11111111111111111111111111111111LpoYY:NodeID-DnMDEtUN8sriii2EtMKqRFzojRQnS7mm9",
+          "11111111111111111111111111111111LpoYY:NodeID-MB8V7mU61yRmPieUjv6rtTqnWqbCfTh4M",
+          "11111111111111111111111111111111LpoYY:NodeID-NPeUfPrvsVypLNat8ZcWaAg8aafwfVs9s"
+        ]
+      }
+    },
+    "errors": []
+  },
   "88c14ab1-c6a8-4819-acd0-b297078d7875": {
     "_id": "88c14ab1-c6a8-4819-acd0-b297078d7875",
     "runId": "88c14ab1-c6a8-4819-acd0-b297078d7875",
