@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 620,
-      "totalWeight": "162622127365063227"
+      "count": 625,
+      "totalWeight": "165683348163930119"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "633a22414db0f404e51fa68c9a24231928eb1e9a169c1fca9d2a4aedf879ddd5",
+    "contentHash": "026e6772372100c1e1bbcff3ce8fa89698dcbdd40a66957feb81c8e0e576033e",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-07T20:13:39.318Z",
-    "lastUpdatedAt": "2026-07-07T20:13:39.318Z",
+    "lastSeenAt": "2026-07-08T03:42:31.046Z",
+    "lastUpdatedAt": "2026-07-08T03:42:31.046Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -10507,7 +10507,7 @@
     ],
     "validatorSummary": {
       "count": 2,
-      "totalWeight": "310000010000"
+      "totalWeight": "310000025000"
     },
     "provenance": {
       "isL1": "derived",
@@ -10522,10 +10522,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "04e1b892810c5326f24c011b43e94e873e8b05ea2e7a7a740e5ae5971d33a7b1",
+    "contentHash": "0a6a64bfa614c81814aae05daf31053ffcc7fff05895bdad9f5fd9ee233d6206",
     "firstSeenAt": "2026-07-03T09:34:21.674Z",
-    "lastSeenAt": "2026-07-07T15:13:14.865Z",
-    "lastUpdatedAt": "2026-07-07T15:13:14.865Z",
+    "lastSeenAt": "2026-07-08T03:42:31.046Z",
+    "lastUpdatedAt": "2026-07-08T03:42:31.046Z",
     "staleSince": null
   },
   "FAjUPxhRewh9vk8dSzcgRFZRLaCaNVg6gb5TcHwKsehuQ7k6p": {
@@ -13742,7 +13742,7 @@
     ],
     "validatorSummary": {
       "count": 243,
-      "totalWeight": "47111100053"
+      "totalWeight": "47111272053"
     },
     "provenance": {
       "isL1": "derived",
@@ -13757,10 +13757,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "25e3b7d876880267b0c58642ef12f54afa9844c4b2728ae451c7e07e693d06c9",
+    "contentHash": "4b7877dc0105aeb4be70139675db46119aad3d65519dc0b1bbaefcc8dda0161b",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-06T11:01:32.738Z",
-    "lastUpdatedAt": "2026-07-06T11:01:32.738Z",
+    "lastSeenAt": "2026-07-08T03:42:31.046Z",
+    "lastUpdatedAt": "2026-07-08T03:42:31.046Z",
     "staleSince": null
   },
   "f6ewGNYxGRjQ1SFfhL2tiHCMHzz9AHdTuPe11dRNarGbp3dES": {
