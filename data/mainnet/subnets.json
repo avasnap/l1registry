@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 627,
-      "totalWeight": "166078907665582438"
+      "count": 629,
+      "totalWeight": "166088114028245852"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "2ce66a1e6aacec2ddce0f3dc32b60a1afe759ac77f0c37a0ab9d48182c273d6b",
+    "contentHash": "f4e6068a6ca6a506d37ebbdaff74540962b856108abfd3bcb604d964c94f01b2",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-09T04:16:57.390Z",
-    "lastUpdatedAt": "2026-07-09T04:16:57.390Z",
+    "lastSeenAt": "2026-07-09T09:57:19.448Z",
+    "lastUpdatedAt": "2026-07-09T09:57:19.448Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -2928,6 +2928,45 @@
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
+    "staleSince": null
+  },
+  "2M1DU3BHBygi7tww5hoPW3xiD7fo1f3Gw824wwhjG4qm4cem2x": {
+    "_id": "2M1DU3BHBygi7tww5hoPW3xiD7fo1f3Gw824wwhjG4qm4cem2x",
+    "subnetId": "2M1DU3BHBygi7tww5hoPW3xiD7fo1f3Gw824wwhjG4qm4cem2x",
+    "isL1": true,
+    "isPermissioned": false,
+    "controlKeys": [
+      "P-avax12pvr8uvfgh25gw0k8fyc2r6y6pmxm832377zzc"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "22R77Xk1EArFFfUVLR2fztXbnRsJryUn4AHcNVF62XPXntij3Q",
+    "managerChainId": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+    "managerAddress": "0x6b290e4eeab2b73f92324f0c15560b945d70b91d",
+    "blockchainIds": [
+      "E29TGuedX9Mnbpc3z7dXq64F4RJVnaxLd8AsUgw2Q8C9E3VYR"
+    ],
+    "validatorSummary": {
+      "count": 4,
+      "totalWeight": "400000"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "9023ed7aa42b05be975c759799e96d6c7a80ac7b37dbb363708d24dfb4cbac38",
+    "firstSeenAt": "2026-07-09T09:57:19.448Z",
+    "lastSeenAt": "2026-07-09T09:57:19.448Z",
+    "lastUpdatedAt": "2026-07-09T09:57:19.448Z",
     "staleSince": null
   },
   "2MFMK4igZd3bL133TE8qao9QTKi56s2AK83yTL2hE9JYkZde5U": {
@@ -11231,6 +11270,45 @@
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
     "staleSince": null
   },
+  "LJec2Rnn5grFL9qxiWDYi3Q7s9k651YikYAMeBZgJM1LSvZJY": {
+    "_id": "LJec2Rnn5grFL9qxiWDYi3Q7s9k651YikYAMeBZgJM1LSvZJY",
+    "subnetId": "LJec2Rnn5grFL9qxiWDYi3Q7s9k651YikYAMeBZgJM1LSvZJY",
+    "isL1": true,
+    "isPermissioned": false,
+    "controlKeys": [
+      "P-avax12pvr8uvfgh25gw0k8fyc2r6y6pmxm832377zzc"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "ux9nW6ENgz4tnd58gAxhMgQ9zeaWUooa8E1pA6pbN8ELv8dXm",
+    "managerChainId": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+    "managerAddress": "0x769211da31000c67586c60b205f25f6899d684bc",
+    "blockchainIds": [
+      "2JX5BnRMsTPe7b4hshoFgiHcitpPLbgeaJPLqG7DmdaKwE6X9G"
+    ],
+    "validatorSummary": {
+      "count": 4,
+      "totalWeight": "400000"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "86ca568cfeb53b40442640288a15a76f92dc4c5bbd6f9c472a1e5c0310192ae5",
+    "firstSeenAt": "2026-07-09T09:57:19.448Z",
+    "lastSeenAt": "2026-07-09T09:57:19.448Z",
+    "lastUpdatedAt": "2026-07-09T09:57:19.448Z",
+    "staleSince": null
+  },
   "LThVFg2aFviak8Ranf8nNX4UAEtLyzhyCNY2AQdXbgYkJdQTM": {
     "_id": "LThVFg2aFviak8Ranf8nNX4UAEtLyzhyCNY2AQdXbgYkJdQTM",
     "subnetId": "LThVFg2aFviak8Ranf8nNX4UAEtLyzhyCNY2AQdXbgYkJdQTM",
@@ -15811,6 +15889,45 @@
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
+    "staleSince": null
+  },
+  "uHb8oojhrYs7t5QixzEFvJQ2bm2SjUiXFKrVTkWAwWxgP32iX": {
+    "_id": "uHb8oojhrYs7t5QixzEFvJQ2bm2SjUiXFKrVTkWAwWxgP32iX",
+    "subnetId": "uHb8oojhrYs7t5QixzEFvJQ2bm2SjUiXFKrVTkWAwWxgP32iX",
+    "isL1": true,
+    "isPermissioned": false,
+    "controlKeys": [
+      "P-avax12pvr8uvfgh25gw0k8fyc2r6y6pmxm832377zzc"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "2HcnbUJp2xBMkkNmhkvvWcCU7GAfAH4nK77YsmKgoFyk6toAW3",
+    "managerChainId": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+    "managerAddress": "0xf41a62fce18d6b0ba6c5e0d4bfefca60df8e5495",
+    "blockchainIds": [
+      "e3JzNuuG3CXifcWh1Sik55LbFTyCxMqkQUR4ohvZCDpNGzunB"
+    ],
+    "validatorSummary": {
+      "count": 8,
+      "totalWeight": "404000"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "29c4bd3423a0e45a373c4c5b94e37985dca501c70a978e09b368282c2fa32f5b",
+    "firstSeenAt": "2026-07-09T09:57:19.448Z",
+    "lastSeenAt": "2026-07-09T09:57:19.448Z",
+    "lastUpdatedAt": "2026-07-09T09:57:19.448Z",
     "staleSince": null
   },
   "uKnBuaeeUv4pf3UjJXHsJG5b2eX6nzv1F69uggokTgsKC2CWp": {
