@@ -7164,6 +7164,63 @@
     },
     "errors": []
   },
+  "da0320ba-d013-43af-945d-2f8d839e720a": {
+    "_id": "da0320ba-d013-43af-945d-2f8d839e720a",
+    "runId": "da0320ba-d013-43af-945d-2f8d839e720a",
+    "network": "mainnet",
+    "startedAt": "2026-07-12T13:54:37.615Z",
+    "finishedAt": "2026-07-12T13:58:47.219Z",
+    "durationMs": 249604,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 446,
+      "subnets": 428,
+      "l1s": 280,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 1944
+    },
+    "byVmType": {
+      "subnet-evm": 100,
+      "custom": 346
+    },
+    "byAccessTier": {
+      "C": 255,
+      "A": 33,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "uHb8oojhrYs7t5QixzEFvJQ2bm2SjUiXFKrVTkWAwWxgP32iX",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "uHb8oojhrYs7t5QixzEFvJQ2bm2SjUiXFKrVTkWAwWxgP32iX:NodeID-71E3JjXK597HSNEjkz4NBQwuCAX49RB9u",
+          "uHb8oojhrYs7t5QixzEFvJQ2bm2SjUiXFKrVTkWAwWxgP32iX:NodeID-ER7Qspfn568DA4jEkRxTZRVHCFugG4HuT",
+          "uHb8oojhrYs7t5QixzEFvJQ2bm2SjUiXFKrVTkWAwWxgP32iX:NodeID-F4orCMg5MhQyh3ab3Ga5ryJ7uuauqK7ka",
+          "uHb8oojhrYs7t5QixzEFvJQ2bm2SjUiXFKrVTkWAwWxgP32iX:NodeID-J6ovw8UAbkqwQkGoN35Fsyos19zgfU74r",
+          "uHb8oojhrYs7t5QixzEFvJQ2bm2SjUiXFKrVTkWAwWxgP32iX:NodeID-JPad3vbXNzdRvW1b4o8CiM42aStGfeU2Z",
+          "uHb8oojhrYs7t5QixzEFvJQ2bm2SjUiXFKrVTkWAwWxgP32iX:NodeID-K2UkKZfq5asStFMBSmWFEjMSVKfDGgzbR",
+          "11111111111111111111111111111111LpoYY:NodeID-EFd4jseGxHxQmYX1ATcJUSZoCnE7z6dFe"
+        ],
+        "wentStale": []
+      }
+    },
+    "errors": []
+  },
   "db2721d6-e106-4a38-9308-7dbed682ef7b": {
     "_id": "db2721d6-e106-4a38-9308-7dbed682ef7b",
     "runId": "db2721d6-e106-4a38-9308-7dbed682ef7b",
