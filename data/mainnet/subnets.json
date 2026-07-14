@@ -16,7 +16,7 @@
     ],
     "validatorSummary": {
       "count": 625,
-      "totalWeight": "166310758667829581"
+      "totalWeight": "166313437976887466"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "22a7a645d581366506383c729813435f65649c14d4105cea443237976ae62129",
+    "contentHash": "e8333f9ef119dbd4496ebace13a63b503a872a6a635ba23a30d1769fb8e93bae",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-14T03:31:18.143Z",
-    "lastUpdatedAt": "2026-07-14T03:31:18.143Z",
+    "lastSeenAt": "2026-07-14T08:26:49.949Z",
+    "lastUpdatedAt": "2026-07-14T08:26:49.949Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -10468,7 +10468,7 @@
     ],
     "validatorSummary": {
       "count": 8,
-      "totalWeight": "404000"
+      "totalWeight": "800000"
     },
     "provenance": {
       "isL1": "derived",
@@ -10483,10 +10483,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "b83518988ccd04216cb352a7c6d9d4ee67aa06e9322b712240565869e2e214b1",
+    "contentHash": "e49e23b61ae6157fa8912ef33c83663fe93785745124fbb5c66cbe73d6b654b9",
     "firstSeenAt": "2026-07-14T03:31:18.143Z",
-    "lastSeenAt": "2026-07-14T03:31:18.143Z",
-    "lastUpdatedAt": "2026-07-14T03:31:18.143Z",
+    "lastSeenAt": "2026-07-14T08:26:49.949Z",
+    "lastUpdatedAt": "2026-07-14T08:26:49.949Z",
     "staleSince": null
   },
   "Eax96S3KFyMs1CpgdmuJjzR1DngU8iKR8j7ugJmx2fvLyANf8": {
@@ -13937,7 +13937,7 @@
     ],
     "validatorSummary": {
       "count": 242,
-      "totalWeight": "47128795053"
+      "totalWeight": "47129295052"
     },
     "provenance": {
       "isL1": "derived",
@@ -13952,10 +13952,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "9d8423ac31de19bb2da641bdf7089b7c4f14a85a2c01c5a78508c30a2bfd47d2",
+    "contentHash": "b920c9bcfe26a332022f01c87f82c221b43d75ae27831c60cd86d29529cbaa27",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-13T15:09:53.888Z",
-    "lastUpdatedAt": "2026-07-13T15:09:53.888Z",
+    "lastSeenAt": "2026-07-14T08:26:49.949Z",
+    "lastUpdatedAt": "2026-07-14T08:26:49.949Z",
     "staleSince": null
   },
   "f6ewGNYxGRjQ1SFfhL2tiHCMHzz9AHdTuPe11dRNarGbp3dES": {
