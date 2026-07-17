@@ -2878,6 +2878,64 @@
     },
     "errors": []
   },
+  "4877fd5b-6e48-497c-b9dd-85e4b820d210": {
+    "_id": "4877fd5b-6e48-497c-b9dd-85e4b820d210",
+    "runId": "4877fd5b-6e48-497c-b9dd-85e4b820d210",
+    "network": "mainnet",
+    "startedAt": "2026-07-17T14:00:52.169Z",
+    "finishedAt": "2026-07-17T14:05:06.722Z",
+    "durationMs": 254553,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 465,
+      "subnets": 447,
+      "l1s": 299,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 2040
+    },
+    "byVmType": {
+      "subnet-evm": 118,
+      "custom": 347
+    },
+    "byAccessTier": {
+      "C": 273,
+      "A": 34,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-Fe3RiKh32fw4keLzhL2jS5Aqt6zHQazo5",
+          "11111111111111111111111111111111LpoYY:NodeID-6a69GrGQUQULauaeXr3YLkACmKWMjTqYr",
+          "11111111111111111111111111111111LpoYY:NodeID-32cbCiB88FfvnoSC2zy11h5dojhysgpkh",
+          "11111111111111111111111111111111LpoYY:NodeID-6SamCTx3zkwaUeLcZGYBdkYmsrhVBBbmW",
+          "11111111111111111111111111111111LpoYY:NodeID-MBucJmfSNuMy7CiXWb9Zzd1Gf1yCoKwGy",
+          "11111111111111111111111111111111LpoYY:NodeID-8mJL8AgUyaPvtoidS91rNSgohsfW45Y1R"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-6cfGKmCWJXNfHTN3GZnFD65DbR8fgSn8H"
+        ]
+      }
+    },
+    "errors": []
+  },
   "48e1813c-06e9-4faf-a28a-7a88b273f42b": {
     "_id": "48e1813c-06e9-4faf-a28a-7a88b273f42b",
     "runId": "48e1813c-06e9-4faf-a28a-7a88b273f42b",
