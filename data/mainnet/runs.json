@@ -8608,6 +8608,64 @@
     },
     "errors": []
   },
+  "dd94ad42-7e0c-437d-b3ef-529d168adf68": {
+    "_id": "dd94ad42-7e0c-437d-b3ef-529d168adf68",
+    "runId": "dd94ad42-7e0c-437d-b3ef-529d168adf68",
+    "network": "mainnet",
+    "startedAt": "2026-07-18T19:29:29.890Z",
+    "finishedAt": "2026-07-18T19:33:45.607Z",
+    "durationMs": 255717,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 465,
+      "subnets": 447,
+      "l1s": 299,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 2039
+    },
+    "byVmType": {
+      "subnet-evm": 118,
+      "custom": 347
+    },
+    "byAccessTier": {
+      "C": 273,
+      "unreachable": 157,
+      "A": 34,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-Fe3RiKh32fw4keLzhL2jS5Aqt6zHQazo5",
+          "11111111111111111111111111111111LpoYY:NodeID-BURrZL8SidbaotZ1cNxvPxNH5DGvXS7gN"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-3UENyRWtbiPvsyHeBjmHbenbnxX7DzaES",
+          "11111111111111111111111111111111LpoYY:NodeID-5eogZcASu4bDhWxMuUF6h7VFK5SCt3msp",
+          "11111111111111111111111111111111LpoYY:NodeID-6Aed6k5Zj6vffgNdvr29Z9VcdDxk5PoMq",
+          "11111111111111111111111111111111LpoYY:NodeID-Hcq3gpdMqAEiVwq19E5DZhsjggbkxFx2L",
+          "11111111111111111111111111111111LpoYY:NodeID-KDHVpdM7PeMtoVm2mmNNXjFfs93cABSut"
+        ]
+      }
+    },
+    "errors": []
+  },
   "de516689-705e-40ab-9859-02d0085ae547": {
     "_id": "de516689-705e-40ab-9859-02d0085ae547",
     "runId": "de516689-705e-40ab-9859-02d0085ae547",
