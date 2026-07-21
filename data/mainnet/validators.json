@@ -34127,7 +34127,7 @@
     "_id": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-FAQ3BoMErm6XwchqevjBeLZsbGLttavLs",
     "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
     "nodeId": "NodeID-FAQ3BoMErm6XwchqevjBeLZsbGLttavLs",
-    "weight": "1134931",
+    "weight": "1114921",
     "blsPublicKey": "0x8a94b4898ae7f2bd0a2d657a1b66acf56c380fc9e285a1e293962048225a97c3c341a5df5969f9aeb726adf0aa7098a8",
     "proofOfPossession": null,
     "connected": null,
@@ -34136,10 +34136,10 @@
     "endTime": null,
     "validationId": "qFviRTL1ekQJpBEvdxU4WBqQZxrwFdixGqshxRszbnMVtvDme",
     "stale": false,
-    "contentHash": "0d1bf708d43e3c2fba03cb132080c53ecf94d1f6a3af70a82f59b6ed72b8035e",
+    "contentHash": "dd47bb8309a8e85423216635480152d0e1c799324c422a079a3e56ac31b0b119",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-21T08:42:41.250Z",
-    "lastUpdatedAt": "2026-07-21T08:42:41.250Z",
+    "lastSeenAt": "2026-07-21T19:50:17.642Z",
+    "lastUpdatedAt": "2026-07-21T19:50:17.642Z",
     "staleSince": null
   },
   "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-FBYvVvwWZ5TY1EfekZkUMKJD9yFbZhANP": {
