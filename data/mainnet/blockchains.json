@@ -4492,8 +4492,8 @@
     },
     "rpcEndpoints": [],
     "rpcVerified": false,
-    "dataApiCovered": true,
-    "accessTier": "A",
+    "dataApiCovered": false,
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -4514,10 +4514,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "d4b01423379dddf8648c3727c454ab01ed7c385d1d1401ec7c0e46cd31085366",
+    "contentHash": "d1f610f8c24671e4956f41b07add1b52a9384d05287084260d24001ea4d1a073",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-06-10T23:28:41.642Z",
-    "lastUpdatedAt": "2026-06-10T23:28:41.642Z",
+    "lastSeenAt": "2026-07-22T19:42:10.303Z",
+    "lastUpdatedAt": "2026-07-22T19:42:10.303Z",
     "staleSince": null
   },
   "2LsABkuLzUtTe8oKVrSWRTFCjy3B3wpqH3AvnXPpCwK7U9Zi3U": {
