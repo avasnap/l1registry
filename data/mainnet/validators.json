@@ -896,19 +896,19 @@
     "_id": "11111111111111111111111111111111LpoYY:NodeID-3PJY4Rpb5BRR3xSUvuU5Dj3cyHcAmzfjD",
     "subnetId": "11111111111111111111111111111111LpoYY",
     "nodeId": "NodeID-3PJY4Rpb5BRR3xSUvuU5Dj3cyHcAmzfjD",
-    "weight": "20464377869647",
+    "weight": "20523864930499",
     "blsPublicKey": "0x92dafe288fe1aeee120667a13c276d5504086d29fbea296bc1c6eb9d86dd13232ee1e25a1c5255afcfb7890b562aa3df",
     "proofOfPossession": "0xb6c2101a7472a1f3d053411875ac04957508d40c0ee58e7b93071325055258ab4067cf97c62a3bd70e063361745ee69c15d812fe844d62343edcdf88d33336cbf24f073e0d139b776503ae4e70957c7402b85666fb6c51628c9d04f4adb7ef17",
     "connected": true,
     "uptime": 100,
-    "startTime": "1783352681",
-    "endTime": "1784820600",
+    "startTime": "1784821403",
+    "endTime": "1786289400",
     "validationId": null,
     "stale": false,
-    "contentHash": "41e55110584065febc0c704365210b53f0c34e986e4fffbf40935e741817f043",
+    "contentHash": "e85ae304a6e7f02ed49e9db1a6670eaee9cd9bdd50a690ba2f2bc0c7417634c8",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-06T15:53:55.907Z",
-    "lastUpdatedAt": "2026-07-06T15:53:55.907Z",
+    "lastSeenAt": "2026-07-23T19:44:21.515Z",
+    "lastUpdatedAt": "2026-07-23T19:44:21.515Z",
     "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-3PbwqCPFxE4SAtyAnWyxd6qs318hUYJ8t": {
@@ -8998,12 +8998,12 @@
     "startTime": "1783619410",
     "endTime": "1784832350",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "fa9d49aed674e5358bc436a180b1ac089604881a0ab0c42407e607c5d8c895c9",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-07-09T20:02:38.960Z",
     "lastUpdatedAt": "2026-07-09T20:02:38.960Z",
-    "staleSince": null
+    "staleSince": "2026-07-23T19:44:21.515Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-GeoC3NeWBpfBLRgRVkyM46KKGhpp3PGYb": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-GeoC3NeWBpfBLRgRVkyM46KKGhpp3PGYb",
@@ -11639,12 +11639,12 @@
     "startTime": "1783625810",
     "endTime": "1784835469",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "4609b7ae18568fa923811dcc4f563fe5c30bc5219eb9807ca77bfd0e89df00bd",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-07-09T20:02:38.960Z",
     "lastUpdatedAt": "2026-07-09T20:02:38.960Z",
-    "staleSince": null
+    "staleSince": "2026-07-23T19:44:21.515Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-LxrJtyQXpdweZH7LR3ujcEQZJ9VDTW3tC": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-LxrJtyQXpdweZH7LR3ujcEQZJ9VDTW3tC",
