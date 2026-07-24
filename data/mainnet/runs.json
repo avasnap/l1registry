@@ -8804,6 +8804,63 @@
     },
     "errors": []
   },
+  "c7b40c0c-5e7a-442a-817e-3d5424bf0923": {
+    "_id": "c7b40c0c-5e7a-442a-817e-3d5424bf0923",
+    "runId": "c7b40c0c-5e7a-442a-817e-3d5424bf0923",
+    "network": "mainnet",
+    "startedAt": "2026-07-24T19:44:33.893Z",
+    "finishedAt": "2026-07-24T19:46:49.852Z",
+    "durationMs": 135959,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 466,
+      "subnets": 448,
+      "l1s": 300,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 2043
+    },
+    "byVmType": {
+      "custom": 348,
+      "subnet-evm": 118
+    },
+    "byAccessTier": {
+      "A": 34,
+      "C": 274,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-Ap4EMywSHH1wAdxhtyAa2v1GvvD8BezUT",
+          "11111111111111111111111111111111LpoYY:NodeID-FcMYFbgK85kKYgcmcQ4nmwxQwrsmkL14u",
+          "11111111111111111111111111111111LpoYY:NodeID-L6GpvkjkK3qc8h32JMYwxGBz3KMCmMErQ",
+          "11111111111111111111111111111111LpoYY:NodeID-MroySoB2Tffy37n93d44k2YmLHWEfbF6P",
+          "11111111111111111111111111111111LpoYY:NodeID-GMHb1GP79ooGnitQRL99dA2hYA5LN9727",
+          "11111111111111111111111111111111LpoYY:NodeID-KLiUDfG672VocEHwbAwGxxFdCHovg1Zp5",
+          "11111111111111111111111111111111LpoYY:NodeID-168kTGVaSDD9CsPQzbqMpQg6zUvKatqr6"
+        ],
+        "wentStale": []
+      }
+    },
+    "errors": []
+  },
   "c7ef6d17-95ac-4979-bd7d-1e89ad4844f7": {
     "_id": "c7ef6d17-95ac-4979-bd7d-1e89ad4844f7",
     "runId": "c7ef6d17-95ac-4979-bd7d-1e89ad4844f7",
