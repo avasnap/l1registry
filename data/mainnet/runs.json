@@ -2336,6 +2336,64 @@
     },
     "errors": []
   },
+  "2daeef20-2e2f-4081-abbc-fc2e289ec3a0": {
+    "_id": "2daeef20-2e2f-4081-abbc-fc2e289ec3a0",
+    "runId": "2daeef20-2e2f-4081-abbc-fc2e289ec3a0",
+    "network": "mainnet",
+    "startedAt": "2026-07-25T03:35:02.623Z",
+    "finishedAt": "2026-07-25T03:39:17.591Z",
+    "durationMs": 254968,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 466,
+      "subnets": 448,
+      "l1s": 300,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 2043
+    },
+    "byVmType": {
+      "custom": 348,
+      "subnet-evm": 118
+    },
+    "byAccessTier": {
+      "A": 34,
+      "C": 274,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-3e1KMpegxC3MW2rtL68Hs4UYCGc7bpZGe",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-DZTwoBnF7ZMNnCL9nHvaMs5Sf3cLsS8Gd",
+          "11111111111111111111111111111111LpoYY:NodeID-7mUwE8oMsostpKL6xvPnZSqZ5kR78RifK",
+          "11111111111111111111111111111111LpoYY:NodeID-5bNomTz89SyKffJWnEZGXXdwvSnZanVTS",
+          "11111111111111111111111111111111LpoYY:NodeID-AJQT8dYzaeGUaxZkSBivYKYAFRQjr87fN",
+          "11111111111111111111111111111111LpoYY:NodeID-G6AYw49mQHW9a3pMqk3TYtegoTRgECLWB"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-EwZPGDCogWHezqNijsqdKgXNLaLy4yFZP"
+        ]
+      }
+    },
+    "errors": []
+  },
   "2db18399-dc22-44e6-851c-1774e0ce6d16": {
     "_id": "2db18399-dc22-44e6-851c-1774e0ce6d16",
     "runId": "2db18399-dc22-44e6-851c-1774e0ce6d16",
