@@ -9717,14 +9717,14 @@
     "proofOfPossession": "0xad4e27bef0b3fdb354cacbb93ed21caf3649b2eccab68ad491a8812e643bd6158d2239a776b50e6a8d2df8dd5c271ac705fb34b4e25ed6417e0d1298be02baf782fcf6bfa7ed8b3fbdba52f9728d3990cf326b0288df8bea016e47f126d1a3f6",
     "connected": true,
     "uptime": 100,
-    "startTime": "1782396008",
-    "endTime": "1784988000",
+    "startTime": "1784988011",
+    "endTime": "1787580000",
     "validationId": null,
     "stale": false,
-    "contentHash": "e1b2d7f7eed601feba55c00ad568f70b3896ef45819f26e3e080a023d244d589",
+    "contentHash": "126a7fd536490d4cd7bf7d589d4b997da8ba30217d6a3430bb1ce7178c6b9de5",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-06-25T15:11:13.094Z",
-    "lastUpdatedAt": "2026-06-25T15:11:13.094Z",
+    "lastSeenAt": "2026-07-25T14:00:15.522Z",
+    "lastUpdatedAt": "2026-07-25T14:00:15.522Z",
     "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-Hn7YWxiVC9JufWW5n8u1mvaYgNgqWG8VT": {
@@ -11772,12 +11772,12 @@
     "startTime": "1776739043",
     "endTime": "1784984400",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "60c0c0cfc85d3d1c168a102fa1f5b8b6598fe04fbd7e0ece97633b16d9563902",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-07-25T14:00:15.522Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-M4v5ofvgEFpoTaGzBDwLmdjUKTAuAmYEc": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-M4v5ofvgEFpoTaGzBDwLmdjUKTAuAmYEc",
