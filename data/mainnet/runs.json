@@ -9416,6 +9416,64 @@
     },
     "errors": []
   },
+  "cb18bce5-d34d-4348-92f0-7febf7df2f1c": {
+    "_id": "cb18bce5-d34d-4348-92f0-7febf7df2f1c",
+    "runId": "cb18bce5-d34d-4348-92f0-7febf7df2f1c",
+    "network": "mainnet",
+    "startedAt": "2026-07-26T19:32:57.477Z",
+    "finishedAt": "2026-07-26T19:35:12.988Z",
+    "durationMs": 135511,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 466,
+      "subnets": 448,
+      "l1s": 300,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 2034
+    },
+    "byVmType": {
+      "custom": 348,
+      "subnet-evm": 118
+    },
+    "byAccessTier": {
+      "A": 34,
+      "C": 274,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-6wk94M77mS9a8suNMsUXQDNmVK7sWYjES",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-Efs7Zy5Xhj3fGtYzDyuBdA1WNMEUAhmqc",
+          "11111111111111111111111111111111LpoYY:NodeID-4RV8eRbw9andBLK2og4rtt3W7txBmSuxA"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-AJ2aEX9B6CXBJsjfeXihvrbyA3R9vd7T2",
+          "11111111111111111111111111111111LpoYY:NodeID-FBDbF8WKjoLR8NRRKJ34vEkC861NB6QYi",
+          "11111111111111111111111111111111LpoYY:NodeID-GHomCXMMRTSPRZrrxEULYPFHHXEhb7qvY",
+          "11111111111111111111111111111111LpoYY:NodeID-HzSHrBKrycaSu3FMCLwd4WfPrQF2n61tG"
+        ]
+      }
+    },
+    "errors": []
+  },
   "cc03dd7d-5910-4678-8de7-6139f632e91f": {
     "_id": "cc03dd7d-5910-4678-8de7-6139f632e91f",
     "runId": "cc03dd7d-5910-4678-8de7-6139f632e91f",
