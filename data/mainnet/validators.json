@@ -445,14 +445,14 @@
     "proofOfPossession": "0xb9c42de908253ce98a753cb7fa9311bd3bd91e46cb2b209d506ba191e1250ea7499eb14a10ee9384880515301945bff507e342f3540146d5ed9151ba789b6e7140e8d6adb1f06ce67623c9a1f8befb66f8c1ff64511ad91f7f5cc884f6e55911",
     "connected": true,
     "uptime": 100,
-    "startTime": "1782655216",
-    "endTime": "1785247200",
+    "startTime": "1785247207",
+    "endTime": "1787839200",
     "validationId": null,
     "stale": false,
-    "contentHash": "7fa9fe9d1d4cbe3913152146e8dc1cffe07a54855c02daf87d8fa7f0ad81e14d",
+    "contentHash": "d686bda1643c494ee28593439476de5d65fe49d278b243ca0ab79bb8c81b3f64",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-06-28T14:14:38.031Z",
-    "lastUpdatedAt": "2026-06-28T14:14:38.031Z",
+    "lastSeenAt": "2026-07-28T14:34:47.262Z",
+    "lastUpdatedAt": "2026-07-28T14:34:47.262Z",
     "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-2jVjubLa7oz6mJpzr3qLVX5KXB7iwLeHQ": {
@@ -2557,12 +2557,12 @@
     "startTime": "1782157033",
     "endTime": "1785240000",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "60ca04dcb5c4dc9b92f543e4afbd1c0a2a3ed6119f83ded6b79b7fb9f71f5e1c",
     "firstSeenAt": "2026-06-22T21:13:06.799Z",
     "lastSeenAt": "2026-06-22T21:13:06.799Z",
     "lastUpdatedAt": "2026-06-22T21:13:06.799Z",
-    "staleSince": null
+    "staleSince": "2026-07-28T14:34:47.262Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-69c9e5A9YJoJ3UcdZj9SEvwkdY8WfY1Jz": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-69c9e5A9YJoJ3UcdZj9SEvwkdY8WfY1Jz",
@@ -6376,12 +6376,12 @@
     "startTime": "1782640468",
     "endTime": "1785236052",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "4e6c7949b0c600927efdeeca646c19a79cf6b1fb84af166b1c0f78fa671729ab",
     "firstSeenAt": "2026-06-28T14:14:38.031Z",
     "lastSeenAt": "2026-06-28T14:14:38.031Z",
     "lastUpdatedAt": "2026-06-28T14:14:38.031Z",
-    "staleSince": null
+    "staleSince": "2026-07-28T14:34:47.262Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-C9Bcji6rXUp22qyWhvYKm4v45hJAkzvpU": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-C9Bcji6rXUp22qyWhvYKm4v45hJAkzvpU",
@@ -9169,12 +9169,12 @@
     "startTime": "1782695735",
     "endTime": "1785247200",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "76a1b9707afc287cbbff29d77a4fb68f007c7fd720a429c1c83d45b26a407f57",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-29T04:58:36.652Z",
     "lastUpdatedAt": "2026-06-29T04:58:36.652Z",
-    "staleSince": null
+    "staleSince": "2026-07-28T14:34:47.262Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-Gr9xzzL6emX5jWv1LoMKLpCebYR2V2nYs": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-Gr9xzzL6emX5jWv1LoMKLpCebYR2V2nYs",
@@ -9986,12 +9986,12 @@
     "startTime": "1777487387",
     "endTime": "1785243600",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "67812929991cda99d25c3a29e1ca05e9fadd8119d397d3e1f27c33c1c8e6d894",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-07-28T14:34:47.262Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-J7PjfVJgpLL3mBMUwpicPqiqDFAmNWhKA": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-J7PjfVJgpLL3mBMUwpicPqiqDFAmNWhKA",
@@ -10765,12 +10765,12 @@
     "startTime": "1782648985",
     "endTime": "1785244471",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "36465989d7655dbcf33cdacbfb4c506de8b5a3e616602f7c09e02bcc0fbfb438",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-28T14:14:38.031Z",
     "lastUpdatedAt": "2026-06-28T14:14:38.031Z",
-    "staleSince": null
+    "staleSince": "2026-07-28T14:34:47.262Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-KWyfHHaNzGBA1xfNgYV8hy6W7iwfzhyhb": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-KWyfHHaNzGBA1xfNgYV8hy6W7iwfzhyhb",
