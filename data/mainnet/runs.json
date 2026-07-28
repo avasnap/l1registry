@@ -4271,6 +4271,63 @@
     },
     "errors": []
   },
+  "5a9325e1-803e-4b09-bd28-ea217dc4153e": {
+    "_id": "5a9325e1-803e-4b09-bd28-ea217dc4153e",
+    "runId": "5a9325e1-803e-4b09-bd28-ea217dc4153e",
+    "network": "mainnet",
+    "startedAt": "2026-07-28T03:32:40.210Z",
+    "finishedAt": "2026-07-28T03:36:57.492Z",
+    "durationMs": 257282,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 466,
+      "subnets": 448,
+      "l1s": 300,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 2035
+    },
+    "byVmType": {
+      "subnet-evm": 118,
+      "custom": 348
+    },
+    "byAccessTier": {
+      "C": 274,
+      "unreachable": 157,
+      "A": 34,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "2nCzBViQ5jxLaxkg9TABx6oXu1UGU7chM7G6XzPvW9ehP8RfrJ",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-QFqW2naS7irCybqFjdHrpF1z4SqHriSWb",
+          "11111111111111111111111111111111LpoYY:NodeID-MUvb831o7vZe31Fi2ZZ7juFymrJEsZWNx",
+          "11111111111111111111111111111111LpoYY:NodeID-D4SSSPM6F2JS4hmDj6DwxEoFNwo8wu5tQ",
+          "11111111111111111111111111111111LpoYY:NodeID-KDHVpdM7PeMtoVm2mmNNXjFfs93cABSut"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-5NPt2bo9F1G5EfSF8h3jRW22XwwjGxq4V",
+          "2nCzBViQ5jxLaxkg9TABx6oXu1UGU7chM7G6XzPvW9ehP8RfrJ:NodeID-8Myk1KKYjuUhzigQQsArjwdpNKboDWFQB"
+        ]
+      }
+    },
+    "errors": []
+  },
   "5ae45b73-02dc-4556-a41a-7e82b0bccb4d": {
     "_id": "5ae45b73-02dc-4556-a41a-7e82b0bccb4d",
     "runId": "5ae45b73-02dc-4556-a41a-7e82b0bccb4d",
