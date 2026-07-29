@@ -4910,6 +4910,64 @@
     },
     "errors": []
   },
+  "69c5687e-f32d-4719-a98f-cd38be9664cc": {
+    "_id": "69c5687e-f32d-4719-a98f-cd38be9664cc",
+    "runId": "69c5687e-f32d-4719-a98f-cd38be9664cc",
+    "network": "mainnet",
+    "startedAt": "2026-07-29T03:35:57.652Z",
+    "finishedAt": "2026-07-29T03:40:13.845Z",
+    "durationMs": 256193,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 466,
+      "subnets": 448,
+      "l1s": 300,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 2030
+    },
+    "byVmType": {
+      "custom": 348,
+      "subnet-evm": 118
+    },
+    "byAccessTier": {
+      "A": 34,
+      "C": 274,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-6eoSDoZcG3eGsPKyHcvZobN3vFAenPPKm",
+          "11111111111111111111111111111111LpoYY:NodeID-Gq6cTyqtHRGHSHELPNdwXCjQJH6vwUkBc",
+          "11111111111111111111111111111111LpoYY:NodeID-DT7ET1yHCTuNMydS4mGod99maQjBFS9MM"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-5oxcTGFU58pWah7YYPcDVbPbgQTG4eqZ6",
+          "11111111111111111111111111111111LpoYY:NodeID-8fH3FRrAK7hM3TGZAuG1zLFYNfAk9dmME",
+          "11111111111111111111111111111111LpoYY:NodeID-BPWnPh2XCDy95dhNdgZ6ytxHpfr93VVmg",
+          "11111111111111111111111111111111LpoYY:NodeID-FRf9q5y6Sy3bRVAswVjJpAaLmCH4f5D6N",
+          "11111111111111111111111111111111LpoYY:NodeID-KZRVBVVX2aubRVAnj1WXPGjVqwj69Qj4N"
+        ]
+      }
+    },
+    "errors": []
+  },
   "6a453d51-7820-4db9-a6b9-3bc7e3a0d547": {
     "_id": "6a453d51-7820-4db9-a6b9-3bc7e3a0d547",
     "runId": "6a453d51-7820-4db9-a6b9-3bc7e3a0d547",
