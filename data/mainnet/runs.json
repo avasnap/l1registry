@@ -11667,6 +11667,64 @@
     },
     "errors": []
   },
+  "eb096af1-b485-4073-a35c-aa4a753a9b79": {
+    "_id": "eb096af1-b485-4073-a35c-aa4a753a9b79",
+    "runId": "eb096af1-b485-4073-a35c-aa4a753a9b79",
+    "network": "mainnet",
+    "startedAt": "2026-07-30T08:47:31.057Z",
+    "finishedAt": "2026-07-30T08:49:46.156Z",
+    "durationMs": 135099,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 466,
+      "subnets": 448,
+      "l1s": 300,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 2019
+    },
+    "byVmType": {
+      "custom": 348,
+      "subnet-evm": 118
+    },
+    "byAccessTier": {
+      "A": 32,
+      "C": 276,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-2vqpM9z6ra74TFvLwY6Nw7XNqowUzH14B",
+          "11111111111111111111111111111111LpoYY:NodeID-KVB8F5Gy8adXA2zCg3i3m3qJ23NoCDDiA",
+          "11111111111111111111111111111111LpoYY:NodeID-64Zz8dh68ypXYWaUcfkXDm9UuG9VNXrk8"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-5B2Uyysf1nWcRbiCYdKwXzevVF5a7sN6T",
+          "11111111111111111111111111111111LpoYY:NodeID-5HkCsXm4TQUb9uXxM6Cjy1WzvuDSspPui",
+          "11111111111111111111111111111111LpoYY:NodeID-BXTBUqX8gitUDtVam4fhRWGD1SfeHGoBx",
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer:NodeID-5B2Uyysf1nWcRbiCYdKwXzevVF5a7sN6T"
+        ]
+      }
+    },
+    "errors": []
+  },
   "ee1f1829-6d39-4e70-a2d6-972002d43e7d": {
     "_id": "ee1f1829-6d39-4e70-a2d6-972002d43e7d",
     "runId": "ee1f1829-6d39-4e70-a2d6-972002d43e7d",
