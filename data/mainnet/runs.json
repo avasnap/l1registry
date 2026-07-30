@@ -9911,6 +9911,65 @@
     },
     "errors": []
   },
+  "c940c4e6-40e6-48e7-8233-c23952dc39db": {
+    "_id": "c940c4e6-40e6-48e7-8233-c23952dc39db",
+    "runId": "c940c4e6-40e6-48e7-8233-c23952dc39db",
+    "network": "mainnet",
+    "startedAt": "2026-07-30T19:50:07.636Z",
+    "finishedAt": "2026-07-30T19:52:25.159Z",
+    "durationMs": 137523,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 466,
+      "subnets": 448,
+      "l1s": 300,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 2019
+    },
+    "byVmType": {
+      "custom": 348,
+      "subnet-evm": 118
+    },
+    "byAccessTier": {
+      "A": 31,
+      "C": 277,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [
+          "uoVf4pQ3KkaNqAz76ZrmYYeGSJJJSuVR4Wv72BCJR8Eyq2iF4"
+        ],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-LHbiZ4wCi7J79R5ZU3fbnm7jsWvxiaCfc",
+          "11111111111111111111111111111111LpoYY:NodeID-4nAaGpv4xnqLcL1vPpP6YbYnbUeJx1D9s",
+          "11111111111111111111111111111111LpoYY:NodeID-PgqSPHEnzxdnrNesjs6ZUmVP7YoReU735"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-L7Ave3M6x8ApcyiAXbJCJuZTjBinXY3Ts",
+          "11111111111111111111111111111111LpoYY:NodeID-PcbM59gvaroHFJc1thiawBqvf87CMmVwN",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-Efs7Zy5Xhj3fGtYzDyuBdA1WNMEUAhmqc"
+        ]
+      }
+    },
+    "errors": []
+  },
   "c9b4281d-4b0a-4182-8dd7-449d2bc3ca7c": {
     "_id": "c9b4281d-4b0a-4182-8dd7-449d2bc3ca7c",
     "runId": "c9b4281d-4b0a-4182-8dd7-449d2bc3ca7c",
