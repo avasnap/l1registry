@@ -16768,8 +16768,8 @@
     },
     "rpcEndpoints": [],
     "rpcVerified": false,
-    "dataApiCovered": true,
-    "accessTier": "A",
+    "dataApiCovered": false,
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -16790,10 +16790,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "747258faca677c5ecb4f7cea7948ddaee69e9a209564898d84467567f9e91a42",
+    "contentHash": "6da773ece1f066323c363229d9077abf1b990308629c15ec84af2fbed07949e1",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-24T14:10:16.347Z",
-    "lastUpdatedAt": "2026-07-24T14:10:16.347Z",
+    "lastSeenAt": "2026-07-30T03:25:56.732Z",
+    "lastUpdatedAt": "2026-07-30T03:25:56.732Z",
     "staleSince": null
   },
   "Ui4Hjt1scF89tfdhQZ9YYrEBNaYc6YNT2ji7q6kY3mGh3T45X": {
@@ -18839,8 +18839,8 @@
     },
     "rpcEndpoints": [],
     "rpcVerified": false,
-    "dataApiCovered": true,
-    "accessTier": "A",
+    "dataApiCovered": false,
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -18861,10 +18861,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "e64918b34165f7ec9f26da22939976d9f5bfaf2ed99eb86a50ad5bf03001069e",
+    "contentHash": "0b90daad8dbdb83768f5b10221f1587bd7a1ac4375bb96fc8d5d606f15820370",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-06-10T23:28:41.642Z",
-    "lastUpdatedAt": "2026-06-10T23:28:41.642Z",
+    "lastSeenAt": "2026-07-30T03:25:56.732Z",
+    "lastUpdatedAt": "2026-07-30T03:25:56.732Z",
     "staleSince": null
   },
   "hZiEpoLLNh7twd9sEiCuV1kMgNvNoveGvjM8QhgnBwoxUajD2": {
