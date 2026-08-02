@@ -1094,12 +1094,12 @@
     "startTime": "1783081932",
     "endTime": "1785677496",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "144555443fe81182febe063bd68d4c68838b4e2d54871ae87ecba35dcbd146f4",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-07-03T14:31:13.585Z",
     "lastUpdatedAt": "2026-07-03T14:31:13.585Z",
-    "staleSince": null
+    "staleSince": "2026-08-02T13:52:07.800Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-3ecHu3HHGvrWATwTEysSAT3TmHo3W4r7G": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-3ecHu3HHGvrWATwTEysSAT3TmHo3W4r7G",
