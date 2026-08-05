@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 590,
-      "totalWeight": "167655958505314679"
+      "count": 592,
+      "totalWeight": "171705958473904509"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "0abb2f1147cbda9953bf6baaaa2d9800c44d4adea5d4cd9ce38a698b9a12f9dc",
+    "contentHash": "bfbd86577d477425662eae0c5ffd8da6de99fcac5407d4cf377033a1f7265f6a",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-08-05T03:30:17.485Z",
-    "lastUpdatedAt": "2026-08-05T03:30:17.485Z",
+    "lastSeenAt": "2026-08-05T08:50:56.726Z",
+    "lastUpdatedAt": "2026-08-05T08:50:56.726Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -5546,7 +5546,10 @@
     "blockchainIds": [
       "VijJkHKeTr2LAvz5wxezf5HHc4gAo1EyY9yenU8YqJaCayNg4"
     ],
-    "validatorSummary": null,
+    "validatorSummary": {
+      "count": 1,
+      "totalWeight": "100"
+    },
     "provenance": {
       "isL1": "derived",
       "isPermissioned": "pchain",
@@ -5555,16 +5558,15 @@
       "locktime": "pchain",
       "conversionId": "pchain",
       "managerChainId": "pchain",
-      "managerAddress": "pchain"
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
     },
-    "fetchErrors": [
-      "getCurrentValidators: Error: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-    ],
+    "fetchErrors": [],
     "stale": false,
-    "contentHash": "17f8791cb1ea8a45373b79aae9e05d477f463d754b0a9cd90c0556c31518fcab",
+    "contentHash": "eb3949b767e77e493f8a3fec45070a2a510fef35013675aa61fe55140e7f933c",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-08-05T03:30:17.485Z",
-    "lastUpdatedAt": "2026-08-05T03:30:17.485Z",
+    "lastSeenAt": "2026-08-05T08:50:56.726Z",
+    "lastUpdatedAt": "2026-08-05T08:50:56.726Z",
     "staleSince": null
   },
   "2fRSwe2BxYQZJpSEYDAssCt8Ek3tf6Y1A4nNBCFevQV369qRTs": {
