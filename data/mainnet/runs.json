@@ -4639,6 +4639,69 @@
     },
     "errors": []
   },
+  "4e7ae24c-f25e-410c-9869-373c0b20f4bb": {
+    "_id": "4e7ae24c-f25e-410c-9869-373c0b20f4bb",
+    "runId": "4e7ae24c-f25e-410c-9869-373c0b20f4bb",
+    "network": "mainnet",
+    "startedAt": "2026-08-05T03:30:17.485Z",
+    "finishedAt": "2026-08-05T03:34:33.795Z",
+    "durationMs": 256310,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 466,
+      "subnets": 448,
+      "l1s": 300,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 1999
+    },
+    "byVmType": {
+      "custom": 348,
+      "subnet-evm": 118
+    },
+    "byAccessTier": {
+      "A": 31,
+      "C": 277,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "2erTxKQfG8BbwKAUXnpWkiJMiQKZ1tVHjRwbupZYd7io9XNM2f",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-DXvKQyCiZHz7DubHxd49RxNEQwpZejcSe",
+          "11111111111111111111111111111111LpoYY:NodeID-4n7fR6oCvCh3Dxp9iFTiCYSDYWyLXAmr6",
+          "11111111111111111111111111111111LpoYY:NodeID-PY5kT7pHUEZPmh2QK5k6w3H6pKhFGUfq1",
+          "11111111111111111111111111111111LpoYY:NodeID-HPrcWGJ6pUZWvWMyzfbE9SN28VU3PuP2F"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-HL1Lr2fvgRpoJobZqCRknC1a2VpNj4ckk",
+          "11111111111111111111111111111111LpoYY:NodeID-Krsv3YUvmYVzDCuG3KkkJE54jLZVDAmkx"
+        ]
+      }
+    },
+    "errors": [
+      {
+        "scope": "getCurrentValidators",
+        "key": "2erTxKQfG8BbwKAUXnpWkiJMiQKZ1tVHjRwbupZYd7io9XNM2f",
+        "message": "Error: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+      }
+    ]
+  },
   "4eed0408-df72-42a4-9502-804dd6f060c0": {
     "_id": "4eed0408-df72-42a4-9502-804dd6f060c0",
     "runId": "4eed0408-df72-42a4-9502-804dd6f060c0",
