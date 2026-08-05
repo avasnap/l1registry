@@ -942,12 +942,12 @@
     "startTime": "1784734434",
     "endTime": "1785947450",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "6459a72c1c3d432c4ea75a191d6b95dcfb0c944891a9cb28a1a391470b616f39",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-07-22T19:42:10.303Z",
     "lastUpdatedAt": "2026-07-22T19:42:10.303Z",
-    "staleSince": null
+    "staleSince": "2026-08-05T19:52:34.501Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-3PzXJGD9n7TUrV4RiAArnWpoRHjn17Q7b": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-3PzXJGD9n7TUrV4RiAArnWpoRHjn17Q7b",
@@ -2516,15 +2516,15 @@
     "proofOfPossession": "0xb1bab57c43c379df0cd7bd4e7f2a2ca9f7789f7c586b7fd87acc4f3f82eb8e3e81e4bba42a9997d009fc8c5470b73d88072c67a5d878740e918eeceee61a074ff267722e8551d272919b12346b82d6baf84fcf00e512bfa423a0f67187018e93",
     "connected": true,
     "uptime": 100,
-    "startTime": "1782883727",
-    "endTime": "1785479197",
+    "startTime": "1785956742",
+    "endTime": "1788814800",
     "validationId": null,
-    "stale": true,
-    "contentHash": "809dd91c41eb4a60d44ec7f3a96d4a0e94844606ce69b528d952d66a984383f6",
+    "stale": false,
+    "contentHash": "5953a833f84e13c7d183231723e8b0fc791e0218116595d35157b71244942975",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-01T10:11:51.769Z",
-    "lastUpdatedAt": "2026-07-01T10:11:51.769Z",
-    "staleSince": "2026-07-31T09:15:10.706Z"
+    "lastSeenAt": "2026-08-05T19:52:34.501Z",
+    "lastUpdatedAt": "2026-08-05T19:52:34.501Z",
+    "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-62hEBGiabBK34vV52kGT64T6S9QVcdMVN": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-62hEBGiabBK34vV52kGT64T6S9QVcdMVN",
@@ -4723,12 +4723,12 @@
     "startTime": "1784738124",
     "endTime": "1785947782",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "f5c542f70fed8503482aacaa265b7c64b6ef45aa5933d2357c4468a054e9fe9f",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-07-22T19:42:10.303Z",
     "lastUpdatedAt": "2026-07-22T19:42:10.303Z",
-    "staleSince": null
+    "staleSince": "2026-08-05T19:52:34.501Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-9T7NXBFpp8LWCyc58YdKNoowDipdVKAWz": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-9T7NXBFpp8LWCyc58YdKNoowDipdVKAWz",
@@ -10472,19 +10472,19 @@
     "_id": "11111111111111111111111111111111LpoYY:NodeID-K7X9gVp7x53jvEFEUqsJnwssKec2ZHZFr",
     "subnetId": "11111111111111111111111111111111LpoYY",
     "nodeId": "NodeID-K7X9gVp7x53jvEFEUqsJnwssKec2ZHZFr",
-    "weight": "638682326925562",
+    "weight": "647545622996822",
     "blsPublicKey": "0x8fc57c1088302df97077f227cf4526e1f97a011ad15606ea487f6b8a5336505f8fee39a19893b3c05f9d8d089cc31df5",
     "proofOfPossession": "0xb1fc14b4008d78c9b26476d906a6dc94745160199d455f74bbeeeaa0308ede4ba69197a370e63e3e9ba4a6ebe2c69d1d09d71995f720b6ec9efa7530e7165f0693fe283a215313398a016056ec300c98ff8216bd93040379a425d179f793bc04",
     "connected": true,
     "uptime": 100,
-    "startTime": "1784738123",
-    "endTime": "1785947781",
+    "startTime": "1785949550",
+    "endTime": "1787159208",
     "validationId": null,
     "stale": false,
-    "contentHash": "125ddc321eb8fd0d4143daeaa7de410059485a74d1272b6a0286af60eb4f70bb",
+    "contentHash": "8317b6390a32d933e09f1c5ab8b3901fd5b28815310b25c5b4f59cc010f604c6",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-22T19:42:10.303Z",
-    "lastUpdatedAt": "2026-07-22T19:42:10.303Z",
+    "lastSeenAt": "2026-08-05T19:52:34.501Z",
+    "lastUpdatedAt": "2026-08-05T19:52:34.501Z",
     "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-K8jH6Jy7BayxZB8vJCpqrqGdDZ3RHUJjK": {
