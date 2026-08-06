@@ -9978,6 +9978,63 @@
     },
     "errors": []
   },
+  "b6d7fa96-012a-4514-8d5a-3412a408c1f2": {
+    "_id": "b6d7fa96-012a-4514-8d5a-3412a408c1f2",
+    "runId": "b6d7fa96-012a-4514-8d5a-3412a408c1f2",
+    "network": "mainnet",
+    "startedAt": "2026-08-06T03:34:00.662Z",
+    "finishedAt": "2026-08-06T03:38:18.960Z",
+    "durationMs": 258298,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 466,
+      "subnets": 448,
+      "l1s": 300,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 2008
+    },
+    "byVmType": {
+      "subnet-evm": 118,
+      "custom": 348
+    },
+    "byAccessTier": {
+      "C": 278,
+      "unreachable": 157,
+      "A": 30,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-9QLbYY8MSU96ZsCdT8bRVnGDMzyHuNoRq",
+          "11111111111111111111111111111111LpoYY:NodeID-3PbwqCPFxE4SAtyAnWyxd6qs318hUYJ8t",
+          "11111111111111111111111111111111LpoYY:NodeID-QGgxk8wuDRDfiwZNqbaNGj1PSY5feHmye",
+          "11111111111111111111111111111111LpoYY:NodeID-BtCqHByhBS52cvAcJMcTSRFBhmD1fsNvJ",
+          "11111111111111111111111111111111LpoYY:NodeID-Eeg2Huipo4K5oURLwd6EJNm286b1js6rL",
+          "11111111111111111111111111111111LpoYY:NodeID-3qUq9jKXL43HwdMEov6KBsnCjcvWXmAoF",
+          "11111111111111111111111111111111LpoYY:NodeID-DtCpt2Bi6gvmQqwgKE59fanof5F3bepnd",
+          "11111111111111111111111111111111LpoYY:NodeID-2UXMFjdXTw96iQHNL23PxH2hcLJUxnWic"
+        ],
+        "wentStale": []
+      }
+    },
+    "errors": []
+  },
   "b74eea0b-e34b-4888-a826-beaae2dd908b": {
     "_id": "b74eea0b-e34b-4888-a826-beaae2dd908b",
     "runId": "b74eea0b-e34b-4888-a826-beaae2dd908b",
