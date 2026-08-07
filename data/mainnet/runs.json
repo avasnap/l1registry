@@ -13206,6 +13206,68 @@
     },
     "errors": []
   },
+  "e1d85174-180c-43bf-9e50-f59c00033143": {
+    "_id": "e1d85174-180c-43bf-9e50-f59c00033143",
+    "runId": "e1d85174-180c-43bf-9e50-f59c00033143",
+    "network": "mainnet",
+    "startedAt": "2026-08-07T19:13:23.352Z",
+    "finishedAt": "2026-08-07T19:16:39.542Z",
+    "durationMs": 196190,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 466,
+      "subnets": 448,
+      "l1s": 300,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 2003
+    },
+    "byVmType": {
+      "custom": 348,
+      "subnet-evm": 118
+    },
+    "byAccessTier": {
+      "C": 278,
+      "A": 30,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [
+          "11111111111111111111111111111111LpoYY:NodeID-E5HpruNZc4rLWLF5RsFmPRD1HGhD5Fbd7"
+        ],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-FcMYFbgK85kKYgcmcQ4nmwxQwrsmkL14u",
+          "11111111111111111111111111111111LpoYY:NodeID-N4bXacP2FXEKEwH9ZspMmoCfiQ2ceyTZT",
+          "11111111111111111111111111111111LpoYY:NodeID-8qkeNyB3cbs7LqzP4AB7rHcrcHLAYVDEs",
+          "11111111111111111111111111111111LpoYY:NodeID-58Rq14dZFfsdbxVRf1rYsXcCoWRq367ak",
+          "11111111111111111111111111111111LpoYY:NodeID-J6og828vTYU1Vpb5MET9MT7JS6iqMjRSC",
+          "11111111111111111111111111111111LpoYY:NodeID-CLquKzhJZaQ2B5XxpKnk3HjnRsp6GXQoG",
+          "11111111111111111111111111111111LpoYY:NodeID-NLHavMVfzYniqWWwQmg6zXmmhQKQTXGCV",
+          "11111111111111111111111111111111LpoYY:NodeID-5mSLMPytCVW6mY1uzXoRBa1riiN7nWdet"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-7WDMJNKYqJ1yNbPLJrBZubqf6LQrtTw3E",
+          "11111111111111111111111111111111LpoYY:NodeID-L6GpvkjkK3qc8h32JMYwxGBz3KMCmMErQ"
+        ]
+      }
+    },
+    "errors": []
+  },
   "e34bbac3-c0eb-495a-98e1-b04e629947b0": {
     "_id": "e34bbac3-c0eb-495a-98e1-b04e629947b0",
     "runId": "e34bbac3-c0eb-495a-98e1-b04e629947b0",
