@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 590,
-      "totalWeight": "172779726233016045"
+      "count": 595,
+      "totalWeight": "174377736983288265"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "2a509622bd58c27d30321d9e2705fa236feb646fdd5618c682b68a85abd4f7b3",
+    "contentHash": "dd2e5875ea04b9c9351236c09268952dc1c41f7602f55a6f63a5fe8d5db9db65",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-08-10T13:41:39.599Z",
-    "lastUpdatedAt": "2026-08-10T13:41:39.599Z",
+    "lastSeenAt": "2026-08-10T19:14:48.623Z",
+    "lastUpdatedAt": "2026-08-10T19:14:48.623Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -14459,6 +14459,45 @@
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
     "staleSince": null
   },
+  "eAzuwNbMo63DDSrh7jq6tjMCQvmApshxoEMaH7SqrkReSqvzQ": {
+    "_id": "eAzuwNbMo63DDSrh7jq6tjMCQvmApshxoEMaH7SqrkReSqvzQ",
+    "subnetId": "eAzuwNbMo63DDSrh7jq6tjMCQvmApshxoEMaH7SqrkReSqvzQ",
+    "isL1": true,
+    "isPermissioned": false,
+    "controlKeys": [
+      "P-avax1uxnjmevrtc3t4u4wg9zcu9cnvcsrxrtka977l8"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "2ihKagXCJYmNDN3sVUQQtWK2h1aLbSv7BKV8NHPW6gdzLroWf6",
+    "managerChainId": "5ZcL3SHkihFtDi4iDXuRsMu3UskEe4A6uvaaTjgWVFpVQrJWj",
+    "managerAddress": "0x0feedc0de0000000000000000000000000000000",
+    "blockchainIds": [
+      "5ZcL3SHkihFtDi4iDXuRsMu3UskEe4A6uvaaTjgWVFpVQrJWj"
+    ],
+    "validatorSummary": {
+      "count": 1,
+      "totalWeight": "100"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "6865376d026dbb4b551510bc26735bf8ab73b5e91bf10cb89d19c19c6d634022",
+    "firstSeenAt": "2026-08-10T19:14:48.623Z",
+    "lastSeenAt": "2026-08-10T19:14:48.623Z",
+    "lastUpdatedAt": "2026-08-10T19:14:48.623Z",
+    "staleSince": null
+  },
   "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC": {
     "_id": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
     "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
@@ -15408,22 +15447,22 @@
   "jsdRzejuHUVa5bUUCWVKjmWha6mdZiaiBHTSR3oHYsk4z5dEy": {
     "_id": "jsdRzejuHUVa5bUUCWVKjmWha6mdZiaiBHTSR3oHYsk4z5dEy",
     "subnetId": "jsdRzejuHUVa5bUUCWVKjmWha6mdZiaiBHTSR3oHYsk4z5dEy",
-    "isL1": false,
-    "isPermissioned": true,
+    "isL1": true,
+    "isPermissioned": false,
     "controlKeys": [
       "P-avax1uxnjmevrtc3t4u4wg9zcu9cnvcsrxrtka977l8"
     ],
     "threshold": 1,
     "locktime": "0",
-    "conversionId": "11111111111111111111111111111111LpoYY",
-    "managerChainId": "11111111111111111111111111111111LpoYY",
-    "managerAddress": null,
+    "conversionId": "WozVBA7py8rLcjZ1zFwWkWv5aSrVUnJTnTFpTA343NCBChNP",
+    "managerChainId": "2uG4mYNKeovqcq93znwnGBs6FiucrTYj7NiLFKasayThwVY4LJ",
+    "managerAddress": "0x0feedc0de0000000000000000000000000000000",
     "blockchainIds": [
       "2uG4mYNKeovqcq93znwnGBs6FiucrTYj7NiLFKasayThwVY4LJ"
     ],
     "validatorSummary": {
-      "count": 0,
-      "totalWeight": "0"
+      "count": 1,
+      "totalWeight": "100"
     },
     "provenance": {
       "isL1": "derived",
@@ -15438,10 +15477,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "5fd1b1cdaed78b6a70f54aef377b117839d74f286272d4bb68b2608c95353462",
+    "contentHash": "bc8c6b55181f1d9cda6e9f4934e412de532d14271e92db220498425d7ab8a103",
     "firstSeenAt": "2026-08-10T08:02:34.072Z",
-    "lastSeenAt": "2026-08-10T08:02:34.072Z",
-    "lastUpdatedAt": "2026-08-10T08:02:34.072Z",
+    "lastSeenAt": "2026-08-10T19:14:48.623Z",
+    "lastUpdatedAt": "2026-08-10T19:14:48.623Z",
     "staleSince": null
   },
   "jwz8ycZ8V2yHH5b1ysqtZvxtB5UCq34VoHx6C6uy9Gs4GeQ5t": {
