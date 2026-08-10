@@ -5071,6 +5071,64 @@
     },
     "errors": []
   },
+  "5009af27-20ba-4cfa-80e2-6938c7097fa7": {
+    "_id": "5009af27-20ba-4cfa-80e2-6938c7097fa7",
+    "runId": "5009af27-20ba-4cfa-80e2-6938c7097fa7",
+    "network": "mainnet",
+    "startedAt": "2026-08-10T02:32:24.898Z",
+    "finishedAt": "2026-08-10T02:36:41.714Z",
+    "durationMs": 256816,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 466,
+      "subnets": 448,
+      "l1s": 300,
+      "legacySubnets": 147,
+      "permissioned": 147,
+      "validators": 1998
+    },
+    "byVmType": {
+      "custom": 348,
+      "subnet-evm": 118
+    },
+    "byAccessTier": {
+      "C": 278,
+      "A": 30,
+      "unreachable": 157,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-8vurcQrXtt3ovy1yWnKkxyHydFbCCJ9AQ",
+          "11111111111111111111111111111111LpoYY:NodeID-MFdkJJJmh2XTSMep7PTfVjWuxa6tNiRX8",
+          "11111111111111111111111111111111LpoYY:NodeID-AJQT8dYzaeGUaxZkSBivYKYAFRQjr87fN"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-EL3P2txBCeeRGXddw5PJVBpTq8EPzdSzz",
+          "11111111111111111111111111111111LpoYY:NodeID-G6AYw49mQHW9a3pMqk3TYtegoTRgECLWB",
+          "11111111111111111111111111111111LpoYY:NodeID-K1f9shLYBoQBunboZdtf2HRwKb1aSBVa",
+          "11111111111111111111111111111111LpoYY:NodeID-LXCSfcmd7p7LroJzJtYoSAhbsawe47CNk",
+          "11111111111111111111111111111111LpoYY:NodeID-MroySoB2Tffy37n93d44k2YmLHWEfbF6P"
+        ]
+      }
+    },
+    "errors": []
+  },
   "50d18089-f16e-45ad-83ee-752ca7869ca5": {
     "_id": "50d18089-f16e-45ad-83ee-752ca7869ca5",
     "runId": "50d18089-f16e-45ad-83ee-752ca7869ca5",
