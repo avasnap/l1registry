@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 595,
-      "totalWeight": "174377736983288265"
+      "count": 600,
+      "totalWeight": "174710257761384339"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "dd2e5875ea04b9c9351236c09268952dc1c41f7602f55a6f63a5fe8d5db9db65",
+    "contentHash": "1723dfbf9fbdcde590b5b6763dd8bb5c1e3da4db822f5e2f29ab98c875191fbd",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-08-10T19:14:48.623Z",
-    "lastUpdatedAt": "2026-08-10T19:14:48.623Z",
+    "lastSeenAt": "2026-08-11T02:25:50.134Z",
+    "lastUpdatedAt": "2026-08-11T02:25:50.134Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -1953,6 +1953,45 @@
     "firstSeenAt": "2026-06-18T10:46:42.854Z",
     "lastSeenAt": "2026-06-18T10:46:42.854Z",
     "lastUpdatedAt": "2026-06-18T10:46:42.854Z",
+    "staleSince": null
+  },
+  "2BAZQwJtoom377skLVy563A4JjLG945PDAh2bKSCtbEN3aekU3": {
+    "_id": "2BAZQwJtoom377skLVy563A4JjLG945PDAh2bKSCtbEN3aekU3",
+    "subnetId": "2BAZQwJtoom377skLVy563A4JjLG945PDAh2bKSCtbEN3aekU3",
+    "isL1": true,
+    "isPermissioned": false,
+    "controlKeys": [
+      "P-avax1w0p2fznqwyx6zlh0dtga6rt2px43mxz7ke7vv8"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "2Bf1PQAGSWDbiLU9n97srHDeDszcaV5V6H1uoBZuAisnNWmcHx",
+    "managerChainId": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+    "managerAddress": "0xa0b5264ceaddcb61320de3a1bace5501bfb43771",
+    "blockchainIds": [
+      "2WxMrvZFC122si8XfRmMqKVBnk8V6GwhPaZJKd2sBc67DuzYgR"
+    ],
+    "validatorSummary": {
+      "count": 1,
+      "totalWeight": "100"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "1768b62e845ddaedc69f9f79eda0d5857d05aa0372cf62308d03e4476c65e01a",
+    "firstSeenAt": "2026-08-11T02:25:50.134Z",
+    "lastSeenAt": "2026-08-11T02:25:50.134Z",
+    "lastUpdatedAt": "2026-08-11T02:25:50.134Z",
     "staleSince": null
   },
   "2BB8dwYdVjwzwB9UkST8mgwsHV6Ny9fY8Rejre75Mp8M6HvWHC": {
@@ -4860,6 +4899,45 @@
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
+    "staleSince": null
+  },
+  "2aAUfMAgWHQS6Zp8o6ffY7tCd1Qw6K8XGWS7jr4J3LSyHQja9j": {
+    "_id": "2aAUfMAgWHQS6Zp8o6ffY7tCd1Qw6K8XGWS7jr4J3LSyHQja9j",
+    "subnetId": "2aAUfMAgWHQS6Zp8o6ffY7tCd1Qw6K8XGWS7jr4J3LSyHQja9j",
+    "isL1": false,
+    "isPermissioned": true,
+    "controlKeys": [
+      "P-avax1w0p2fznqwyx6zlh0dtga6rt2px43mxz7ke7vv8"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "11111111111111111111111111111111LpoYY",
+    "managerChainId": "11111111111111111111111111111111LpoYY",
+    "managerAddress": null,
+    "blockchainIds": [
+      "6GFzrfD84m23hk7gMzCD4uEEHJ94QBb7cvk58PbCM63arAPMD"
+    ],
+    "validatorSummary": {
+      "count": 0,
+      "totalWeight": "0"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "3c0f76c6226ba3380dd592df7fb00a858de502bf14a80a1db4c851aeab1bf18e",
+    "firstSeenAt": "2026-08-11T02:25:50.134Z",
+    "lastSeenAt": "2026-08-11T02:25:50.134Z",
+    "lastUpdatedAt": "2026-08-11T02:25:50.134Z",
     "staleSince": null
   },
   "2aRqefDZES46GBex4nHY6mhn2ZVxh1zGDWoQLNbVeYZEQfJ3cy": {
