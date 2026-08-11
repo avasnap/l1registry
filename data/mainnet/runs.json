@@ -7018,6 +7018,64 @@
     },
     "errors": []
   },
+  "79c2c867-fbb4-44fa-aac4-77c61744b5e0": {
+    "_id": "79c2c867-fbb4-44fa-aac4-77c61744b5e0",
+    "runId": "79c2c867-fbb4-44fa-aac4-77c61744b5e0",
+    "network": "mainnet",
+    "startedAt": "2026-08-11T13:41:01.061Z",
+    "finishedAt": "2026-08-11T13:45:19.315Z",
+    "durationMs": 258254,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 470,
+      "subnets": 452,
+      "l1s": 303,
+      "legacySubnets": 148,
+      "permissioned": 148,
+      "validators": 2011
+    },
+    "byVmType": {
+      "subnet-evm": 118,
+      "custom": 352
+    },
+    "byAccessTier": {
+      "C": 281,
+      "unreachable": 158,
+      "A": 30,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-F5XsCcNqp2CJcsH6h37GewB6jPdCMhtDb",
+          "11111111111111111111111111111111LpoYY:NodeID-PC2MKcoGiFHNwfQ2VQLQzNitQEmgxvfoS",
+          "11111111111111111111111111111111LpoYY:NodeID-AJ2aEX9B6CXBJsjfeXihvrbyA3R9vd7T2"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-CosZvo7bLiPF8XWNnd5Ctgktfv8b288h9",
+          "11111111111111111111111111111111LpoYY:NodeID-EgpMRoCYtk1PNN8CSCDswtAsb1sDkuget",
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer:NodeID-CosZvo7bLiPF8XWNnd5Ctgktfv8b288h9"
+        ]
+      }
+    },
+    "errors": []
+  },
   "79ff7fa7-22bc-4ae9-bdc8-3d3c6207f42c": {
     "_id": "79ff7fa7-22bc-4ae9-bdc8-3d3c6207f42c",
     "runId": "79ff7fa7-22bc-4ae9-bdc8-3d3c6207f42c",
