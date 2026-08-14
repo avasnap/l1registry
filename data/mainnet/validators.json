@@ -3412,12 +3412,12 @@
     "startTime": "1785465566",
     "endTime": "1786678721",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "1b65c4598659f568c8b2ab6132f615f85f5fab7c72f9367df0f5a0dc86ba5d6b",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-07-31T03:48:12.473Z",
     "lastUpdatedAt": "2026-07-31T03:48:12.473Z",
-    "staleSince": null
+    "staleSince": "2026-08-14T07:48:41.557Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-6w8o4bbNdVLscimLv4X6BA7QuSqX37TFL": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-6w8o4bbNdVLscimLv4X6BA7QuSqX37TFL",
