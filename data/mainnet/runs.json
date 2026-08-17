@@ -2912,6 +2912,64 @@
     },
     "errors": []
   },
+  "28969a5b-301e-44c7-9b6d-aa91b8a76cbe": {
+    "_id": "28969a5b-301e-44c7-9b6d-aa91b8a76cbe",
+    "runId": "28969a5b-301e-44c7-9b6d-aa91b8a76cbe",
+    "network": "mainnet",
+    "startedAt": "2026-08-17T13:03:35.506Z",
+    "finishedAt": "2026-08-17T13:07:52.033Z",
+    "durationMs": 256527,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 470,
+      "subnets": 452,
+      "l1s": 303,
+      "legacySubnets": 148,
+      "permissioned": 148,
+      "validators": 2021
+    },
+    "byVmType": {
+      "custom": 352,
+      "subnet-evm": 118
+    },
+    "byAccessTier": {
+      "C": 282,
+      "unreachable": 158,
+      "A": 29,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [
+          "11111111111111111111111111111111LpoYY:NodeID-55jrPaP7fxdJvNFy9Z1fnA2rxJRMozigP"
+        ],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-4yUy4Fnx6UfvFGjJjqMxPXCRe6mj82YN1",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-HYdhyma5zJ1XDrMpQEs79WE2QZ9Asq4S9",
+          "11111111111111111111111111111111LpoYY:NodeID-7vAjvY2EvTmp8XDM7DSZCVHDipmFRiihU",
+          "11111111111111111111111111111111LpoYY:NodeID-HQKdUoQYqLKF4Bevu6kLgFLc7Uvcgy9Ph",
+          "11111111111111111111111111111111LpoYY:NodeID-JRZGB7qaD8NZTnm6UnuqRf3oimo83XMrR",
+          "11111111111111111111111111111111LpoYY:NodeID-6sLurE42nazb1jqdtQrHRJjVQm9goufDY",
+          "11111111111111111111111111111111LpoYY:NodeID-GxUaibkyR88sErviW2WK3ukDJsT3DFpoU"
+        ],
+        "wentStale": []
+      }
+    },
+    "errors": []
+  },
   "289dabc4-fec4-4097-a0a4-2bd900f0c6da": {
     "_id": "289dabc4-fec4-4097-a0a4-2bd900f0c6da",
     "runId": "289dabc4-fec4-4097-a0a4-2bd900f0c6da",
