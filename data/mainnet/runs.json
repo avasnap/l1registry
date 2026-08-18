@@ -12829,6 +12829,89 @@
     },
     "errors": []
   },
+  "c50c37bc-6690-4722-b014-de9b36c3902a": {
+    "_id": "c50c37bc-6690-4722-b014-de9b36c3902a",
+    "runId": "c50c37bc-6690-4722-b014-de9b36c3902a",
+    "network": "mainnet",
+    "startedAt": "2026-08-18T18:54:33.516Z",
+    "finishedAt": "2026-08-18T18:58:53.993Z",
+    "durationMs": 260477,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 475,
+      "subnets": 457,
+      "l1s": 308,
+      "legacySubnets": 148,
+      "permissioned": 148,
+      "validators": 2049
+    },
+    "byVmType": {
+      "custom": 353,
+      "subnet-evm": 122
+    },
+    "byAccessTier": {
+      "C": 286,
+      "unreachable": 158,
+      "A": 30,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [
+          "2gXScKwu4cQCmowUPuwRmAfa85dhUmFb34AHqWCnZ5hMDDigVq",
+          "2s8CL3T3KJDodfQECD2PMWhMAWNUfRxJv7xRLqaq6AmQ3NwXFG",
+          "2fW2CnhkheNg4p5nsnooZhPR1CuZhFY2cPVnPTEBFUd84Q3dmW"
+        ],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [
+          "LVJszX76GGZQ3tEPv9EZrsAVx4iTf3QEVDUNYBiXV8AmwuA2m",
+          "CYxb2hNuetB8oYps7TzREoXqFHeF1aeyBmPbLs34dnfbYWreW",
+          "tKN8dCn4AUtYr3ek3F1oFX2phWLN5MvWomE9ZVqupfQMB2eSW"
+        ],
+        "changed": [
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [
+          "LVJszX76GGZQ3tEPv9EZrsAVx4iTf3QEVDUNYBiXV8AmwuA2m:NodeID-45p7McU7JhCp8FfGSUVWn7qQsHrmzehG2",
+          "LVJszX76GGZQ3tEPv9EZrsAVx4iTf3QEVDUNYBiXV8AmwuA2m:NodeID-4YwaeWSKuG45GiGVEmNAAUQGYMfRj8XAe",
+          "LVJszX76GGZQ3tEPv9EZrsAVx4iTf3QEVDUNYBiXV8AmwuA2m:NodeID-Ba14do5Byizth3BjVbr7QG14yLkr6VcqF",
+          "LVJszX76GGZQ3tEPv9EZrsAVx4iTf3QEVDUNYBiXV8AmwuA2m:NodeID-Fi9ZFXG87shNByqoEzsiftbUbY2N9zoFa",
+          "CYxb2hNuetB8oYps7TzREoXqFHeF1aeyBmPbLs34dnfbYWreW:NodeID-F9t23LRamKFm6BkgGHAQ7raUxpXsnLxo",
+          "CYxb2hNuetB8oYps7TzREoXqFHeF1aeyBmPbLs34dnfbYWreW:NodeID-2h7dwMh24D5WLJNf4QR6rYFwPeU1nECSY",
+          "CYxb2hNuetB8oYps7TzREoXqFHeF1aeyBmPbLs34dnfbYWreW:NodeID-3a3XzeF8TiRo7gfui3V9WUZRKLQ88wyyf",
+          "CYxb2hNuetB8oYps7TzREoXqFHeF1aeyBmPbLs34dnfbYWreW:NodeID-5JR3un9cbeTtYCbXCMXog2NbtXatPT7JF",
+          "CYxb2hNuetB8oYps7TzREoXqFHeF1aeyBmPbLs34dnfbYWreW:NodeID-8yT9m2hAFpvLogeb4Tcmdc2EkaAvjfbv2",
+          "CYxb2hNuetB8oYps7TzREoXqFHeF1aeyBmPbLs34dnfbYWreW:NodeID-9PaVuW685B7XDLLmGjva8bjytXfejMJEA",
+          "CYxb2hNuetB8oYps7TzREoXqFHeF1aeyBmPbLs34dnfbYWreW:NodeID-DeNWSd42swQMxTdcbTZAggB7CgAPFXa5z",
+          "CYxb2hNuetB8oYps7TzREoXqFHeF1aeyBmPbLs34dnfbYWreW:NodeID-DjVMk9sTq5QZ4aQiQ633kvE1GRrkpRjzo",
+          "tKN8dCn4AUtYr3ek3F1oFX2phWLN5MvWomE9ZVqupfQMB2eSW:NodeID-G6CGnLcDxFymZtNGDPpTwBSU5G7R9NKLW",
+          "tKN8dCn4AUtYr3ek3F1oFX2phWLN5MvWomE9ZVqupfQMB2eSW:NodeID-LQLXHQEPUmz5NygFRmbj22gjmfQv2drmS"
+        ],
+        "changed": [
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer:NodeID-KeyQeQwf1D4bzdcHVP34xXXWhJzFjVTSj",
+          "11111111111111111111111111111111LpoYY:NodeID-NXccpj75dHHFswk39PXtEqAv1qkNeDb5y",
+          "11111111111111111111111111111111LpoYY:NodeID-3kUUeZB7umtaENekUfWxa1bxrAU2eq1AD",
+          "11111111111111111111111111111111LpoYY:NodeID-7gu4gthY5YhpmpUpQvuAy5CDDvDs2yEVt",
+          "11111111111111111111111111111111LpoYY:NodeID-LKPvVELtRehiZPQo3aSWuch123JpA7H48",
+          "11111111111111111111111111111111LpoYY:NodeID-FaknRS6nvpPGegDsfnqFuE125EMbwisQS",
+          "11111111111111111111111111111111LpoYY:NodeID-KeyQeQwf1D4bzdcHVP34xXXWhJzFjVTSj",
+          "11111111111111111111111111111111LpoYY:NodeID-8TArWpFgH3sazEH8qP4gUjtGtFMvjw1aR"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-Hcq3gpdMqAEiVwq19E5DZhsjggbkxFx2L"
+        ]
+      }
+    },
+    "errors": []
+  },
   "c52341d8-1d56-416f-bb36-45b486e8fef2": {
     "_id": "c52341d8-1d56-416f-bb36-45b486e8fef2",
     "runId": "c52341d8-1d56-416f-bb36-45b486e8fef2",
