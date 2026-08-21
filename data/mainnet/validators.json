@@ -1937,6 +1937,25 @@
     "lastUpdatedAt": "2026-08-07T19:13:23.352Z",
     "staleSince": null
   },
+  "11111111111111111111111111111111LpoYY:NodeID-5AG5udVWFfVjtXELbMy5gUq7Mf3e6Q3BM": {
+    "_id": "11111111111111111111111111111111LpoYY:NodeID-5AG5udVWFfVjtXELbMy5gUq7Mf3e6Q3BM",
+    "subnetId": "11111111111111111111111111111111LpoYY",
+    "nodeId": "NodeID-5AG5udVWFfVjtXELbMy5gUq7Mf3e6Q3BM",
+    "weight": "250000000000000",
+    "blsPublicKey": "0x9536d3b7148ea89d26d8604e8e13e4f2ece556b9f689f3669e222b5d395470b90bcb8c57933e0f09114f6049f37a08a3",
+    "proofOfPossession": "0x9557fa0aa37fd3e0e9e59c5e9429206cacbbfcf3bcf2c30eae8ac2f8dc8dc5765a82a2a685d8b737871e279dda94769f10c0b5a6e4cb21bd7ab9daff030a16b9db932c5ded5a39260dbf5884d97dd817064fb0c036efec999415d0d9d3bae690",
+    "connected": true,
+    "uptime": 96.1891,
+    "startTime": "1787287706",
+    "endTime": "1795063260",
+    "validationId": null,
+    "stale": false,
+    "contentHash": "f4159c98a46ca0ee58ef42290fcc9db61f636e93a187a8a216f2341211e1ac66",
+    "firstSeenAt": "2026-08-21T07:05:50.612Z",
+    "lastSeenAt": "2026-08-21T07:05:50.612Z",
+    "lastUpdatedAt": "2026-08-21T07:05:50.612Z",
+    "staleSince": null
+  },
   "11111111111111111111111111111111LpoYY:NodeID-5AzNzec73Pth9Acw6jVd2BYZWyY5KjV6y": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-5AzNzec73Pth9Acw6jVd2BYZWyY5KjV6y",
     "subnetId": "11111111111111111111111111111111LpoYY",
@@ -11145,12 +11164,12 @@
     "startTime": "1786071023",
     "endTime": "1787284062",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "fa1f08a9c95a0ee19b1da4884874ab73a944ed7a822a75f9337385ee77cdbcd4",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-08-07T03:14:25.851Z",
     "lastUpdatedAt": "2026-08-07T03:14:25.851Z",
-    "staleSince": null
+    "staleSince": "2026-08-21T07:05:50.612Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-KtHMdutTTvujdCw4zRTZ4eehYwtoMae1D": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-KtHMdutTTvujdCw4zRTZ4eehYwtoMae1D",
