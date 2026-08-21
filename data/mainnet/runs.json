@@ -12240,6 +12240,64 @@
     },
     "errors": []
   },
+  "b47097d5-2711-4e60-bc88-1356ccc28aac": {
+    "_id": "b47097d5-2711-4e60-bc88-1356ccc28aac",
+    "runId": "b47097d5-2711-4e60-bc88-1356ccc28aac",
+    "network": "mainnet",
+    "startedAt": "2026-08-21T18:54:04.712Z",
+    "finishedAt": "2026-08-21T18:58:26.846Z",
+    "durationMs": 262134,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 479,
+      "subnets": 461,
+      "l1s": 312,
+      "legacySubnets": 148,
+      "permissioned": 148,
+      "validators": 2076
+    },
+    "byVmType": {
+      "subnet-evm": 126,
+      "custom": 353
+    },
+    "byAccessTier": {
+      "C": 291,
+      "unreachable": 158,
+      "A": 29,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-Fe3RiKh32fw4keLzhL2jS5Aqt6zHQazo5",
+          "11111111111111111111111111111111LpoYY:NodeID-LuQgvMMU6MhUMLtHzccXNKvyKc6fbULys",
+          "11111111111111111111111111111111LpoYY:NodeID-NbLjcJjPXu3SYEW6uq7edaZGvPzEM8XVb",
+          "11111111111111111111111111111111LpoYY:NodeID-FcMYFbgK85kKYgcmcQ4nmwxQwrsmkL14u",
+          "11111111111111111111111111111111LpoYY:NodeID-4cwQT5hvhnhgYM7kJia4MK5kT8XLVZSNz",
+          "11111111111111111111111111111111LpoYY:NodeID-7stntWreGt1wPeFuY9Z8bNURuHxW4JN3D",
+          "11111111111111111111111111111111LpoYY:NodeID-Mf3rZ5w3aEtM1bzRBwFqhZYZMwks6FYF5",
+          "11111111111111111111111111111111LpoYY:NodeID-M4NTb5KGNEjs3qxNfCsqmHxZ4KuAYSiye"
+        ],
+        "wentStale": []
+      }
+    },
+    "errors": []
+  },
   "b6d7fa96-012a-4514-8d5a-3412a408c1f2": {
     "_id": "b6d7fa96-012a-4514-8d5a-3412a408c1f2",
     "runId": "b6d7fa96-012a-4514-8d5a-3412a408c1f2",
