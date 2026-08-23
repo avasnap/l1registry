@@ -5122,12 +5122,12 @@
     "startTime": "1786262888",
     "endTime": "1787472548",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "d2626f1dc141eaf5bcf08ad36c45f9b5cd4ed89b0c22478780d235889942233c",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-08-09T13:14:02.569Z",
     "lastUpdatedAt": "2026-08-09T13:14:02.569Z",
-    "staleSince": null
+    "staleSince": "2026-08-23T13:00:17.301Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-A9ziTAtaRrxQQrWmu6NgXBnpYVCpvS98g": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-A9ziTAtaRrxQQrWmu6NgXBnpYVCpvS98g",
@@ -9807,20 +9807,20 @@
     "_id": "11111111111111111111111111111111LpoYY:NodeID-Hbf2ZY1Zs1s8KMp3rA1zK36N7zt5fSLkz",
     "subnetId": "11111111111111111111111111111111LpoYY",
     "nodeId": "NodeID-Hbf2ZY1Zs1s8KMp3rA1zK36N7zt5fSLkz",
-    "weight": "8818266205470",
+    "weight": "8950122080323",
     "blsPublicKey": "0xb79b778f539eb471c9b2bfff526bbad5dd4c948bc628b7a24b611d24d35091282362b9a5dfe3767e78eca07401a31384",
     "proofOfPossession": "0xb02f11ed3b8092fbc433b9dcfd2dadae436b1dfd49f1eecb731cdd720cb2838a881e3eec2d360593261f0fed13bd2f1518024008c3b4af03e7e3dcfc9df37e798f6cb549260f17f9d93d21e5acbf859842dbb5797330129fa79608f5cebe92c1",
     "connected": false,
     "uptime": 0,
-    "startTime": "1784544633",
-    "endTime": "1787309732",
+    "startTime": "1787483520",
+    "endTime": "1790248618",
     "validationId": null,
-    "stale": true,
-    "contentHash": "1c1625c8cc379b380a1449f9fa940e8b01e9686c41535a9ae7d00e296126153a",
+    "stale": false,
+    "contentHash": "a4ce6b3db1f89fc3e4294797eff3f768008729a09750254ce3f71448bbd8a3f3",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-07-20T14:32:12.442Z",
-    "lastUpdatedAt": "2026-07-20T14:32:12.442Z",
-    "staleSince": "2026-08-21T13:09:04.885Z"
+    "lastSeenAt": "2026-08-23T13:00:17.301Z",
+    "lastUpdatedAt": "2026-08-23T13:00:17.301Z",
+    "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-Hcq3gpdMqAEiVwq19E5DZhsjggbkxFx2L": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-Hcq3gpdMqAEiVwq19E5DZhsjggbkxFx2L",
