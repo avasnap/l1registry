@@ -1585,6 +1585,65 @@
     },
     "errors": []
   },
+  "17b9fe5c-0209-4e96-ad38-57a585ecb9bd": {
+    "_id": "17b9fe5c-0209-4e96-ad38-57a585ecb9bd",
+    "runId": "17b9fe5c-0209-4e96-ad38-57a585ecb9bd",
+    "network": "mainnet",
+    "startedAt": "2026-08-25T01:50:27.662Z",
+    "finishedAt": "2026-08-25T01:54:47.624Z",
+    "durationMs": 259962,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 480,
+      "subnets": 462,
+      "l1s": 313,
+      "legacySubnets": 148,
+      "permissioned": 148,
+      "validators": 2074
+    },
+    "byVmType": {
+      "subnet-evm": 126,
+      "custom": 354
+    },
+    "byAccessTier": {
+      "C": 292,
+      "unreachable": 158,
+      "A": 29,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-Ap4EMywSHH1wAdxhtyAa2v1GvvD8BezUT",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-Fe3RiKh32fw4keLzhL2jS5Aqt6zHQazo5",
+          "11111111111111111111111111111111LpoYY:NodeID-69c9e5A9YJoJ3UcdZj9SEvwkdY8WfY1Jz",
+          "11111111111111111111111111111111LpoYY:NodeID-FvyvWQYbs72Q4qaoYt583NLDE4jSH8jPk"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-8vurcQrXtt3ovy1yWnKkxyHydFbCCJ9AQ",
+          "11111111111111111111111111111111LpoYY:NodeID-KDa37hpxo4Z6gKsizyoqC5FMHnPwjxWsz",
+          "11111111111111111111111111111111LpoYY:NodeID-MFdkJJJmh2XTSMep7PTfVjWuxa6tNiRX8",
+          "11111111111111111111111111111111LpoYY:NodeID-NLBgQfsmCGFzXDehvwvmzjyfmkWQndx9L"
+        ]
+      }
+    },
+    "errors": []
+  },
   "18197f44-720f-4b63-aaf5-e3ccd875e819": {
     "_id": "18197f44-720f-4b63-aaf5-e3ccd875e819",
     "runId": "18197f44-720f-4b63-aaf5-e3ccd875e819",
