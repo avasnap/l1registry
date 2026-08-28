@@ -11932,6 +11932,64 @@
     },
     "errors": []
   },
+  "a4ad757a-5a66-49b8-8631-24c7b908b483": {
+    "_id": "a4ad757a-5a66-49b8-8631-24c7b908b483",
+    "runId": "a4ad757a-5a66-49b8-8631-24c7b908b483",
+    "network": "mainnet",
+    "startedAt": "2026-08-28T11:21:00.179Z",
+    "finishedAt": "2026-08-28T11:25:22.525Z",
+    "durationMs": 262346,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 484,
+      "subnets": 466,
+      "l1s": 316,
+      "legacySubnets": 149,
+      "permissioned": 149,
+      "validators": 2076
+    },
+    "byVmType": {
+      "subnet-evm": 128,
+      "custom": 356
+    },
+    "byAccessTier": {
+      "C": 295,
+      "unreachable": 159,
+      "A": 29,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-GvYGeH3hZrX751Ppzzaee5YiqM1EcJhxT",
+          "11111111111111111111111111111111LpoYY:NodeID-LY8eBhuCuodaHA6gbve9PLRRJQTb2kT8v",
+          "11111111111111111111111111111111LpoYY:NodeID-32cbCiB88FfvnoSC2zy11h5dojhysgpkh",
+          "11111111111111111111111111111111LpoYY:NodeID-4ETxBbffoA8cU54eMDVwQM5Ue6FEYu4s5"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-6a69GrGQUQULauaeXr3YLkACmKWMjTqYr",
+          "11111111111111111111111111111111LpoYY:NodeID-MUvb831o7vZe31Fi2ZZ7juFymrJEsZWNx",
+          "11111111111111111111111111111111LpoYY:NodeID-Mgn3rXLLiFFmfha9xpKhNWS3vqz8rQGx3"
+        ]
+      }
+    },
+    "errors": []
+  },
   "a4b1c9a3-8416-4b05-a06b-fc4c877f048c": {
     "_id": "a4b1c9a3-8416-4b05-a06b-fc4c877f048c",
     "runId": "a4b1c9a3-8416-4b05-a06b-fc4c877f048c",
