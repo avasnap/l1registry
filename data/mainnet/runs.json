@@ -959,6 +959,66 @@
     },
     "errors": []
   },
+  "0aaa18d8-788b-4fd6-8370-07336358ba12": {
+    "_id": "0aaa18d8-788b-4fd6-8370-07336358ba12",
+    "runId": "0aaa18d8-788b-4fd6-8370-07336358ba12",
+    "network": "mainnet",
+    "startedAt": "2026-08-30T05:21:39.863Z",
+    "finishedAt": "2026-08-30T05:26:03.287Z",
+    "durationMs": 263424,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 484,
+      "subnets": 466,
+      "l1s": 316,
+      "legacySubnets": 149,
+      "permissioned": 149,
+      "validators": 2082
+    },
+    "byVmType": {
+      "subnet-evm": 128,
+      "custom": 356
+    },
+    "byAccessTier": {
+      "C": 295,
+      "unreachable": 159,
+      "A": 29,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-P7uxj5NkaTEzWRkpoRV29qmYhTjgucmmc",
+          "11111111111111111111111111111111LpoYY:NodeID-8MGoTPUouB48snkWNZFXzpD7nuyWLD7Xt",
+          "11111111111111111111111111111111LpoYY:NodeID-6eoSDoZcG3eGsPKyHcvZobN3vFAenPPKm"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-5NPt2bo9F1G5EfSF8h3jRW22XwwjGxq4V",
+          "11111111111111111111111111111111LpoYY:NodeID-BPWnPh2XCDy95dhNdgZ6ytxHpfr93VVmg",
+          "11111111111111111111111111111111LpoYY:NodeID-FRf9q5y6Sy3bRVAswVjJpAaLmCH4f5D6N",
+          "11111111111111111111111111111111LpoYY:NodeID-HReqpxf7pRpfyCiiwBWNpqyx6FuX8TBZp",
+          "11111111111111111111111111111111LpoYY:NodeID-KALbip9YkRerN81YxU32ySYk5PbGrkysz",
+          "11111111111111111111111111111111LpoYY:NodeID-KZRVBVVX2aubRVAnj1WXPGjVqwj69Qj4N"
+        ]
+      }
+    },
+    "errors": []
+  },
   "0b7be8ce-398d-4e9c-9689-cf9a3aa460d2": {
     "_id": "0b7be8ce-398d-4e9c-9689-cf9a3aa460d2",
     "runId": "0b7be8ce-398d-4e9c-9689-cf9a3aa460d2",
