@@ -7653,8 +7653,8 @@
     },
     "rpcEndpoints": [],
     "rpcVerified": false,
-    "dataApiCovered": true,
-    "accessTier": "A",
+    "dataApiCovered": false,
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -7675,10 +7675,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "0c0c95f1932a40dce8f1744996298e05a7df94cce995c9879ec0fae7c57e3b5d",
+    "contentHash": "e0597f7350e838be58f9e2fd4d1c6e545736c94abb71b463b42a75ca6b102317",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-06-10T23:28:41.642Z",
-    "lastUpdatedAt": "2026-06-10T23:28:41.642Z",
+    "lastSeenAt": "2026-09-01T16:37:35.044Z",
+    "lastUpdatedAt": "2026-09-01T16:37:35.044Z",
     "staleSince": null
   },
   "2cE2tbznuoynJCStFAYKRxjeAopaWxyZBL4c2ZDYwh37pH2t7j": {
@@ -10695,12 +10695,10 @@
       "blockchainId": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
       "contractAddress": "0x06125c86c37249718dca26122b19163951748f3a"
     },
-    "rpcEndpoints": [
-      "https://subnets.avax.network/andromeda/mainnet/rpc"
-    ],
-    "rpcVerified": true,
-    "dataApiCovered": true,
-    "accessTier": "A",
+    "rpcEndpoints": [],
+    "rpcVerified": false,
+    "dataApiCovered": false,
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -10713,7 +10711,6 @@
       "isPermissioned": "pchain",
       "evmChainId": "dataapi",
       "isEvm": "derived",
-      "rpcEndpoints": "derived",
       "l1ConversionTxHash": "dataapi",
       "validatorManager": "dataapi",
       "managerChainId": "pchain",
@@ -10722,10 +10719,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "404a5988dd03d8bcd9a8ad6eab9e53cacbdc5149ece8c10f9c892026107627d2",
+    "contentHash": "8da755bf11a6e95c24e487e98e1c22c8f63a5f8c20c4795b4e532d9fed694e4e",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-06-10T23:28:41.642Z",
-    "lastUpdatedAt": "2026-06-10T23:28:41.642Z",
+    "lastSeenAt": "2026-09-01T16:37:35.044Z",
+    "lastUpdatedAt": "2026-09-01T16:37:35.044Z",
     "staleSince": null
   },
   "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5": {
@@ -20451,12 +20448,10 @@
       "blockchainId": "kMJVPBhg22JWr9VkCVmJXJLzraS1wWsSHBy2psxacdwjNqwKA",
       "contractAddress": "0x0feedc0de0000000000000000000000000000000"
     },
-    "rpcEndpoints": [
-      "https://subnets.avax.network/kula/mainnet/rpc"
-    ],
-    "rpcVerified": true,
-    "dataApiCovered": true,
-    "accessTier": "A",
+    "rpcEndpoints": [],
+    "rpcVerified": false,
+    "dataApiCovered": false,
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -20469,7 +20464,6 @@
       "isPermissioned": "pchain",
       "evmChainId": "dataapi",
       "isEvm": "derived",
-      "rpcEndpoints": "derived",
       "l1ConversionTxHash": "dataapi",
       "validatorManager": "dataapi",
       "managerChainId": "pchain",
@@ -20478,10 +20472,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "ac36e6d48b9305a087c31f336ad405e0454a7eecabed2cd1621b0144d21ab499",
+    "contentHash": "ae10ed07faf232bbc3225afa83a98268ff0a960460b4673bee5735f89f146438",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-06-10T23:28:41.642Z",
-    "lastUpdatedAt": "2026-06-10T23:28:41.642Z",
+    "lastSeenAt": "2026-09-01T16:37:35.044Z",
+    "lastUpdatedAt": "2026-09-01T16:37:35.044Z",
     "staleSince": null
   },
   "kZn9SwQsgan4R5YcukyNZkkBXRjzuG8mKffhhXg3Mq5We5CXF": {
