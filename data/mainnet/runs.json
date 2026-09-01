@@ -9381,6 +9381,65 @@
     },
     "errors": []
   },
+  "80d07a8d-4091-4a28-8d84-20c34b0815d5": {
+    "_id": "80d07a8d-4091-4a28-8d84-20c34b0815d5",
+    "runId": "80d07a8d-4091-4a28-8d84-20c34b0815d5",
+    "network": "mainnet",
+    "startedAt": "2026-09-01T21:00:35.611Z",
+    "finishedAt": "2026-09-01T21:04:59.511Z",
+    "durationMs": 263900,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 485,
+      "subnets": 467,
+      "l1s": 317,
+      "legacySubnets": 149,
+      "permissioned": 149,
+      "validators": 2070
+    },
+    "byVmType": {
+      "subnet-evm": 129,
+      "custom": 356
+    },
+    "byAccessTier": {
+      "C": 299,
+      "unreachable": 159,
+      "A": 26,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-GcNLmhPScWKS8ckmENJKepJVYWTifo2oB",
+          "11111111111111111111111111111111LpoYY:NodeID-BXZr17N75YvPPaLqRPdyNATT1e8oxwRnF",
+          "11111111111111111111111111111111LpoYY:NodeID-Ezk1hTiN5bogETxygJ5NciRvHXgXvUVVM",
+          "11111111111111111111111111111111LpoYY:NodeID-4AWHc6b817tKesbKJ22EAEsJa4GkrDuNE",
+          "11111111111111111111111111111111LpoYY:NodeID-LJBZ5j8beyjdcnVdNk5fwtThNn4LokYpV",
+          "11111111111111111111111111111111LpoYY:NodeID-6rjd7h5dPJwVEytA9zm86ZBfqEfBuSjKi",
+          "11111111111111111111111111111111LpoYY:NodeID-HqeE7wcqkoZwhnwv6ADxudhZvoSH76pcw"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-7UTcSse3xaVQYyc3CiKofoKVSqThcnbHQ",
+          "11111111111111111111111111111111LpoYY:NodeID-L6GpvkjkK3qc8h32JMYwxGBz3KMCmMErQ"
+        ]
+      }
+    },
+    "errors": []
+  },
   "81cd8e1b-3bfb-4b5c-a303-ba38d5b1f9cd": {
     "_id": "81cd8e1b-3bfb-4b5c-a303-ba38d5b1f9cd",
     "runId": "81cd8e1b-3bfb-4b5c-a303-ba38d5b1f9cd",
