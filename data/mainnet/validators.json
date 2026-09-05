@@ -144,12 +144,12 @@
     "startTime": "1783469836",
     "endTime": "1788616800",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "a5c7c55de99e7da9f0edc969051848d406db496c373aace342029dd865d3c9ac",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-07-08T03:42:31.046Z",
     "lastUpdatedAt": "2026-07-08T03:42:31.046Z",
-    "staleSince": null
+    "staleSince": "2026-09-05T15:11:14.273Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-2BET5GEQm8YKa1GTRe3DjR64XAerETJWW": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-2BET5GEQm8YKa1GTRe3DjR64XAerETJWW",
@@ -6810,14 +6810,14 @@
     "proofOfPossession": "0xb2767a37af46d67ca018019eee452f8730624b4c38a829bafb216219c797a4059194b1d1c5366005613681eb84e5eb4c109ef53cae3c4765c319d93479400bddbd96698a6a8ec0160e961da22aef629fd28e7ea64947292516e12c4be735cbef",
     "connected": true,
     "uptime": 100,
-    "startTime": "1786024811",
-    "endTime": "1788616800",
+    "startTime": "1788616811",
+    "endTime": "1791208800",
     "validationId": null,
     "stale": false,
-    "contentHash": "4b886bced4312b88f8ad51c85dfbf1013cd21eb2c0b610864a4702c587deccbe",
+    "contentHash": "5c56200f442fa8a5b92278d339fbdca6096e87024505432ea386042f9aeabc43",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-08-06T14:32:49.529Z",
-    "lastUpdatedAt": "2026-08-06T14:32:49.529Z",
+    "lastSeenAt": "2026-09-05T15:11:14.273Z",
+    "lastUpdatedAt": "2026-09-05T15:11:14.273Z",
     "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-CgTe7m2xyhEDguVWYEuYUCi75g7vMbvfj": {
@@ -7326,12 +7326,12 @@
     "startTime": "1785981933",
     "endTime": "1788616800",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "72b728e2b5c7e9a0c9dbd0415ccd67b1a2554767d79276622ac200630dd01bcb",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-08-06T03:34:00.662Z",
     "lastUpdatedAt": "2026-08-06T03:34:00.662Z",
-    "staleSince": null
+    "staleSince": "2026-09-05T15:11:14.273Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-Du1Ebao2uJG8LukNGcUrzAevtVRhHdtKW": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-Du1Ebao2uJG8LukNGcUrzAevtVRhHdtKW",
@@ -11012,12 +11012,12 @@
     "startTime": "1785399078",
     "endTime": "1788606000",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "c2dc644caff45c84308443d7725fb75b04a5a428264133688cce26336ad3bcbf",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-07-30T08:47:31.057Z",
     "lastUpdatedAt": "2026-07-30T08:47:31.057Z",
-    "staleSince": null
+    "staleSince": "2026-09-05T15:11:14.273Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-KWyfHHaNzGBA1xfNgYV8hy6W7iwfzhyhb": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-KWyfHHaNzGBA1xfNgYV8hy6W7iwfzhyhb",
@@ -34697,7 +34697,7 @@
     "_id": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-BNEnTj2gNF559Wj7RWPXMgJydFmvJ4NwB",
     "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
     "nodeId": "NodeID-BNEnTj2gNF559Wj7RWPXMgJydFmvJ4NwB",
-    "weight": "28791677",
+    "weight": "31760627",
     "blsPublicKey": "0xad8b49fcac6740f5dc37a24339902d62de237cbb689f8b2cc4db4e259f656089f2657f167c691e360a34c336c2f310b6",
     "proofOfPossession": null,
     "connected": null,
@@ -34706,10 +34706,10 @@
     "endTime": null,
     "validationId": "26xjvp2wpYJVMgz9D32U2kdDTGU2AoTm5Au1jEfGj62phPpLV",
     "stale": false,
-    "contentHash": "c05ebc27d6f301af740d29c4d5e1434d3524cbd933b892c20d38a23056b9d927",
+    "contentHash": "0ca671ca6173e1e10a91fd02597ea84331918deb0aed8812894ba553d88439bb",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-09-05T10:32:26.625Z",
-    "lastUpdatedAt": "2026-09-05T10:32:26.625Z",
+    "lastSeenAt": "2026-09-05T15:11:14.273Z",
+    "lastUpdatedAt": "2026-09-05T15:11:14.273Z",
     "staleSince": null
   },
   "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-BQwRzvBFVobZQ8LGAvv4zX5Jgssf8bZmZ": {
