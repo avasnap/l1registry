@@ -8770,12 +8770,12 @@
     "startTime": "1787648743",
     "endTime": "1788861467",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "cb30c3620460c1606147f6b8dc6a60a4f496469e2b1f4d983b861ae03062c12d",
     "firstSeenAt": "2026-08-25T13:09:44.616Z",
     "lastSeenAt": "2026-08-25T13:09:44.616Z",
     "lastUpdatedAt": "2026-08-25T13:09:44.616Z",
-    "staleSince": null
+    "staleSince": "2026-09-08T11:15:37.573Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-FsmksgteqNTPjyrwVV7xPgsC8SwEwKrgb": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-FsmksgteqNTPjyrwVV7xPgsC8SwEwKrgb",
