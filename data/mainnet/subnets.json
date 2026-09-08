@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 593,
-      "totalWeight": "175203583959211725"
+      "count": 594,
+      "totalWeight": "175270125347040890"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "a72d18979fef77fb8d8f98d934284151566638506b02b2c04f876c5f92710acc",
+    "contentHash": "f0cdff4524b8e1bcb41caa992f4b5c1e70a96d724e0b1caca58e4291ea5be4cf",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-09-08T11:15:37.573Z",
-    "lastUpdatedAt": "2026-09-08T11:15:37.573Z",
+    "lastSeenAt": "2026-09-08T16:36:20.440Z",
+    "lastUpdatedAt": "2026-09-08T16:36:20.440Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
