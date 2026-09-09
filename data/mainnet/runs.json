@@ -19767,6 +19767,65 @@
     },
     "errors": []
   },
+  "ea60a5d3-e274-474c-88e5-ae8574ab11e5": {
+    "_id": "ea60a5d3-e274-474c-88e5-ae8574ab11e5",
+    "runId": "ea60a5d3-e274-474c-88e5-ae8574ab11e5",
+    "network": "mainnet",
+    "startedAt": "2026-09-09T16:36:22.510Z",
+    "finishedAt": "2026-09-09T16:39:45.616Z",
+    "durationMs": 203106,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 485,
+      "subnets": 467,
+      "l1s": 317,
+      "legacySubnets": 149,
+      "permissioned": 149,
+      "validators": 2071
+    },
+    "byVmType": {
+      "subnet-evm": 129,
+      "custom": 356
+    },
+    "byAccessTier": {
+      "C": 299,
+      "unreachable": 159,
+      "A": 26,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [
+          "11111111111111111111111111111111LpoYY:NodeID-8RaaezhTdxy9p9vNLWVLRPw5PEj4R8ukp",
+          "11111111111111111111111111111111LpoYY:NodeID-Cgdu1GhrbwSD4x3vRTp9fFe3sitWckyPD"
+        ],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-5KzEAe2ntCLRY1DZhmCEyVAsiUNa9joFs",
+          "11111111111111111111111111111111LpoYY:NodeID-6SRTztHrJX4toRhUSTuRELhWhpPUHynA7",
+          "11111111111111111111111111111111LpoYY:NodeID-BdD2fp6PXxbSdGshiVrHDzarWpgLFEMF9"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-7rXi72Jm76kAKUi6BiyJChnAm9xuKrud9",
+          "11111111111111111111111111111111LpoYY:NodeID-M51d2sDyE92NjgRaiTnSjSLaG3U9eJ3BD"
+        ]
+      }
+    },
+    "errors": []
+  },
   "eab37324-c697-4312-87c4-8b017b60a5c5": {
     "_id": "eab37324-c697-4312-87c4-8b017b60a5c5",
     "runId": "eab37324-c697-4312-87c4-8b017b60a5c5",
