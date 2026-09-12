@@ -3830,12 +3830,12 @@
     "startTime": "1776463769",
     "endTime": "1789210800",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "bdc0f9dc621c69a372874015a648867141e093ace66fd88e558406180d755386",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-09-12T15:29:57.827Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-7g7qvfKvRXmPZAxhBMfj8XCGuWVVHexHe": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-7g7qvfKvRXmPZAxhBMfj8XCGuWVVHexHe",
@@ -4606,14 +4606,14 @@
     "proofOfPossession": "0xa681da77fb7a519d2301ecbd8960425e49ae9ff8e5449aa537f10425ef329df97a7d53c8a9154232056769bfffc1444405ce02b910556e62814cd9aa6184dcbb735159b6aeaa35158fc27ce81ddcbae1fd8b48f5ed85053e20d8a47dcfbddbda",
     "connected": true,
     "uptime": 100,
-    "startTime": "1786629614",
-    "endTime": "1789221600",
+    "startTime": "1789221613",
+    "endTime": "1791813600",
     "validationId": null,
     "stale": false,
-    "contentHash": "fb1fdd317739d4c821c31dc9e708d334b67a9e151ab1c78a316bcb3bec213fbf",
+    "contentHash": "c51c7ae4f60361412d6c1526e9b1bdc450b21f9e1acbb4cd3b5fad138becfb1a",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-08-13T19:17:53.464Z",
-    "lastUpdatedAt": "2026-08-13T19:17:53.464Z",
+    "lastSeenAt": "2026-09-12T15:29:57.827Z",
+    "lastUpdatedAt": "2026-09-12T15:29:57.827Z",
     "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-99hQvpQKJi1y7gTjD2icHKYwk1pNMHFhg": {
@@ -13824,12 +13824,12 @@
     "startTime": "1786614962",
     "endTime": "1789210552",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "d6a139076f96206c55bd3ffb021c125f4e6af4897ce541d54562061be8250597",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-08-13T13:44:59.780Z",
     "lastUpdatedAt": "2026-08-13T13:44:59.780Z",
-    "staleSince": null
+    "staleSince": "2026-09-12T15:29:57.827Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-Pzx6GZGZeYkSAQ3DNCUPqWani5F75DeLd": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-Pzx6GZGZeYkSAQ3DNCUPqWani5F75DeLd",
@@ -14033,12 +14033,12 @@
     "startTime": "1776467182",
     "endTime": "1789210800",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "c51c3ccfd1d45af258213a00da1b58a5b27f542ae1a0f779f56da853fffa2e12",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-09-12T15:29:57.827Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-ZVLPagHUUrQ2vB7mjsWQ44wNGf5SVKKW": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-ZVLPagHUUrQ2vB7mjsWQ44wNGf5SVKKW",
@@ -34773,7 +34773,7 @@
     "_id": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-AgG1cVSHtdx6nSrNP6LZsnprrNXsGkbHM",
     "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
     "nodeId": "NodeID-AgG1cVSHtdx6nSrNP6LZsnprrNXsGkbHM",
-    "weight": "262588",
+    "weight": "264088",
     "blsPublicKey": "0xb83547b04ea452cd633e3bf26bf9def63fe6619236a407f17bee47ad3d4532968db06731c6453c338bd942e2321e1e1d",
     "proofOfPossession": null,
     "connected": null,
@@ -34782,10 +34782,10 @@
     "endTime": null,
     "validationId": "2XScx2f1fo8MEceXix1ZqvzQhGW66FCPU4shtVFxPpRADcxiEA",
     "stale": false,
-    "contentHash": "a1168fd26c40f11946275b4ce1566439819f1b163f2bfb34ecbc4bca6d71e0aa",
+    "contentHash": "b38749ee46610df4d5b7d5bad7da5a26337a782426c234f87577b148e37b6eb8",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
+    "lastSeenAt": "2026-09-12T15:29:57.827Z",
+    "lastUpdatedAt": "2026-09-12T15:29:57.827Z",
     "staleSince": null
   },
   "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-AkNawkxBCq6zM29b1uLaTDgDUQnf5AhK7": {
