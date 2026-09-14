@@ -5719,6 +5719,64 @@
     },
     "errors": []
   },
+  "40565807-ab9c-4496-ad72-c917f996ab51": {
+    "_id": "40565807-ab9c-4496-ad72-c917f996ab51",
+    "runId": "40565807-ab9c-4496-ad72-c917f996ab51",
+    "network": "mainnet",
+    "startedAt": "2026-09-14T04:52:39.253Z",
+    "finishedAt": "2026-09-14T04:57:00.434Z",
+    "durationMs": 261181,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 485,
+      "subnets": 467,
+      "l1s": 317,
+      "legacySubnets": 149,
+      "permissioned": 149,
+      "validators": 2063
+    },
+    "byVmType": {
+      "subnet-evm": 129,
+      "custom": 356
+    },
+    "byAccessTier": {
+      "C": 299,
+      "unreachable": 159,
+      "A": 26,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-McTi7BY4csWEnBAb5B9Z2ojNSk21Nt4NK",
+          "11111111111111111111111111111111LpoYY:NodeID-8MGoTPUouB48snkWNZFXzpD7nuyWLD7Xt",
+          "11111111111111111111111111111111LpoYY:NodeID-D4SSSPM6F2JS4hmDj6DwxEoFNwo8wu5tQ"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-DmV5WztqQsgXEGKprfZAEYw3oNSM54Smo",
+          "11111111111111111111111111111111LpoYY:NodeID-JHd5fXNYcMAV4FHLuuvCQ7NqN86RK3QFB",
+          "11111111111111111111111111111111LpoYY:NodeID-MUvb831o7vZe31Fi2ZZ7juFymrJEsZWNx",
+          "11111111111111111111111111111111LpoYY:NodeID-N4bXacP2FXEKEwH9ZspMmoCfiQ2ceyTZT",
+          "11111111111111111111111111111111LpoYY:NodeID-PCd9sgg4X4m5iCJVr3Vd7Ey5FwrWT8V35"
+        ]
+      }
+    },
+    "errors": []
+  },
   "4082f2b8-fd3f-4d08-bfc3-e97f958845ca": {
     "_id": "4082f2b8-fd3f-4d08-bfc3-e97f958845ca",
     "runId": "4082f2b8-fd3f-4d08-bfc3-e97f958845ca",
