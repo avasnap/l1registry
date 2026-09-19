@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 593,
-      "totalWeight": "166747916878322682"
+      "count": 590,
+      "totalWeight": "166712517904503748"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "3deac4f124c511865dee87d11bfb71c2c5abb2123ea699d75c8d9a1c9d6ae865",
+    "contentHash": "57bd7ebbe5f3ff74fa06554a7cd5eda9f5116839f21978b5c3e50b9dcd7502ee",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-09-19T10:55:27.682Z",
-    "lastUpdatedAt": "2026-09-19T10:55:27.682Z",
+    "lastSeenAt": "2026-09-19T15:51:23.044Z",
+    "lastUpdatedAt": "2026-09-19T15:51:23.044Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -191,6 +191,45 @@
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
+    "staleSince": null
+  },
+  "21mJfY4QpDeVykBaeG8nwn7k7w7b5oPpPhaYcJWqumht8SvaK": {
+    "_id": "21mJfY4QpDeVykBaeG8nwn7k7w7b5oPpPhaYcJWqumht8SvaK",
+    "subnetId": "21mJfY4QpDeVykBaeG8nwn7k7w7b5oPpPhaYcJWqumht8SvaK",
+    "isL1": true,
+    "isPermissioned": false,
+    "controlKeys": [
+      "P-avax1ry2rx3pmxhu94h4d2hdlr0n3jnq3ej7ty4cvfp"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "243hajy3kNpkMyv1jWPCAV9Nnb9Xda6rx9c7agLds3prtpTWp7",
+    "managerChainId": "LB6wwV4JNxr8fwjUPBHMzf3PiW2d4hsTc4v63uX1MjY6oZ9Wb",
+    "managerAddress": "0x0feedc0de0000000000000000000000000000000",
+    "blockchainIds": [
+      "LB6wwV4JNxr8fwjUPBHMzf3PiW2d4hsTc4v63uX1MjY6oZ9Wb"
+    ],
+    "validatorSummary": {
+      "count": 1,
+      "totalWeight": "100"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "f63710ea3815fbbc9b976aa334e5c1c5b797bd9411824445c21c2e32d73348b4",
+    "firstSeenAt": "2026-09-19T15:51:23.044Z",
+    "lastSeenAt": "2026-09-19T15:51:23.044Z",
+    "lastUpdatedAt": "2026-09-19T15:51:23.044Z",
     "staleSince": null
   },
   "21uUaTxVdR3Sp6SJhpcSrdH1g66aFoE8mPQDvwKJCjXNexo5y6": {
@@ -11696,6 +11735,45 @@
     "firstSeenAt": "2026-08-18T13:05:49.461Z",
     "lastSeenAt": "2026-08-18T13:05:49.461Z",
     "lastUpdatedAt": "2026-08-18T13:05:49.461Z",
+    "staleSince": null
+  },
+  "Fm9kzjy6nPnNrVojWNhxDFCUc7W6iLJEsqFFpq5sWCWqezMNA": {
+    "_id": "Fm9kzjy6nPnNrVojWNhxDFCUc7W6iLJEsqFFpq5sWCWqezMNA",
+    "subnetId": "Fm9kzjy6nPnNrVojWNhxDFCUc7W6iLJEsqFFpq5sWCWqezMNA",
+    "isL1": true,
+    "isPermissioned": false,
+    "controlKeys": [
+      "P-avax12pdvdwgvx8tzlxc0syvxuph9mp2yuxu9a0uc8d"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "2qYrZJ9GTNNeGQP8GjXo9joMMKsf4o52qmYvAzWZ9cN1ZA5wSB",
+    "managerChainId": "3jVp8Ee4CarD5Sua3qDPwNGNRCEetSSGToWcwzwkKeHbbChcL",
+    "managerAddress": "0x0feedc0de0000000000000000000000000000000",
+    "blockchainIds": [
+      "3jVp8Ee4CarD5Sua3qDPwNGNRCEetSSGToWcwzwkKeHbbChcL"
+    ],
+    "validatorSummary": {
+      "count": 5,
+      "totalWeight": "500"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "8647046a4add254cebdf9eccb144f0901e0ad595b8f0f321d3a310716caff6c8",
+    "firstSeenAt": "2026-09-19T15:51:23.044Z",
+    "lastSeenAt": "2026-09-19T15:51:23.044Z",
+    "lastUpdatedAt": "2026-09-19T15:51:23.044Z",
     "staleSince": null
   },
   "FyZLuWtzLkzwAANsDJ3yYXkXJmYPetiESLBDXj69a8rL3cZVC": {
