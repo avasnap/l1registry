@@ -1547,14 +1547,14 @@
     "proofOfPossession": "0x909026c286e17d78f274573cb749a598a03e1df805c9126e10f3b47f17563f436f8bf13d74d1b604bdfffe71002c22f711e3b635058e070746b7d5868593fe86105d6e2da85ecf0da265c4b963fed072bffa3fd52e7bff4e7a35447c31b7fd7a",
     "connected": true,
     "uptime": 100,
-    "startTime": "1787320809",
-    "endTime": "1789912800",
+    "startTime": "1789918646",
+    "endTime": "1792504800",
     "validationId": null,
     "stale": false,
-    "contentHash": "68949f9742d937aeb9d2c4a1382c10f0fd3683a0125c9370e254c6bf86cf8631",
+    "contentHash": "dd09828608544396a9845adb1fdfdd701b2d664f6ff987847576d1c78648fe4f",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-08-21T18:54:04.712Z",
-    "lastUpdatedAt": "2026-08-21T18:54:04.712Z",
+    "lastSeenAt": "2026-09-20T16:03:06.154Z",
+    "lastUpdatedAt": "2026-09-20T16:03:06.154Z",
     "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-4deHD2Hm7eHD36frFmWztk7QC3LwbUyu6": {
@@ -11145,12 +11145,12 @@
     "startTime": "1784480883",
     "endTime": "1789920000",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "7ec1ca41cd48b48cd9037ab05490fbc64116d80dd254d2fc863a7195e5ce2224",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-07-19T19:30:28.435Z",
     "lastUpdatedAt": "2026-07-19T19:30:28.435Z",
-    "staleSince": null
+    "staleSince": "2026-09-20T16:03:06.154Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-KVB8F5Gy8adXA2zCg3i3m3qJ23NoCDDiA": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-KVB8F5Gy8adXA2zCg3i3m3qJ23NoCDDiA",
@@ -12323,12 +12323,12 @@
     "startTime": "1788656437",
     "endTime": "1789909516",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "fed03240971b8d12f52e10b3de12f7fa93535f0aae5ee072887304130a730a16",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-09-06T04:35:37.048Z",
     "lastUpdatedAt": "2026-09-06T04:35:37.048Z",
-    "staleSince": null
+    "staleSince": "2026-09-20T16:03:06.154Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-MFdkJJJmh2XTSMep7PTfVjWuxa6tNiRX8": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-MFdkJJJmh2XTSMep7PTfVjWuxa6tNiRX8",
