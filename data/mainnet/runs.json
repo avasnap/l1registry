@@ -20091,6 +20091,64 @@
     },
     "errors": []
   },
+  "d853cd7e-54ec-4d72-b023-14e5d82abd36": {
+    "_id": "d853cd7e-54ec-4d72-b023-14e5d82abd36",
+    "runId": "d853cd7e-54ec-4d72-b023-14e5d82abd36",
+    "network": "mainnet",
+    "startedAt": "2026-09-21T12:44:24.559Z",
+    "finishedAt": "2026-09-21T12:48:49.961Z",
+    "durationMs": 265402,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 494,
+      "subnets": 476,
+      "l1s": 326,
+      "legacySubnets": 149,
+      "permissioned": 149,
+      "validators": 2094
+    },
+    "byVmType": {
+      "custom": 361,
+      "subnet-evm": 133
+    },
+    "byAccessTier": {
+      "unreachable": 161,
+      "C": 303,
+      "A": 29,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-BNEnTj2gNF559Wj7RWPXMgJydFmvJ4NwB",
+          "11111111111111111111111111111111LpoYY:NodeID-Ki3GRuRtnrgL7pqiHay8hsowZUD13uv2b",
+          "11111111111111111111111111111111LpoYY:NodeID-FcMYFbgK85kKYgcmcQ4nmwxQwrsmkL14u",
+          "11111111111111111111111111111111LpoYY:NodeID-EL3P2txBCeeRGXddw5PJVBpTq8EPzdSzz",
+          "11111111111111111111111111111111LpoYY:NodeID-6GT9DfKUYXym1zB4yT5Hc1xBrFCem6Nhe",
+          "11111111111111111111111111111111LpoYY:NodeID-5ve1TT17BdfdsgZ3mtvEBgxVG8BYWDria"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-GMHb1GP79ooGnitQRL99dA2hYA5LN9727"
+        ]
+      }
+    },
+    "errors": []
+  },
   "d86fdf0d-9d9c-4a9d-b9fc-b523b8ea6a24": {
     "_id": "d86fdf0d-9d9c-4a9d-b9fc-b523b8ea6a24",
     "runId": "d86fdf0d-9d9c-4a9d-b9fc-b523b8ea6a24",
