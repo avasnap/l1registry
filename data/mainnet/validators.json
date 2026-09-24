@@ -596,15 +596,15 @@
     "blsPublicKey": "0x89668981ed994dd50bbe71de9ce60df0878d546713bc2cb52b55f0f62c50f37f90a91ff06d469ae965e64f11c7d26326",
     "proofOfPossession": "0xb3dbbd76e09787ce5eba4c20980d41d4752bda541ee246d72b2abc95eb8da3fc816d14129fc3a588d5f52f7a7519d64004dd4e303659aa64aa09dfc8c776273bf03e40aff744a2d173f93460a15973e58ec498f96bcbe2b8aecb8b67eb50ca42",
     "connected": false,
-    "uptime": 0,
-    "startTime": "1789019725",
-    "endTime": "1790229504",
+    "uptime": 22.819,
+    "startTime": "1790229673",
+    "endTime": "1790402652",
     "validationId": null,
     "stale": false,
-    "contentHash": "ed00574bd7c6ba4bacd9caa20060d73cc5c4d0c063ce2e58814d420360467ff5",
+    "contentHash": "4f5eb62864eee7eb16a551b32efc5cc90692424ff2d7f13a8a02a8c891d7a958",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-09-10T11:16:10.494Z",
-    "lastUpdatedAt": "2026-09-10T11:16:10.494Z",
+    "lastSeenAt": "2026-09-24T11:42:13.863Z",
+    "lastUpdatedAt": "2026-09-24T11:42:13.863Z",
     "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-2yC7fWX23kGjCd7ytqGzQQcRJf7xaj1N1": {
@@ -2804,12 +2804,12 @@
     "startTime": "1789019143",
     "endTime": "1790232297",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "59df18b8f3b1757c1a1f8f893437d5efa295d94acf198a0251696645bcca4883",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-09-10T11:16:10.494Z",
     "lastUpdatedAt": "2026-09-10T11:16:10.494Z",
-    "staleSince": null
+    "staleSince": "2026-09-24T11:42:13.863Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-6C869iwyFHrtZA6cFdkH1SkmRhRCEKZjZ": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-6C869iwyFHrtZA6cFdkH1SkmRhRCEKZjZ",
@@ -10100,12 +10100,12 @@
     "startTime": "1787483520",
     "endTime": "1790248618",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "a4ce6b3db1f89fc3e4294797eff3f768008729a09750254ce3f71448bbd8a3f3",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-08-23T13:00:17.301Z",
     "lastUpdatedAt": "2026-08-23T13:00:17.301Z",
-    "staleSince": null
+    "staleSince": "2026-09-24T11:42:13.863Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-Hcq3gpdMqAEiVwq19E5DZhsjggbkxFx2L": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-Hcq3gpdMqAEiVwq19E5DZhsjggbkxFx2L",
