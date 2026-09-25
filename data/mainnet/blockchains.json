@@ -1387,8 +1387,8 @@
     },
     "rpcEndpoints": [],
     "rpcVerified": false,
-    "dataApiCovered": true,
-    "accessTier": "A",
+    "dataApiCovered": false,
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -1409,10 +1409,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "072354e03bfd0a5448d96671de787efc4b14eb7f0e5c1fa4596a0f8ed860f729",
+    "contentHash": "2796dff38eb1bfa7612e6fb405e2a68ad72b4665cbccb7089d3605d9e5e244ee",
     "firstSeenAt": "2026-09-14T21:47:43.480Z",
-    "lastSeenAt": "2026-09-15T04:51:26.610Z",
-    "lastUpdatedAt": "2026-09-15T04:51:26.610Z",
+    "lastSeenAt": "2026-09-25T21:32:49.920Z",
+    "lastUpdatedAt": "2026-09-25T21:32:49.920Z",
     "staleSince": null
   },
   "26Ee4Lm4R1bQbQLQU66exLiWgSC9qdDPJCvFpzVsd3raLrHBGZ": {
@@ -1626,8 +1626,8 @@
     },
     "rpcEndpoints": [],
     "rpcVerified": false,
-    "dataApiCovered": true,
-    "accessTier": "A",
+    "dataApiCovered": false,
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -1648,10 +1648,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "7738ab78cfc78c242f3ab9f2d7c1239016a1d595af9f4f1915aef4c08a285015",
+    "contentHash": "20a3ff6bdb5e52d80cfd2764fcde7d499bd71bd904c175cd16cbb0b976a2dd39",
     "firstSeenAt": "2026-09-21T21:57:23.034Z",
-    "lastSeenAt": "2026-09-21T21:57:23.034Z",
-    "lastUpdatedAt": "2026-09-21T21:57:23.034Z",
+    "lastSeenAt": "2026-09-25T21:32:49.920Z",
+    "lastUpdatedAt": "2026-09-25T21:32:49.920Z",
     "staleSince": null
   },
   "27xa71ERzSzir2KuPmmsAFkceVA74Xfh8Fys8SrmHjdKyj1vqd": {
@@ -8971,8 +8971,8 @@
     },
     "rpcEndpoints": [],
     "rpcVerified": false,
-    "dataApiCovered": true,
-    "accessTier": "A",
+    "dataApiCovered": false,
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -8993,10 +8993,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "10e360f5f498045e40284132e9fafc92b6539c6057c99a7d760cfb5019026bbb",
+    "contentHash": "69c4e63f3fe357e052234dbab0fdc3f15a59c75fe6ea6949716a74b970e903d4",
     "firstSeenAt": "2026-09-16T04:46:35.511Z",
-    "lastSeenAt": "2026-09-16T04:46:35.511Z",
-    "lastUpdatedAt": "2026-09-16T04:46:35.511Z",
+    "lastSeenAt": "2026-09-25T21:32:49.920Z",
+    "lastUpdatedAt": "2026-09-25T21:32:49.920Z",
     "staleSince": null
   },
   "2ghHT5a5kbtm4rn2vfod7sZcLRBQHLFa5827X72hKRAGXCKkAq": {
