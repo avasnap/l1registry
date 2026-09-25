@@ -10028,6 +10028,64 @@
     },
     "errors": []
   },
+  "6b17afcb-f1af-4a6c-8732-d3062f0ef1a4": {
+    "_id": "6b17afcb-f1af-4a6c-8732-d3062f0ef1a4",
+    "runId": "6b17afcb-f1af-4a6c-8732-d3062f0ef1a4",
+    "network": "mainnet",
+    "startedAt": "2026-09-25T11:47:57.811Z",
+    "finishedAt": "2026-09-25T11:52:22.726Z",
+    "durationMs": 264915,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 498,
+      "subnets": 480,
+      "l1s": 330,
+      "legacySubnets": 149,
+      "permissioned": 149,
+      "validators": 2101
+    },
+    "byVmType": {
+      "custom": 363,
+      "subnet-evm": 135
+    },
+    "byAccessTier": {
+      "A": 31,
+      "C": 305,
+      "unreachable": 161,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-BNEnTj2gNF559Wj7RWPXMgJydFmvJ4NwB",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-Fe3RiKh32fw4keLzhL2jS5Aqt6zHQazo5",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-L55dzXTiJZt73EnWNCrSNDDA42gogmTAr",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-NuQDePyvPK8acA4yeh5XCp7syRVRQMo95",
+          "11111111111111111111111111111111LpoYY:NodeID-LY8eBhuCuodaHA6gbve9PLRRJQTb2kT8v",
+          "11111111111111111111111111111111LpoYY:NodeID-6p8PykW2cHX4BViyrGqS5UZRRcsi9RzHU"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-32cbCiB88FfvnoSC2zy11h5dojhysgpkh"
+        ]
+      }
+    },
+    "errors": []
+  },
   "6c3c0487-187b-4024-880c-c7f9790def1f": {
     "_id": "6c3c0487-187b-4024-880c-c7f9790def1f",
     "runId": "6c3c0487-187b-4024-880c-c7f9790def1f",
