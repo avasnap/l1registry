@@ -596,15 +596,15 @@
     "blsPublicKey": "0x89668981ed994dd50bbe71de9ce60df0878d546713bc2cb52b55f0f62c50f37f90a91ff06d469ae965e64f11c7d26326",
     "proofOfPossession": "0xb3dbbd76e09787ce5eba4c20980d41d4752bda541ee246d72b2abc95eb8da3fc816d14129fc3a588d5f52f7a7519d64004dd4e303659aa64aa09dfc8c776273bf03e40aff744a2d173f93460a15973e58ec498f96bcbe2b8aecb8b67eb50ca42",
     "connected": false,
-    "uptime": 22.819,
-    "startTime": "1790229673",
-    "endTime": "1790402652",
+    "uptime": 0,
+    "startTime": "1790402833",
+    "endTime": "1790575812",
     "validationId": null,
     "stale": false,
-    "contentHash": "4f5eb62864eee7eb16a551b32efc5cc90692424ff2d7f13a8a02a8c891d7a958",
+    "contentHash": "a43acc6e23cd525846b4c5c5506157c8937e938733ad9911afe76d5b41d9020a",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-09-24T11:42:13.863Z",
-    "lastUpdatedAt": "2026-09-24T11:42:13.863Z",
+    "lastSeenAt": "2026-09-26T11:21:40.783Z",
+    "lastUpdatedAt": "2026-09-26T11:21:40.783Z",
     "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-2yC7fWX23kGjCd7ytqGzQQcRJf7xaj1N1": {
@@ -1835,12 +1835,12 @@
     "startTime": "1777744386",
     "endTime": "1790406000",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "a16bd88940a3f418c1f96e5f17eabd8a1e7322344335de30c05c082a5db9603a",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
-    "staleSince": null
+    "staleSince": "2026-09-26T11:21:40.783Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-4uHXbHesQbAzcDBRqaFyJ5kpgovHpU576": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-4uHXbHesQbAzcDBRqaFyJ5kpgovHpU576",
