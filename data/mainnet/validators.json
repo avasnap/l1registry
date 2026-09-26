@@ -5464,12 +5464,12 @@
     "startTime": "1789075080",
     "endTime": "1790452800",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "ac238da322074a652094a0cd2388ddf3eb4dc5d4011ba045db70c07fe85983de",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-09-11T04:37:01.024Z",
     "lastUpdatedAt": "2026-09-11T04:37:01.024Z",
-    "staleSince": null
+    "staleSince": "2026-09-26T21:07:27.980Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-AR44a1cyPrD8cCNZgyhv7Tc2Lvw3ryhEu": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-AR44a1cyPrD8cCNZgyhv7Tc2Lvw3ryhEu",
@@ -12342,12 +12342,12 @@
     "startTime": "1790275336",
     "endTime": "1790448136",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "ae1b279984786831b1e95058256a50250e07ba1bf12e6050400102713731a652",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-09-24T21:29:20.818Z",
     "lastUpdatedAt": "2026-09-24T21:29:20.818Z",
-    "staleSince": null
+    "staleSince": "2026-09-26T21:07:27.980Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-M7tMCJX2PpFr4eMUt2y9oXuWfExXjCY1r": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-M7tMCJX2PpFr4eMUt2y9oXuWfExXjCY1r",
@@ -35628,7 +35628,7 @@
     "_id": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-BNEnTj2gNF559Wj7RWPXMgJydFmvJ4NwB",
     "subnetId": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
     "nodeId": "NodeID-BNEnTj2gNF559Wj7RWPXMgJydFmvJ4NwB",
-    "weight": "32610323",
+    "weight": "32650893",
     "blsPublicKey": "0xad8b49fcac6740f5dc37a24339902d62de237cbb689f8b2cc4db4e259f656089f2657f167c691e360a34c336c2f310b6",
     "proofOfPossession": null,
     "connected": null,
@@ -35637,10 +35637,10 @@
     "endTime": null,
     "validationId": "26xjvp2wpYJVMgz9D32U2kdDTGU2AoTm5Au1jEfGj62phPpLV",
     "stale": false,
-    "contentHash": "2cb6b1ed75621466f6a15147fb7b99cb5d8d214a0ed1500c9565079b131dee8f",
+    "contentHash": "69e2fc30a44609922f8d34e5c23daf2922cc91518c1b1a45d915078f86643d62",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-09-25T11:47:57.811Z",
-    "lastUpdatedAt": "2026-09-25T11:47:57.811Z",
+    "lastSeenAt": "2026-09-26T21:07:27.980Z",
+    "lastUpdatedAt": "2026-09-26T21:07:27.980Z",
     "staleSince": null
   },
   "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-BQwRzvBFVobZQ8LGAvv4zX5Jgssf8bZmZ": {
