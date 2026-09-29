@@ -1564,6 +1564,64 @@
     },
     "errors": []
   },
+  "0eee9166-dc24-4557-98c5-79a6f9500818": {
+    "_id": "0eee9166-dc24-4557-98c5-79a6f9500818",
+    "runId": "0eee9166-dc24-4557-98c5-79a6f9500818",
+    "network": "mainnet",
+    "startedAt": "2026-09-29T12:49:07.502Z",
+    "finishedAt": "2026-09-29T12:53:33.831Z",
+    "durationMs": 266329,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 503,
+      "subnets": 483,
+      "l1s": 332,
+      "legacySubnets": 150,
+      "permissioned": 150,
+      "validators": 2103
+    },
+    "byVmType": {
+      "custom": 366,
+      "subnet-evm": 137
+    },
+    "byAccessTier": {
+      "C": 312,
+      "unreachable": 164,
+      "A": 26,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-fPtsjwca7YiCgnoJad5aP1shFcYq44n5",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-9hBpmvjpfd114nKocaPkZBN7GVDGrTnkz",
+          "11111111111111111111111111111111LpoYY:NodeID-7vAjvY2EvTmp8XDM7DSZCVHDipmFRiihU",
+          "11111111111111111111111111111111LpoYY:NodeID-6cfGKmCWJXNfHTN3GZnFD65DbR8fgSn8H",
+          "11111111111111111111111111111111LpoYY:NodeID-4ETxBbffoA8cU54eMDVwQM5Ue6FEYu4s5",
+          "11111111111111111111111111111111LpoYY:NodeID-8gobfZDZnWPX3p85MgNLbNwJ1o3SNFCAL"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-LrXQ22ZwDFYayiz8vyWCyppikSTLxanLT"
+        ]
+      }
+    },
+    "errors": []
+  },
   "0f908548-cdcc-4ebd-b079-045fb319cea8": {
     "_id": "0f908548-cdcc-4ebd-b079-045fb319cea8",
     "runId": "0f908548-cdcc-4ebd-b079-045fb319cea8",
