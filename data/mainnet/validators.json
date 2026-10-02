@@ -597,14 +597,14 @@
     "proofOfPossession": "0xb3dbbd76e09787ce5eba4c20980d41d4752bda541ee246d72b2abc95eb8da3fc816d14129fc3a588d5f52f7a7519d64004dd4e303659aa64aa09dfc8c776273bf03e40aff744a2d173f93460a15973e58ec498f96bcbe2b8aecb8b67eb50ca42",
     "connected": false,
     "uptime": 0,
-    "startTime": "1790749153",
-    "endTime": "1790922132",
+    "startTime": "1790922313",
+    "endTime": "1791095292",
     "validationId": null,
     "stale": false,
-    "contentHash": "a1d50c1c2359661069f6eda8b7eb11995eb8a0ba63f5aadea3da989f0d1e476d",
+    "contentHash": "49890c11fe983e7e1c1790d89d999c76dc8289b81b079f00881b14d0c168a849",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-09-30T12:31:13.641Z",
-    "lastUpdatedAt": "2026-09-30T12:31:13.641Z",
+    "lastSeenAt": "2026-10-02T12:30:19.828Z",
+    "lastUpdatedAt": "2026-10-02T12:30:19.828Z",
     "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-2yC7fWX23kGjCd7ytqGzQQcRJf7xaj1N1": {
@@ -4989,12 +4989,12 @@
     "startTime": "1789715338",
     "endTime": "1790924997",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "e0009d9a230283101e3be4fdd4e1dc8d9a52390fd4a120282abdcdfd3748543c",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-09-18T11:10:53.069Z",
     "lastUpdatedAt": "2026-09-18T11:10:53.069Z",
-    "staleSince": null
+    "staleSince": "2026-10-02T12:30:19.828Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-9T7NXBFpp8LWCyc58YdKNoowDipdVKAWz": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-9T7NXBFpp8LWCyc58YdKNoowDipdVKAWz",
@@ -5175,16 +5175,16 @@
     "blsPublicKey": "0x8708b1ae39df16bca1a2972a4d5b1117a1111b8f62d4ebc364f47dd25c68b5c36178668e62f89673c73f978fd977e1b9",
     "proofOfPossession": "0xaf488c953bfc4d3144c2453c680b0a83577141aef27bd4687319d4104c72a528f71d0e23523837238220119f575340250103ae3b64a5682feb7258e6dcf36685806a7e358df9055b2753f2c7225d286c07e9830ff088aad0b5907ba9d202a4fd",
     "connected": true,
-    "uptime": 100,
-    "startTime": "1788237243",
-    "endTime": "1789450346",
+    "uptime": 99.6195,
+    "startTime": "1790930291",
+    "endTime": "1793329200",
     "validationId": null,
-    "stale": true,
-    "contentHash": "8fc367edaa5ddd7c762bdef0c1e62bbef3e75104480cce41676433c6f31342f6",
+    "stale": false,
+    "contentHash": "fbd8284ab8de0ca34f58b937d3f8a6e33b122e9347a52a98b60049798ef5b84a",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-09-01T05:04:45.680Z",
-    "lastUpdatedAt": "2026-09-01T05:04:45.680Z",
-    "staleSince": "2026-09-15T11:41:18.045Z"
+    "lastSeenAt": "2026-10-02T12:30:19.828Z",
+    "lastUpdatedAt": "2026-10-02T12:30:19.828Z",
+    "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-9mtTuxamXQyiePCNyheFEyjr4cAQo4Wbg": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-9mtTuxamXQyiePCNyheFEyjr4cAQo4Wbg",
@@ -6962,15 +6962,15 @@
     "proofOfPossession": "0xb9c92b5f9a4eade6c97dd192fc7219dc926e6d2ae6d6d4d7a7d48b6171ec441dc9676bffde88c2764c0650987a6e582715c36ce74a35c832290b30c6e0d75192379acba73db485d1dbb82770898296af8edb1184b3e3b9c9ab520afc57fa5ffd",
     "connected": true,
     "uptime": 100,
-    "startTime": "1789146068",
-    "endTime": "1790618292",
+    "startTime": "1790932903",
+    "endTime": "1792405036",
     "validationId": null,
-    "stale": true,
-    "contentHash": "1186c137f73f49afbb92af3cf5717a238a4757355286f5217002e639aabc5f84",
+    "stale": false,
+    "contentHash": "7ed0c12499fbc2459cfe967ee9a5fea514997fe666e73621a3b79b5e93d59104",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-09-11T20:56:35.862Z",
-    "lastUpdatedAt": "2026-09-11T20:56:35.862Z",
-    "staleSince": "2026-09-28T23:14:21.608Z"
+    "lastSeenAt": "2026-10-02T12:30:19.828Z",
+    "lastUpdatedAt": "2026-10-02T12:30:19.828Z",
+    "staleSince": null
   },
   "11111111111111111111111111111111LpoYY:NodeID-CTry2Hj2aXeA1rfWq1s6pDL8SzaCFGLMC": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-CTry2Hj2aXeA1rfWq1s6pDL8SzaCFGLMC",
@@ -8029,12 +8029,12 @@
     "startTime": "1789724399",
     "endTime": "1790937595",
     "validationId": null,
-    "stale": false,
+    "stale": true,
     "contentHash": "ad804b0c02c9da46c5b69c2240d5ab4441dc30f9345eefdb5fb1e4d91a9c210e",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-09-18T11:10:53.069Z",
     "lastUpdatedAt": "2026-09-18T11:10:53.069Z",
-    "staleSince": null
+    "staleSince": "2026-10-02T12:30:19.828Z"
   },
   "11111111111111111111111111111111LpoYY:NodeID-EYp5Zz99H7dANhLAV94Ybtriz1v4AnmQb": {
     "_id": "11111111111111111111111111111111LpoYY:NodeID-EYp5Zz99H7dANhLAV94Ybtriz1v4AnmQb",
