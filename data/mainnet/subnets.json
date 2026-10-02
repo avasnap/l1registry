@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 591,
-      "totalWeight": "155054628273657170"
+      "count": 568,
+      "totalWeight": "154324246396098368"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "20db437e34c2b8547d99d00dbef3a0b5640254eaa15d16fdcd77586492a496c3",
+    "contentHash": "6e2d7fb99b7f9d631dc099f31ed24e60ba4c2709e83c767c66fded3236bed43f",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-10-01T22:39:15.768Z",
-    "lastUpdatedAt": "2026-10-01T22:39:15.768Z",
+    "lastSeenAt": "2026-10-02T05:33:36.240Z",
+    "lastUpdatedAt": "2026-10-02T05:33:36.240Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -7087,8 +7087,8 @@
       "2c1BN4N9qEhNmW4yCpeLK24SfjFQLyS1Z7FtgRDaYxZWFUUKxf"
     ],
     "validatorSummary": {
-      "count": 4,
-      "totalWeight": "4000"
+      "count": 5,
+      "totalWeight": "5000"
     },
     "provenance": {
       "isL1": "derived",
@@ -7103,10 +7103,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "7b3267b57b04ff70ca2398ae1deeceeb019e14431453d0320a54eab4fd55f466",
+    "contentHash": "304f5156b6a618f70922de6e4420c4383f11df69111a5c9846673f14ede976b1",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-09-28T05:20:19.462Z",
-    "lastUpdatedAt": "2026-09-28T05:20:19.462Z",
+    "lastSeenAt": "2026-10-02T05:33:36.240Z",
+    "lastUpdatedAt": "2026-10-02T05:33:36.240Z",
     "staleSince": null
   },
   "2nk3p26ZabCtMhqSc3EgW1q1KYBKNKjzxQjM16au6YFWVP2o7B": {
@@ -15421,7 +15421,7 @@
     ],
     "validatorSummary": {
       "count": 233,
-      "totalWeight": "46102615090"
+      "totalWeight": "46102115091"
     },
     "provenance": {
       "isL1": "derived",
@@ -15436,10 +15436,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "d5aa16c6195eb2b87f5b3d9528acef13e8290a45e19159e39c6bd0fc61f5e04f",
+    "contentHash": "1310d03f7486661096c8aa6df4ada786204ce402b124e5c7167c0c4390bba18d",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-10-01T13:09:01.331Z",
-    "lastUpdatedAt": "2026-10-01T13:09:01.331Z",
+    "lastSeenAt": "2026-10-02T05:33:36.240Z",
+    "lastUpdatedAt": "2026-10-02T05:33:36.240Z",
     "staleSince": null
   },
   "f6ewGNYxGRjQ1SFfhL2tiHCMHzz9AHdTuPe11dRNarGbp3dES": {
