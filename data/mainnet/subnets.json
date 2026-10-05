@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 582,
-      "totalWeight": "138581620918872365"
+      "count": 580,
+      "totalWeight": "137164189314677279"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "c4bf257bf6db5225fc233cc0fbf1ade8b8b13f65d55f0f13e17bb19b47037099",
+    "contentHash": "0e10eff679ac7182a12f744641cfda5b53b2b0d064591b7629ca19d65926bc4b",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-10-05T05:35:19.543Z",
-    "lastUpdatedAt": "2026-10-05T05:35:19.543Z",
+    "lastSeenAt": "2026-10-05T14:32:36.143Z",
+    "lastUpdatedAt": "2026-10-05T14:32:36.143Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -15460,7 +15460,7 @@
     ],
     "validatorSummary": {
       "count": 233,
-      "totalWeight": "46102323451"
+      "totalWeight": "46096022252"
     },
     "provenance": {
       "isL1": "derived",
@@ -15475,10 +15475,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "741647f84a05942c83263e5199734b1b8d47a1cf11a33669705e8237e0878e8a",
+    "contentHash": "7fcc327db36126ba6ef5a1bd4e6b8e5454074fe38ed5eafb42b1734c07c81000",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-10-04T21:21:22.504Z",
-    "lastUpdatedAt": "2026-10-04T21:21:22.504Z",
+    "lastSeenAt": "2026-10-05T14:32:36.143Z",
+    "lastUpdatedAt": "2026-10-05T14:32:36.143Z",
     "staleSince": null
   },
   "f6ewGNYxGRjQ1SFfhL2tiHCMHzz9AHdTuPe11dRNarGbp3dES": {
@@ -18663,6 +18663,45 @@
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
+    "staleSince": null
+  },
+  "xscZQqNvZg2Kq3x1ZCxQcLgH9YAVWxZ1T4Ym8dhqnxL82SpXA": {
+    "_id": "xscZQqNvZg2Kq3x1ZCxQcLgH9YAVWxZ1T4Ym8dhqnxL82SpXA",
+    "subnetId": "xscZQqNvZg2Kq3x1ZCxQcLgH9YAVWxZ1T4Ym8dhqnxL82SpXA",
+    "isL1": false,
+    "isPermissioned": true,
+    "controlKeys": [
+      "P-avax18jma8ppw3nhx5r4ap8clazz0dps7rv5ukulre5"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "11111111111111111111111111111111LpoYY",
+    "managerChainId": "11111111111111111111111111111111LpoYY",
+    "managerAddress": null,
+    "blockchainIds": [
+      "LeyX47frw3DQimRm6wW93Dc5DQVL6ahNMgzmvbDW6FTP6tfon"
+    ],
+    "validatorSummary": {
+      "count": 0,
+      "totalWeight": "0"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "93b72c900e72484d5fa34e32e4c26ad7bdcd5291f4dd13e5f9fcf6ca55afbc92",
+    "firstSeenAt": "2026-10-05T14:32:36.143Z",
+    "lastSeenAt": "2026-10-05T14:32:36.143Z",
+    "lastUpdatedAt": "2026-10-05T14:32:36.143Z",
     "staleSince": null
   },
   "y7aBBVA5nm5i3qv67AMVi7in4BGs2GG1SE54BivuFUY5ix6Ht": {
