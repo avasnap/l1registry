@@ -3982,6 +3982,71 @@
     },
     "errors": []
   },
+  "1e41a34e-51d0-4616-869b-1b4052627663": {
+    "_id": "1e41a34e-51d0-4616-869b-1b4052627663",
+    "runId": "1e41a34e-51d0-4616-869b-1b4052627663",
+    "network": "mainnet",
+    "startedAt": "2026-10-20T11:32:15.003Z",
+    "finishedAt": "2026-10-20T11:37:41.634Z",
+    "durationMs": 326631,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 511,
+      "subnets": 491,
+      "l1s": 336,
+      "legacySubnets": 154,
+      "permissioned": 154,
+      "validators": 2102
+    },
+    "byVmType": {
+      "custom": 368,
+      "subnet-evm": 143
+    },
+    "byAccessTier": {
+      "unreachable": 169,
+      "C": 315,
+      "A": 26,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "WJcV97GNpiTuQMYnCPmPeuS3JA5PvF8T2Er84PNRHoaADiFc2",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [
+          "11111111111111111111111111111111LpoYY:NodeID-NiZ7UvLAH7Ztf1iVodswcdX4qLjrDA5gW",
+          "11111111111111111111111111111111LpoYY:NodeID-Jm5M3wDP2DNLZPUoLuqiReL57x7GmB5Hp"
+        ],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-Ap4EMywSHH1wAdxhtyAa2v1GvvD8BezUT",
+          "11111111111111111111111111111111LpoYY:NodeID-2vqpM9z6ra74TFvLwY6Nw7XNqowUzH14B",
+          "11111111111111111111111111111111LpoYY:NodeID-9EizvTJhGPtcwRExBgYySaJMt6syztj2X",
+          "11111111111111111111111111111111LpoYY:NodeID-6thkywEUz6862ueeZZBqPA98tkM6hFyfM",
+          "11111111111111111111111111111111LpoYY:NodeID-PC2MKcoGiFHNwfQ2VQLQzNitQEmgxvfoS",
+          "11111111111111111111111111111111LpoYY:NodeID-H7g4YgYeqFGXvnswgckdc6aej4RNfaV56",
+          "11111111111111111111111111111111LpoYY:NodeID-L9HsJPQ9TF5aXjdx3KnQrh1eWaHJaNXNj",
+          "11111111111111111111111111111111LpoYY:NodeID-DaKj4jkyyCN4B5zVW65krECqpjxYGUFzX"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-2QkqmQatgiw5v6otZehA7dZxUKKp8tB7e",
+          "11111111111111111111111111111111LpoYY:NodeID-A8s1Y2b9EQAR7wuYDCY1bfXYVErxGsH2D"
+        ]
+      }
+    },
+    "errors": []
+  },
   "1eb24c20-0576-46b6-ae5c-1e673d85079c": {
     "_id": "1eb24c20-0576-46b6-ae5c-1e673d85079c",
     "runId": "1eb24c20-0576-46b6-ae5c-1e673d85079c",

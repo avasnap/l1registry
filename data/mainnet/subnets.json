@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 598,
-      "totalWeight": "164977699212641996"
+      "count": 600,
+      "totalWeight": "165568072002099328"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "9c8a3d1efe67c096575f0b245e2b364ac27c4a12546a4774fed996f218d533ca",
+    "contentHash": "dc15ed798b39cbe7e1ece57cf2986da32c0938e1b24bffb24b3b45788da9b151",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-10-20T04:46:09.582Z",
-    "lastUpdatedAt": "2026-10-20T04:46:09.582Z",
+    "lastSeenAt": "2026-10-20T11:32:15.003Z",
+    "lastUpdatedAt": "2026-10-20T11:32:15.003Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -14423,9 +14423,9 @@
     "managerChainId": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
     "managerAddress": "0x69dfb9c35bfad64cffc0a92854209cb23cd5d509",
     "blockchainIds": [
-      "BQg8qm52wA8BfuQgbXbTKM1Z3FaVy4K265dHhAQ8u1KEvVYFD",
+      "2vWDrWHFyAHJ5iU1ze3kyZbWBuvWAvsWnBzcc2vBbyN6qMyQvB",
       "wgrCFsWT9Gn7VjEyYAXEk7QrPo4BLT5WXM1cVNzmJgQL8No5Z",
-      "2vWDrWHFyAHJ5iU1ze3kyZbWBuvWAvsWnBzcc2vBbyN6qMyQvB"
+      "BQg8qm52wA8BfuQgbXbTKM1Z3FaVy4K265dHhAQ8u1KEvVYFD"
     ],
     "validatorSummary": {
       "count": 1,
@@ -14444,10 +14444,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "2838f91c9d7bc8be7c569a3a5c1fb75f01f1b489c0cf8f9464fc3f4a196be08b",
+    "contentHash": "798319809a1da8a71cd4dc825f4853fac411ed87b96c3855521dd74d4cb8de4d",
     "firstSeenAt": "2026-09-28T23:14:21.608Z",
-    "lastSeenAt": "2026-10-20T04:46:09.582Z",
-    "lastUpdatedAt": "2026-10-20T04:46:09.582Z",
+    "lastSeenAt": "2026-10-20T11:32:15.003Z",
+    "lastUpdatedAt": "2026-10-20T11:32:15.003Z",
     "staleSince": null
   },
   "XhmT4AZNRKPF7fo2N6xGdecscPTCGvCsPMXm2iziPFBNJt5Qm": {
@@ -15577,7 +15577,7 @@
     ],
     "validatorSummary": {
       "count": 228,
-      "totalWeight": "46055162004"
+      "totalWeight": "46055165362"
     },
     "provenance": {
       "isL1": "derived",
@@ -15592,10 +15592,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "900797c5129684ddb68c070a3ca9c25d8e409b4e0cbe3e7593157d60fe7e4a89",
+    "contentHash": "1cc01fc9eabb979e11f71e6529be0aa4128447f9ea3dd10bd4022fc0e30951ac",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-10-19T13:08:19.129Z",
-    "lastUpdatedAt": "2026-10-19T13:08:19.129Z",
+    "lastSeenAt": "2026-10-20T11:32:15.003Z",
+    "lastUpdatedAt": "2026-10-20T11:32:15.003Z",
     "staleSince": null
   },
   "f6ewGNYxGRjQ1SFfhL2tiHCMHzz9AHdTuPe11dRNarGbp3dES": {
