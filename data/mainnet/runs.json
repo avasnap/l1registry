@@ -3871,6 +3871,66 @@
     },
     "errors": []
   },
+  "1a2ef213-7b96-4ea3-9791-2c0afd9b72bb": {
+    "_id": "1a2ef213-7b96-4ea3-9791-2c0afd9b72bb",
+    "runId": "1a2ef213-7b96-4ea3-9791-2c0afd9b72bb",
+    "network": "mainnet",
+    "startedAt": "2026-10-22T04:40:02.074Z",
+    "finishedAt": "2026-10-22T04:44:31.839Z",
+    "durationMs": 269765,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 515,
+      "subnets": 495,
+      "l1s": 339,
+      "legacySubnets": 155,
+      "permissioned": 155,
+      "validators": 2116
+    },
+    "byVmType": {
+      "subnet-evm": 146,
+      "custom": 369
+    },
+    "byAccessTier": {
+      "unreachable": 170,
+      "C": 317,
+      "A": 27,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "WJcV97GNpiTuQMYnCPmPeuS3JA5PvF8T2Er84PNRHoaADiFc2",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-3e1KMpegxC3MW2rtL68Hs4UYCGc7bpZGe",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-HXv4f9vhBLVavcgivHAY9Nu9M6uES92jF",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-HYdhyma5zJ1XDrMpQEs79WE2QZ9Asq4S9",
+          "11111111111111111111111111111111LpoYY:NodeID-NyAsZ6Ko4KYyMGyiH1iSZPscKoXYH3KCK",
+          "11111111111111111111111111111111LpoYY:NodeID-4vRSaeFJNXXNZ5RrdVhfi8kQBY7bE5soU",
+          "11111111111111111111111111111111LpoYY:NodeID-4xPFhnudEnoSKEFbQxNMXfWZGe4DTr5NH"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-8Bo4tinPWccoACKUwMfdR86kgJk71KNMd",
+          "11111111111111111111111111111111LpoYY:NodeID-BPWnPh2XCDy95dhNdgZ6ytxHpfr93VVmg"
+        ]
+      }
+    },
+    "errors": []
+  },
   "1b1b680f-d0ae-4b4e-98b0-ce1ec23bc660": {
     "_id": "1b1b680f-d0ae-4b4e-98b0-ce1ec23bc660",
     "runId": "1b1b680f-d0ae-4b4e-98b0-ce1ec23bc660",
