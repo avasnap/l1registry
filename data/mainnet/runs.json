@@ -8070,6 +8070,66 @@
     },
     "errors": []
   },
+  "42aaddff-3080-419c-8c14-9b0588427958": {
+    "_id": "42aaddff-3080-419c-8c14-9b0588427958",
+    "runId": "42aaddff-3080-419c-8c14-9b0588427958",
+    "network": "mainnet",
+    "startedAt": "2026-10-25T16:13:30.449Z",
+    "finishedAt": "2026-10-25T16:18:00.362Z",
+    "durationMs": 269913,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 515,
+      "subnets": 495,
+      "l1s": 340,
+      "legacySubnets": 154,
+      "permissioned": 154,
+      "validators": 2105
+    },
+    "byVmType": {
+      "subnet-evm": 146,
+      "custom": 369
+    },
+    "byAccessTier": {
+      "unreachable": 169,
+      "C": 318,
+      "A": 27,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [
+          "11111111111111111111111111111111LpoYY:NodeID-QEFRdZhrJ4Arcgcoykfio9hLVNPxuBFap"
+        ],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-Fr6i2QMYo6JcwzRq5GrVDrVrjvvnVUahg",
+          "11111111111111111111111111111111LpoYY:NodeID-Dy47rtrYr4eiyRTSnbaFi8KZVnR56XrUC",
+          "11111111111111111111111111111111LpoYY:NodeID-5eogZcASu4bDhWxMuUF6h7VFK5SCt3msp",
+          "11111111111111111111111111111111LpoYY:NodeID-EmhfRnDPSzpEMhGy3KSC4BWhPdtoxmqqV"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-7oCy6s5fmVckJjS9FNukhycTBVTV8NePN",
+          "11111111111111111111111111111111LpoYY:NodeID-7oqNP4vXYsXqN5hppCUjas4BRWMmrhXU9",
+          "11111111111111111111111111111111LpoYY:NodeID-9eH3Zu7LN7kNwvUy3Am8mkgvvekrkxD6d",
+          "11111111111111111111111111111111LpoYY:NodeID-HzSHrBKrycaSu3FMCLwd4WfPrQF2n61tG"
+        ]
+      }
+    },
+    "errors": []
+  },
   "42b63cbb-0f19-492f-b160-0c643ed69205": {
     "_id": "42b63cbb-0f19-492f-b160-0c643ed69205",
     "runId": "42b63cbb-0f19-492f-b160-0c643ed69205",
