@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 570,
-      "totalWeight": "161069563358433872"
+      "count": 569,
+      "totalWeight": "160779316569722640"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "2562576a8816ef37f4f418774523f8249e1d7c414516c88c64c1a3d7b1bfe1d0",
+    "contentHash": "d8d60b1f733ba2d205fb0f5135ea286b80c177da2cf0c444ef91e974e22cf7c0",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-10-30T05:43:40.994Z",
-    "lastUpdatedAt": "2026-10-30T05:43:40.994Z",
+    "lastSeenAt": "2026-10-30T12:50:08.845Z",
+    "lastUpdatedAt": "2026-10-30T12:50:08.845Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -15772,7 +15772,7 @@
     ],
     "validatorSummary": {
       "count": 225,
-      "totalWeight": "46055135768"
+      "totalWeight": "46052476068"
     },
     "provenance": {
       "isL1": "derived",
@@ -15787,10 +15787,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "58daeedcba4b31cba7d908d51c631a080c22d00e705d110e2094a515fa9ced39",
+    "contentHash": "cad032b4a8e539080715b3edd9cdf60dd4113ee28d212456f664fcf032e422bc",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-10-30T05:43:40.994Z",
-    "lastUpdatedAt": "2026-10-30T05:43:40.994Z",
+    "lastSeenAt": "2026-10-30T12:50:08.845Z",
+    "lastUpdatedAt": "2026-10-30T12:50:08.845Z",
     "staleSince": null
   },
   "f6ewGNYxGRjQ1SFfhL2tiHCMHzz9AHdTuPe11dRNarGbp3dES": {
