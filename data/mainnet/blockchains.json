@@ -14739,12 +14739,10 @@
       "blockchainId": "Bb5XKrQoBT6ypFmFUppAqfSmKCqcqYwjGCn3hHS6gibRTjiDj",
       "contractAddress": "0x0feedc0de0000000000000000000000000000000"
     },
-    "rpcEndpoints": [
-      "https://subnets.avax.network/tixchain/mainnet/rpc"
-    ],
-    "rpcVerified": true,
+    "rpcEndpoints": [],
+    "rpcVerified": false,
     "dataApiCovered": false,
-    "accessTier": "B",
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -14757,7 +14755,6 @@
       "isPermissioned": "pchain",
       "evmChainId": "dataapi",
       "isEvm": "derived",
-      "rpcEndpoints": "derived",
       "l1ConversionTxHash": "dataapi",
       "validatorManager": "dataapi",
       "managerChainId": "pchain",
@@ -14766,10 +14763,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "5aefb00f02ad21e612e6a997a648b8175b99722f8bd325306d038fd7f19cce57",
+    "contentHash": "1db82d44fb58996fb257a8cc0e7a14f1ae634af84d660e6ecd17224f6a625b56",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-10-27T22:10:17.200Z",
-    "lastUpdatedAt": "2026-10-27T22:10:17.200Z",
+    "lastSeenAt": "2026-10-30T22:15:48.618Z",
+    "lastUpdatedAt": "2026-10-30T22:15:48.618Z",
     "staleSince": null
   },
   "Bv235zarDRVyTGPhUUEsfJqCX4nVmdSxkF2bU2BfPV9W3dNe7": {
