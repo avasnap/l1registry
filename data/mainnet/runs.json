@@ -28720,6 +28720,89 @@
     },
     "errors": []
   },
+  "dc114327-c024-479d-b29c-d557aa5eeb71": {
+    "_id": "dc114327-c024-479d-b29c-d557aa5eeb71",
+    "runId": "dc114327-c024-479d-b29c-d557aa5eeb71",
+    "network": "mainnet",
+    "startedAt": "2026-11-05T19:54:38.540Z",
+    "finishedAt": "2026-11-05T19:59:15.387Z",
+    "durationMs": 276847,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 518,
+      "subnets": 498,
+      "l1s": 343,
+      "legacySubnets": 154,
+      "permissioned": 154,
+      "validators": 2078
+    },
+    "byVmType": {
+      "custom": 372,
+      "subnet-evm": 146
+    },
+    "byAccessTier": {
+      "C": 325,
+      "unreachable": 169,
+      "A": 23,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [
+          "2Mgd4WN9dpEMRoGbKobcyn94mwkq2wGCPgH2E5HWciBpLGA5XP"
+        ],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "HdDnxftv4dLYiCheEdXW3xHMkAT6czz3wJbTZe9RfzBxm41fQ",
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [
+          "HdDnxftv4dLYiCheEdXW3xHMkAT6czz3wJbTZe9RfzBxm41fQ:NodeID-8BFkPZFA6TwuoUCqEJkxqyNGH5gQdhYkS",
+          "HdDnxftv4dLYiCheEdXW3xHMkAT6czz3wJbTZe9RfzBxm41fQ:NodeID-8GWoiHs1RcSF1XEYNcAD7Td3rXbiDtjAe",
+          "HdDnxftv4dLYiCheEdXW3xHMkAT6czz3wJbTZe9RfzBxm41fQ:NodeID-9us2epgJNcz6L7KtfgpHphoK8b3sFmR9S",
+          "HdDnxftv4dLYiCheEdXW3xHMkAT6czz3wJbTZe9RfzBxm41fQ:NodeID-9z64ADwpvF4asTCS9Zyff7rVJR1vM4AbJ",
+          "HdDnxftv4dLYiCheEdXW3xHMkAT6czz3wJbTZe9RfzBxm41fQ:NodeID-Eawwk2ycqkXbK1XrrT4yMZ4w59gFoJFx7"
+        ],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-2vqpM9z6ra74TFvLwY6Nw7XNqowUzH14B",
+          "11111111111111111111111111111111LpoYY:NodeID-9EizvTJhGPtcwRExBgYySaJMt6syztj2X",
+          "11111111111111111111111111111111LpoYY:NodeID-Ld5Yh3Pmg4ay5cwpcCDrxFLmXKsJdVxeF",
+          "11111111111111111111111111111111LpoYY:NodeID-PF9fY3h6ZMMqPmTZZUwc7wyLnZ1rSoz5u",
+          "11111111111111111111111111111111LpoYY:NodeID-FsmksgteqNTPjyrwVV7xPgsC8SwEwKrgb",
+          "11111111111111111111111111111111LpoYY:NodeID-6H4xWodWdcEbwJxbyFyz8ycHpKpAPF74W",
+          "11111111111111111111111111111111LpoYY:NodeID-3Cbz64Z4cvF1ykJ2vP1h2VmUFwgZHRDgj",
+          "11111111111111111111111111111111LpoYY:NodeID-AL1WAtQHsgfUzoVJeTkaD1VQQcNQnM52U",
+          "11111111111111111111111111111111LpoYY:NodeID-F5Ecwd5qinZSTxacdEfWWsnz2eXyp8uK6",
+          "11111111111111111111111111111111LpoYY:NodeID-DT7ET1yHCTuNMydS4mGod99maQjBFS9MM",
+          "11111111111111111111111111111111LpoYY:NodeID-DXvKQyCiZHz7DubHxd49RxNEQwpZejcSe",
+          "11111111111111111111111111111111LpoYY:NodeID-Hn7YWxiVC9JufWW5n8u1mvaYgNgqWG8VT",
+          "11111111111111111111111111111111LpoYY:NodeID-N3WnyXmV89jbtQgmjqpoxBxpi5Rah86az",
+          "11111111111111111111111111111111LpoYY:NodeID-7mJpb42CiY4MBBZRR1fdoFikwRDbYxnPq"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-4cRJ1xXrbiDtXBbuQDuDpirmLpKu1sesv",
+          "11111111111111111111111111111111LpoYY:NodeID-5B2Uyysf1nWcRbiCYdKwXzevVF5a7sN6T",
+          "11111111111111111111111111111111LpoYY:NodeID-9CkG9MBNavnw7EVSRsuFr7ws9gascDQy3",
+          "11111111111111111111111111111111LpoYY:NodeID-A7GwTSd47AcDVqpTVj7YtxtjHREM33EJw",
+          "11111111111111111111111111111111LpoYY:NodeID-CLquKzhJZaQ2B5XxpKnk3HjnRsp6GXQoG",
+          "11111111111111111111111111111111LpoYY:NodeID-GYYGoe6y5TtL8vNBVkvTqk8sPTVVqbGaR",
+          "11111111111111111111111111111111LpoYY:NodeID-J6og828vTYU1Vpb5MET9MT7JS6iqMjRSC",
+          "11111111111111111111111111111111LpoYY:NodeID-Krsv3YUvmYVzDCuG3KkkJE54jLZVDAmkx",
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer:NodeID-5B2Uyysf1nWcRbiCYdKwXzevVF5a7sN6T"
+        ]
+      }
+    },
+    "errors": []
+  },
   "dc1980c1-36c6-4e9d-83d6-c8c3502a686e": {
     "_id": "dc1980c1-36c6-4e9d-83d6-c8c3502a686e",
     "runId": "dc1980c1-36c6-4e9d-83d6-c8c3502a686e",
