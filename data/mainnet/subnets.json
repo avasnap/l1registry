@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 562,
-      "totalWeight": "159211607529895476"
+      "count": 563,
+      "totalWeight": "158678396510616524"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "1ce4aa829c926be700ae5e6adb978d85ce9221513eff1cf06a3cdc1a696e5fe1",
+    "contentHash": "1ee0d89e58e679db4a29255783650c291a2aa12ee4b089c55c7393fa5f8d0f47",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-11-06T06:37:58.598Z",
-    "lastUpdatedAt": "2026-11-06T06:37:58.598Z",
+    "lastSeenAt": "2026-11-06T19:21:23.882Z",
+    "lastUpdatedAt": "2026-11-06T19:21:23.882Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -8416,8 +8416,8 @@
       "qoqDS2EGjEybQZZVUGnf38Rm4sMdxAvjikhysjoL84yd9pWka"
     ],
     "validatorSummary": {
-      "count": 2,
-      "totalWeight": "120"
+      "count": 3,
+      "totalWeight": "140"
     },
     "provenance": {
       "isL1": "derived",
@@ -8432,10 +8432,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "d7abcda14b35e2870f0156c1b36b7e659a9c7b5f8d415872a382e9fccd906002",
+    "contentHash": "f7b90aad9c67a0afab3fc929f20f340514890019822e6ee6e6a3e72408e4c69d",
     "firstSeenAt": "2026-10-20T21:34:53.083Z",
-    "lastSeenAt": "2026-10-27T17:58:40.899Z",
-    "lastUpdatedAt": "2026-10-27T17:58:40.899Z",
+    "lastSeenAt": "2026-11-06T19:21:23.882Z",
+    "lastUpdatedAt": "2026-11-06T19:21:23.882Z",
     "staleSince": null
   },
   "2sbytJgjKRxkwvBZiqXKpuCkD3NRT3MwNu5gV3xdUd6VWNcbN8": {
@@ -15135,8 +15135,8 @@
       "2btMkKMfyrDJQ7Khf4gYvcgtxSVjAjzjNhTgMaN3fSGj7F1bH4"
     ],
     "validatorSummary": {
-      "count": 2,
-      "totalWeight": "120"
+      "count": 3,
+      "totalWeight": "140"
     },
     "provenance": {
       "isL1": "derived",
@@ -15151,10 +15151,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "d7dfd3b03e0d36d41d6c742bb6a77af117f95cacad6bd89afd12b999943e86c6",
+    "contentHash": "e6a76ff0deb1de4d950029f2083bc23b04832654af8267dda4b14ba265cbda4c",
     "firstSeenAt": "2026-10-20T21:34:53.083Z",
-    "lastSeenAt": "2026-10-27T17:58:40.899Z",
-    "lastUpdatedAt": "2026-10-27T17:58:40.899Z",
+    "lastSeenAt": "2026-11-06T19:21:23.882Z",
+    "lastUpdatedAt": "2026-11-06T19:21:23.882Z",
     "staleSince": null
   },
   "amGZTrCQ42RekPWrM5foAotuDBreYGNybeRz8HjU9ZpQsbXQu": {
@@ -15811,7 +15811,7 @@
     ],
     "validatorSummary": {
       "count": 224,
-      "totalWeight": "46029895099"
+      "totalWeight": "46029896899"
     },
     "provenance": {
       "isL1": "derived",
@@ -15826,10 +15826,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "d1c4f71111748bb18fa5b3ec08929ed15ee16fd6cb99331d93e824dd827cfb6d",
+    "contentHash": "67f3ccfcb0f7600b6982ec5f6b337ad0c99d2b4e8a654cd6618f4afa9cd4234a",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-11-04T23:38:34.881Z",
-    "lastUpdatedAt": "2026-11-04T23:38:34.881Z",
+    "lastSeenAt": "2026-11-06T19:21:23.882Z",
+    "lastUpdatedAt": "2026-11-06T19:21:23.882Z",
     "staleSince": null
   },
   "f6ewGNYxGRjQ1SFfhL2tiHCMHzz9AHdTuPe11dRNarGbp3dES": {
@@ -17142,8 +17142,8 @@
       "2eJJVa9rc7PF92phYg1nHTa9RyGv131KsCdgiutZQyY8dSAMZ1"
     ],
     "validatorSummary": {
-      "count": 2,
-      "totalWeight": "120"
+      "count": 3,
+      "totalWeight": "140"
     },
     "provenance": {
       "isL1": "derived",
@@ -17158,10 +17158,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "f52df95b8c1cb6cd569c4fa1077f50f551e1c403985f3b8d33728f9709e81de9",
+    "contentHash": "c2e3f07eb6308ee31b48fd52bd523d7970396973288d523f32b98a49f0bbcd7c",
     "firstSeenAt": "2026-09-28T13:49:56.642Z",
-    "lastSeenAt": "2026-10-27T17:58:40.899Z",
-    "lastUpdatedAt": "2026-10-27T17:58:40.899Z",
+    "lastSeenAt": "2026-11-06T19:21:23.882Z",
+    "lastUpdatedAt": "2026-11-06T19:21:23.882Z",
     "staleSince": null
   },
   "nBv88rWrKMXNGBmnwkA4P5HCRPcU1VVxenJGZnXZbc8CADqCQ": {
