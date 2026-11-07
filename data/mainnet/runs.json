@@ -2119,6 +2119,64 @@
     },
     "errors": []
   },
+  "10b02cbe-5de1-47bb-a1c2-59e73eae4f2b": {
+    "_id": "10b02cbe-5de1-47bb-a1c2-59e73eae4f2b",
+    "runId": "10b02cbe-5de1-47bb-a1c2-59e73eae4f2b",
+    "network": "mainnet",
+    "startedAt": "2026-11-07T12:56:24.790Z",
+    "finishedAt": "2026-11-07T13:00:54.994Z",
+    "durationMs": 270204,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 518,
+      "subnets": 498,
+      "l1s": 343,
+      "legacySubnets": 154,
+      "permissioned": 154,
+      "validators": 2076
+    },
+    "byVmType": {
+      "custom": 372,
+      "subnet-evm": 146
+    },
+    "byAccessTier": {
+      "C": 325,
+      "unreachable": 169,
+      "A": 23,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-HYdhyma5zJ1XDrMpQEs79WE2QZ9Asq4S9",
+          "11111111111111111111111111111111LpoYY:NodeID-2vqpM9z6ra74TFvLwY6Nw7XNqowUzH14B",
+          "11111111111111111111111111111111LpoYY:NodeID-9EizvTJhGPtcwRExBgYySaJMt6syztj2X",
+          "11111111111111111111111111111111LpoYY:NodeID-Ld5Yh3Pmg4ay5cwpcCDrxFLmXKsJdVxeF"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-7hnK4EoWzm7V5qFPqJvpcRQti59au2BD8",
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer:NodeID-7hnK4EoWzm7V5qFPqJvpcRQti59au2BD8"
+        ]
+      }
+    },
+    "errors": []
+  },
   "116ecb9f-5011-4315-b99a-a1a83dd2611d": {
     "_id": "116ecb9f-5011-4315-b99a-a1a83dd2611d",
     "runId": "116ecb9f-5011-4315-b99a-a1a83dd2611d",
