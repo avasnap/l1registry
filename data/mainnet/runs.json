@@ -15546,6 +15546,69 @@
     },
     "errors": []
   },
+  "7aabccba-3243-453a-938f-c9d247bd6a1f": {
+    "_id": "7aabccba-3243-453a-938f-c9d247bd6a1f",
+    "runId": "7aabccba-3243-453a-938f-c9d247bd6a1f",
+    "network": "mainnet",
+    "startedAt": "2026-11-08T13:19:28.761Z",
+    "finishedAt": "2026-11-08T13:24:01.541Z",
+    "durationMs": 272780,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 519,
+      "subnets": 499,
+      "l1s": 343,
+      "legacySubnets": 155,
+      "permissioned": 155,
+      "validators": 2069
+    },
+    "byVmType": {
+      "subnet-evm": 147,
+      "custom": 372
+    },
+    "byAccessTier": {
+      "unreachable": 170,
+      "C": 325,
+      "A": 23,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [
+          "rFYWfe3Uf2dnNzDjSkGja5dFyyb3iUNWdhj2QPqgQQCTNyrZX"
+        ],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [
+          "2kGNeJEDGWG6oBiVZ64WhCfCYRGE3YNWca9YwZPyAYkpfcpPaH"
+        ],
+        "changed": [
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-GvYGeH3hZrX751Ppzzaee5YiqM1EcJhxT",
+          "11111111111111111111111111111111LpoYY:NodeID-5UW1pHAXDJi1tRFfGSEgujuExMztq6sCc",
+          "11111111111111111111111111111111LpoYY:NodeID-Ki3GRuRtnrgL7pqiHay8hsowZUD13uv2b",
+          "11111111111111111111111111111111LpoYY:NodeID-LrXQ22ZwDFYayiz8vyWCyppikSTLxanLT",
+          "11111111111111111111111111111111LpoYY:NodeID-7jqH9PXuyYhoTaaQDAF1eVzLtCVSgmSpz"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-C6b58cQGYSqm1FeQyvXKXUgZ3R7Q9D9es",
+          "2MbQjnTg3yxEtZBfnamboi7K9AajwNq7WExiwReBQSBtwbBVer:NodeID-C6b58cQGYSqm1FeQyvXKXUgZ3R7Q9D9es"
+        ]
+      }
+    },
+    "errors": []
+  },
   "7ab54369-415d-43bd-ab86-38b420c9c979": {
     "_id": "7ab54369-415d-43bd-ab86-38b420c9c979",
     "runId": "7ab54369-415d-43bd-ab86-38b420c9c979",
