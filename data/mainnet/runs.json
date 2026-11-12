@@ -18699,6 +18699,73 @@
     },
     "errors": []
   },
+  "8fbe2819-9b44-4326-b7e6-bc05c10ca3b2": {
+    "_id": "8fbe2819-9b44-4326-b7e6-bc05c10ca3b2",
+    "runId": "8fbe2819-9b44-4326-b7e6-bc05c10ca3b2",
+    "network": "mainnet",
+    "startedAt": "2026-11-12T15:08:47.297Z",
+    "finishedAt": "2026-11-12T15:13:16.751Z",
+    "durationMs": 269454,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 520,
+      "subnets": 500,
+      "l1s": 343,
+      "legacySubnets": 156,
+      "permissioned": 156,
+      "validators": 2056
+    },
+    "byVmType": {
+      "custom": 373,
+      "subnet-evm": 147
+    },
+    "byAccessTier": {
+      "C": 325,
+      "unreachable": 171,
+      "A": 23,
+      "B": 1
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "2UEGsEEjRyMSgD7cNufCGEXbPXsma7RctBgfRw3Haqkk8oByFa",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-46dw6FLobSUvtkyAS9BvyacykyuFP46gf",
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-GzDimt9N1FpkVeAF3NpjSugM8s4eAqVoy",
+          "2UEGsEEjRyMSgD7cNufCGEXbPXsma7RctBgfRw3Haqkk8oByFa:NodeID-4oyTkuecgkjHngf1QsYiMzWUmkWRhWBcx",
+          "2UEGsEEjRyMSgD7cNufCGEXbPXsma7RctBgfRw3Haqkk8oByFa:NodeID-6MRPKDPtEmsDmVp73vTwDSyHFuT6xm5nb",
+          "2UEGsEEjRyMSgD7cNufCGEXbPXsma7RctBgfRw3Haqkk8oByFa:NodeID-EpqRvKbp5ZfNtAEv1nZgN8bX2YQav6yww",
+          "11111111111111111111111111111111LpoYY:NodeID-5UW1pHAXDJi1tRFfGSEgujuExMztq6sCc",
+          "11111111111111111111111111111111LpoYY:NodeID-Ki3GRuRtnrgL7pqiHay8hsowZUD13uv2b",
+          "11111111111111111111111111111111LpoYY:NodeID-Dy47rtrYr4eiyRTSnbaFi8KZVnR56XrUC",
+          "11111111111111111111111111111111LpoYY:NodeID-K7X9gVp7x53jvEFEUqsJnwssKec2ZHZFr",
+          "11111111111111111111111111111111LpoYY:NodeID-Gn8N5UbYJFTnnnyWzzrmZhL7gKxFif9nr",
+          "11111111111111111111111111111111LpoYY:NodeID-2Bct3bqbgyNctwUahjFDCF3siViyVBiuJ",
+          "11111111111111111111111111111111LpoYY:NodeID-4nAaGpv4xnqLcL1vPpP6YbYnbUeJx1D9s",
+          "11111111111111111111111111111111LpoYY:NodeID-Chy78FPagNNU7oAj1QWzrdPFjJgZP3Scu"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-7seuWZpGnhEox3dL8T363sghDtCT5UNp4",
+          "11111111111111111111111111111111LpoYY:NodeID-FZHUwdFr4rndHpmSFXLK9dJwKVcijv4yW"
+        ]
+      }
+    },
+    "errors": []
+  },
   "9021af55-badd-4f48-8ad9-da2ece764d9e": {
     "_id": "9021af55-badd-4f48-8ad9-da2ece764d9e",
     "runId": "9021af55-badd-4f48-8ad9-da2ece764d9e",
