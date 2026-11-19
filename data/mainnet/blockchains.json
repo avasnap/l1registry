@@ -16634,6 +16634,58 @@
     "lastUpdatedAt": "2026-06-10T23:28:41.642Z",
     "staleSince": null
   },
+  "J8FEkJzpK1FgBqSWer8HMCGjEEYQ2DiAtNmqyVDYHpYwyyQBT": {
+    "_id": "J8FEkJzpK1FgBqSWer8HMCGjEEYQ2DiAtNmqyVDYHpYwyyQBT",
+    "blockchainId": "J8FEkJzpK1FgBqSWer8HMCGjEEYQ2DiAtNmqyVDYHpYwyyQBT",
+    "name": "YENTRIA",
+    "subnetId": "2VMibiMvVyAbJWEMv25hXkdCiaAsyruyrS8oPUapGW37FE6TTF",
+    "vmId": "gKJTCvmmrcVuTeKEWKr9i8cDaXknFg5pmC7gAWCSoggjTUjsw",
+    "vmType": "custom",
+    "evmChainId": 44089,
+    "isEvm": true,
+    "isL1": true,
+    "isPermissioned": false,
+    "managerChainId": "J8FEkJzpK1FgBqSWer8HMCGjEEYQ2DiAtNmqyVDYHpYwyyQBT",
+    "managerAddress": "0x0feedc0de0000000000000000000000000000000",
+    "conversionId": "7vztp9wMr4SgCb1R5B9bXaKRY8PxfpCFJHnDbVi1d5g8aMmNk",
+    "l1ConversionTxHash": "2F8FDjQoAc8yAxUsJS91gLpuypPqbbV6i9j4s7b5ALkBkUhNEs",
+    "validatorManager": {
+      "blockchainId": "J8FEkJzpK1FgBqSWer8HMCGjEEYQ2DiAtNmqyVDYHpYwyyQBT",
+      "contractAddress": "0x0feedc0de0000000000000000000000000000000"
+    },
+    "rpcEndpoints": [
+      "https://subnets.avax.network/yentria/mainnet/rpc"
+    ],
+    "rpcVerified": true,
+    "dataApiCovered": true,
+    "accessTier": "A",
+    "genesisData": null,
+    "provenance": {
+      "blockchainId": "pchain",
+      "name": "pchain",
+      "subnetId": "pchain",
+      "vmId": "pchain",
+      "vmType": "derived",
+      "isL1": "derived",
+      "accessTier": "derived",
+      "isPermissioned": "pchain",
+      "evmChainId": "dataapi",
+      "isEvm": "derived",
+      "rpcEndpoints": "derived",
+      "l1ConversionTxHash": "dataapi",
+      "validatorManager": "dataapi",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain"
+    },
+    "conflicts": [],
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "49092f2ec68f4994ca74aa92c79f67b4a65d36660825352a6881b256ca68b42b",
+    "firstSeenAt": "2026-11-19T07:20:00.794Z",
+    "lastSeenAt": "2026-11-19T07:20:00.794Z",
+    "lastUpdatedAt": "2026-11-19T07:20:00.794Z",
+    "staleSince": null
+  },
   "JD4XqpgYP6Tnee519seeSpnH1g7sg6wA386Bge4BamfugMTix": {
     "_id": "JD4XqpgYP6Tnee519seeSpnH1g7sg6wA386Bge4BamfugMTix",
     "blockchainId": "JD4XqpgYP6Tnee519seeSpnH1g7sg6wA386Bge4BamfugMTix",
