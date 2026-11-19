@@ -4104,12 +4104,10 @@
       "blockchainId": "2HR9yTVXBwxJjmejn9yt1UQnrBpQVQRpxUQe6YUtEaWh9yqnPN",
       "contractAddress": "0x0feedc0de0000000000000000000000000000000"
     },
-    "rpcEndpoints": [
-      "https://subnets.avax.network/stlink/mainnet/rpc"
-    ],
-    "rpcVerified": true,
+    "rpcEndpoints": [],
+    "rpcVerified": false,
     "dataApiCovered": false,
-    "accessTier": "B",
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -4122,7 +4120,6 @@
       "isPermissioned": "pchain",
       "evmChainId": "dataapi",
       "isEvm": "derived",
-      "rpcEndpoints": "derived",
       "l1ConversionTxHash": "dataapi",
       "validatorManager": "dataapi",
       "managerChainId": "pchain",
@@ -4131,10 +4128,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "311f77903d7b388e8a6dd18e67ded32921d57892d55f6c40d23e7804f8356add",
+    "contentHash": "ab7ece6cf74682e155fae5a0019c13cf2080dc8f7a1cc95d5d45ecf8eb82d986",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-06-10T23:28:41.642Z",
-    "lastUpdatedAt": "2026-06-10T23:28:41.642Z",
+    "lastSeenAt": "2026-11-19T20:31:00.900Z",
+    "lastUpdatedAt": "2026-11-19T20:31:00.900Z",
     "staleSince": null
   },
   "2HqCCvYmRRVg2Cz1zabFdAkpXbMfzWhqoNKBhwdeec8hHwQrWq": {
@@ -13964,6 +13961,54 @@
     "lastUpdatedAt": "2026-06-10T23:28:41.642Z",
     "staleSince": null
   },
+  "7pREiYLghTu6iFGBjfKuwZHtcHK3uADWwQkTpScykhetuiGsr": {
+    "_id": "7pREiYLghTu6iFGBjfKuwZHtcHK3uADWwQkTpScykhetuiGsr",
+    "blockchainId": "7pREiYLghTu6iFGBjfKuwZHtcHK3uADWwQkTpScykhetuiGsr",
+    "name": "TANTROOM",
+    "subnetId": "2u8rRFKXZeiPKmaucMY7jTGYQa4QhyCvD1BRgEushuxbisysHu",
+    "vmId": "qAyxJCJ9Qse61YjQFyQUSKAYB7NvAFDVZhATZM1T4hHspAxjc",
+    "vmType": "custom",
+    "evmChainId": null,
+    "isEvm": false,
+    "isL1": true,
+    "isPermissioned": false,
+    "managerChainId": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+    "managerAddress": "0xf6160a05151c6c126c07af1b63e799f53cd36c85",
+    "conversionId": "nanKg1G2EKXPZ1MZX22E3nBGPJ2S3sWvaVc6kggHJ8nGD1tm2",
+    "l1ConversionTxHash": "dDbVzJfm4jtiNxBJ5uZQ5mxMAxrACyEuzbmkcSdFXy5sJHJa",
+    "validatorManager": {
+      "blockchainId": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+      "contractAddress": "0xf6160a05151c6c126c07af1b63e799f53cd36c85"
+    },
+    "rpcEndpoints": [],
+    "rpcVerified": null,
+    "dataApiCovered": false,
+    "accessTier": "unreachable",
+    "genesisData": null,
+    "provenance": {
+      "blockchainId": "pchain",
+      "name": "pchain",
+      "subnetId": "pchain",
+      "vmId": "pchain",
+      "vmType": "derived",
+      "isL1": "derived",
+      "accessTier": "derived",
+      "isPermissioned": "pchain",
+      "isEvm": "derived",
+      "l1ConversionTxHash": "dataapi",
+      "validatorManager": "dataapi",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain"
+    },
+    "conflicts": [],
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "bfc1e969786915e389528d2ceae252b8598d6c1436ef45adedfd547dd50cdb29",
+    "firstSeenAt": "2026-11-19T20:31:00.900Z",
+    "lastSeenAt": "2026-11-19T20:31:00.900Z",
+    "lastUpdatedAt": "2026-11-19T20:31:00.900Z",
+    "staleSince": null
+  },
   "8RnNAJrLed6EZd7yZyvqjc3PTk2H2Uqa24S9MAypeviV5wb5a": {
     "_id": "8RnNAJrLed6EZd7yZyvqjc3PTk2H2Uqa24S9MAypeviV5wb5a",
     "blockchainId": "8RnNAJrLed6EZd7yZyvqjc3PTk2H2Uqa24S9MAypeviV5wb5a",
@@ -16653,12 +16698,10 @@
       "blockchainId": "J8FEkJzpK1FgBqSWer8HMCGjEEYQ2DiAtNmqyVDYHpYwyyQBT",
       "contractAddress": "0x0feedc0de0000000000000000000000000000000"
     },
-    "rpcEndpoints": [
-      "https://subnets.avax.network/yentria/mainnet/rpc"
-    ],
-    "rpcVerified": true,
-    "dataApiCovered": true,
-    "accessTier": "A",
+    "rpcEndpoints": [],
+    "rpcVerified": false,
+    "dataApiCovered": false,
+    "accessTier": "C",
     "genesisData": null,
     "provenance": {
       "blockchainId": "pchain",
@@ -16671,7 +16714,6 @@
       "isPermissioned": "pchain",
       "evmChainId": "dataapi",
       "isEvm": "derived",
-      "rpcEndpoints": "derived",
       "l1ConversionTxHash": "dataapi",
       "validatorManager": "dataapi",
       "managerChainId": "pchain",
@@ -16680,10 +16722,10 @@
     "conflicts": [],
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "49092f2ec68f4994ca74aa92c79f67b4a65d36660825352a6881b256ca68b42b",
+    "contentHash": "8f42d1dd78efef0a912f85ef0d1f7d48247a579b75c2518ee158f05ae2d9a4d7",
     "firstSeenAt": "2026-11-19T07:20:00.794Z",
-    "lastSeenAt": "2026-11-19T07:20:00.794Z",
-    "lastUpdatedAt": "2026-11-19T07:20:00.794Z",
+    "lastSeenAt": "2026-11-19T20:31:00.900Z",
+    "lastUpdatedAt": "2026-11-19T20:31:00.900Z",
     "staleSince": null
   },
   "JD4XqpgYP6Tnee519seeSpnH1g7sg6wA386Bge4BamfugMTix": {
