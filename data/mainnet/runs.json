@@ -6687,6 +6687,62 @@
     },
     "errors": []
   },
+  "2ef0e70f-83ba-4969-b316-a526e65cb9b8": {
+    "_id": "2ef0e70f-83ba-4969-b316-a526e65cb9b8",
+    "runId": "2ef0e70f-83ba-4969-b316-a526e65cb9b8",
+    "network": "mainnet",
+    "startedAt": "2026-11-21T07:01:10.207Z",
+    "finishedAt": "2026-11-21T07:06:39.828Z",
+    "durationMs": 329621,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 522,
+      "subnets": 502,
+      "l1s": 345,
+      "legacySubnets": 156,
+      "permissioned": 156,
+      "validators": 2157
+    },
+    "byVmType": {
+      "custom": 375,
+      "subnet-evm": 147
+    },
+    "byAccessTier": {
+      "unreachable": 172,
+      "C": 327,
+      "A": 23
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-NyAsZ6Ko4KYyMGyiH1iSZPscKoXYH3KCK",
+          "11111111111111111111111111111111LpoYY:NodeID-4vRSaeFJNXXNZ5RrdVhfi8kQBY7bE5soU",
+          "11111111111111111111111111111111LpoYY:NodeID-4xPFhnudEnoSKEFbQxNMXfWZGe4DTr5NH",
+          "11111111111111111111111111111111LpoYY:NodeID-31VVEDVeczLi7RsLbwQCY73ADEN6umVJr",
+          "11111111111111111111111111111111LpoYY:NodeID-FSVE4bLw5phTiX8nSxKxqXoesq1AxoZR8",
+          "11111111111111111111111111111111LpoYY:NodeID-Bpqcs1BU3MaFYYtXJ1a3gSwNvs1FaV2pj",
+          "11111111111111111111111111111111LpoYY:NodeID-C2ikimZSKuobNctfq7KobzQqSC9rTgZeJ",
+          "11111111111111111111111111111111LpoYY:NodeID-FJu9WvWrxTucYcNzEVQj1pHbbS4LaFTnn"
+        ],
+        "wentStale": []
+      }
+    },
+    "errors": []
+  },
   "2f11f528-b562-4cd5-bb5b-0bbe87acbe37": {
     "_id": "2f11f528-b562-4cd5-bb5b-0bbe87acbe37",
     "runId": "2f11f528-b562-4cd5-bb5b-0bbe87acbe37",
