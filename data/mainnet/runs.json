@@ -27589,6 +27589,63 @@
     },
     "errors": []
   },
+  "c6600651-4b92-4c6b-bfb5-3431e0243944": {
+    "_id": "c6600651-4b92-4c6b-bfb5-3431e0243944",
+    "runId": "c6600651-4b92-4c6b-bfb5-3431e0243944",
+    "network": "mainnet",
+    "startedAt": "2026-11-22T06:42:21.800Z",
+    "finishedAt": "2026-11-22T06:46:52.963Z",
+    "durationMs": 271163,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 522,
+      "subnets": 502,
+      "l1s": 345,
+      "legacySubnets": 156,
+      "permissioned": 156,
+      "validators": 2153
+    },
+    "byVmType": {
+      "custom": 375,
+      "subnet-evm": 147
+    },
+    "byAccessTier": {
+      "C": 327,
+      "unreachable": 172,
+      "A": 23
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC:NodeID-Fe3RiKh32fw4keLzhL2jS5Aqt6zHQazo5",
+          "11111111111111111111111111111111LpoYY:NodeID-E1ftrSDDy2xcq9NUXq4FRkuaFUiHEsVif",
+          "11111111111111111111111111111111LpoYY:NodeID-9NwzYmpVXuGabrseERNDiNKwX6K6uukqv",
+          "11111111111111111111111111111111LpoYY:NodeID-LY8eBhuCuodaHA6gbve9PLRRJQTb2kT8v",
+          "11111111111111111111111111111111LpoYY:NodeID-6a69GrGQUQULauaeXr3YLkACmKWMjTqYr",
+          "11111111111111111111111111111111LpoYY:NodeID-6jsfgYGLtkE1PZniVyRTMTwUocrtNAVcT"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-5D9GMyYkaYB6N4jP6JhA8bZNwbo3DddSf"
+        ]
+      }
+    },
+    "errors": []
+  },
   "c6f73bf7-b985-4485-a3e7-a5fb006f0651": {
     "_id": "c6f73bf7-b985-4485-a3e7-a5fb006f0651",
     "runId": "c6f73bf7-b985-4485-a3e7-a5fb006f0651",
