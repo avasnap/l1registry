@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 622,
-      "totalWeight": "177845754245959366"
+      "count": 623,
+      "totalWeight": "178359353524926066"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "5282091aa1d1b5ff30f583d43228151c5abd39023e580e70606a4ec46d7d189b",
+    "contentHash": "a3b52e70d02dddcab95517fac6e674855aa1bbe2214bfecfd3a8715cf59acabc",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-11-24T09:50:21.205Z",
-    "lastUpdatedAt": "2026-11-24T09:50:21.205Z",
+    "lastSeenAt": "2026-11-24T22:22:58.483Z",
+    "lastUpdatedAt": "2026-11-24T22:22:58.483Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -249,8 +249,8 @@
       "3USaEfTcoUhHxpKXvpAG916UKCUEyjrtkg2hBArBG3JyDP7my"
     ],
     "validatorSummary": {
-      "count": 12,
-      "totalWeight": "12000010"
+      "count": 13,
+      "totalWeight": "13000010"
     },
     "provenance": {
       "isL1": "derived",
@@ -265,10 +265,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "824fd51e4a90bd96a008b2197f042e22346ee5be5d66619a9d7d842b9343b9e8",
+    "contentHash": "e0505ad4797dc9f87b8212c00f491c07f79bd2c70af2ff28d00d750be47d5ccd",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-10-15T16:57:51.664Z",
-    "lastUpdatedAt": "2026-10-15T16:57:51.664Z",
+    "lastSeenAt": "2026-11-24T22:22:58.483Z",
+    "lastUpdatedAt": "2026-11-24T22:22:58.483Z",
     "staleSince": null
   },
   "22JVyUQPXbum5pK9WqC92Qyz9cmwW11MmKXAGn4m3G5TGBvDxd": {
@@ -779,6 +779,45 @@
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-10-07T23:03:25.446Z",
     "lastUpdatedAt": "2026-10-07T23:03:25.446Z",
+    "staleSince": null
+  },
+  "24PXxuDeatPzXn9ryirJFYTTvW8MpZV8tVvkGxFnHZMfbwsGWz": {
+    "_id": "24PXxuDeatPzXn9ryirJFYTTvW8MpZV8tVvkGxFnHZMfbwsGWz",
+    "subnetId": "24PXxuDeatPzXn9ryirJFYTTvW8MpZV8tVvkGxFnHZMfbwsGWz",
+    "isL1": true,
+    "isPermissioned": false,
+    "controlKeys": [
+      "P-avax17wfx0l3z59hnunnphxuuu3vn43egfk58qezsdp"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "2kX9QaGScELayxGYCaTZDx3djixwzKHQWBRRXJTCKMZUevtpYw",
+    "managerChainId": "2Ge2BkkjNupU2WwJ3SEbaoQGWhTb9HBK34RXqPbSTSzhnrqcJk",
+    "managerAddress": "0x1706c29d22042659a872442f3ef2e7e17528fed9",
+    "blockchainIds": [
+      "2LHaxav3MNqemAskcBbd4VSnH265qaqXAZBWbfgzXtWX4CMsmz"
+    ],
+    "validatorSummary": {
+      "count": 4,
+      "totalWeight": "400"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "f1c2b34c88b0e500508e75ca0257a80c7f18f759f12903525964e71fea32c90c",
+    "firstSeenAt": "2026-11-24T22:22:58.483Z",
+    "lastSeenAt": "2026-11-24T22:22:58.483Z",
+    "lastUpdatedAt": "2026-11-24T22:22:58.483Z",
     "staleSince": null
   },
   "24m4U5hnspQH4x5ZkNs9ZCeJ4P2cG57SbHRznPPNbgYWUyuBig": {
@@ -5601,6 +5640,45 @@
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
     "lastSeenAt": "2026-06-10T21:06:39.932Z",
     "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
+    "staleSince": null
+  },
+  "2aZL8f9xFeQ54D1oCEqNSJTavnuZBa2r9UtFyS4iFtGvMSRtyF": {
+    "_id": "2aZL8f9xFeQ54D1oCEqNSJTavnuZBa2r9UtFyS4iFtGvMSRtyF",
+    "subnetId": "2aZL8f9xFeQ54D1oCEqNSJTavnuZBa2r9UtFyS4iFtGvMSRtyF",
+    "isL1": true,
+    "isPermissioned": false,
+    "controlKeys": [
+      "P-avax17wfx0l3z59hnunnphxuuu3vn43egfk58qezsdp"
+    ],
+    "threshold": 1,
+    "locktime": "0",
+    "conversionId": "vUz56NrrkZzq8zxxc6R38R68Tn5SruLMs88ZNUSPW5sjDNjxL",
+    "managerChainId": "2Ge2BkkjNupU2WwJ3SEbaoQGWhTb9HBK34RXqPbSTSzhnrqcJk",
+    "managerAddress": "0x6654ad57067e3b6306951e719ab95fa41d894d2b",
+    "blockchainIds": [
+      "27Ynpn5qtpwu8jo5xLTErTqjYYPsuvgTwZ8p3UAT39EMQkUi6R"
+    ],
+    "validatorSummary": {
+      "count": 4,
+      "totalWeight": "400"
+    },
+    "provenance": {
+      "isL1": "derived",
+      "isPermissioned": "pchain",
+      "controlKeys": "pchain",
+      "threshold": "pchain",
+      "locktime": "pchain",
+      "conversionId": "pchain",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain",
+      "validatorSummary": "pchain"
+    },
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "52aaa80999c59eb21a946fe4ea1239b311fc3f9fc63436216a5c58c23945096c",
+    "firstSeenAt": "2026-11-24T22:22:58.483Z",
+    "lastSeenAt": "2026-11-24T22:22:58.483Z",
+    "lastUpdatedAt": "2026-11-24T22:22:58.483Z",
     "staleSince": null
   },
   "2aa7G6cQbomnqyhBexzWPmvihio8Uk1qrzYpBRNH2wcNpBkgNU": {
@@ -16006,7 +16084,7 @@
     ],
     "validatorSummary": {
       "count": 222,
-      "totalWeight": "46034019961"
+      "totalWeight": "46033869961"
     },
     "provenance": {
       "isL1": "derived",
@@ -16021,10 +16099,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "2bed194a2afdb6f6a6137cdf88083d2471209226dcbf79d70a4cfddb98c916f3",
+    "contentHash": "f7972b55d8c67dc70fd097cfea86900f430f45ac764f62a141a3709bf44a8922",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-11-24T09:50:21.205Z",
-    "lastUpdatedAt": "2026-11-24T09:50:21.205Z",
+    "lastSeenAt": "2026-11-24T22:22:58.483Z",
+    "lastUpdatedAt": "2026-11-24T22:22:58.483Z",
     "staleSince": null
   },
   "f6ewGNYxGRjQ1SFfhL2tiHCMHzz9AHdTuPe11dRNarGbp3dES": {
