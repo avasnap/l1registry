@@ -15,8 +15,8 @@
       "2oYMBNV4eNHyqk2fjjV5nVQLDbtmNJzq5s3qs3Lo6ftnC6FByM"
     ],
     "validatorSummary": {
-      "count": 623,
-      "totalWeight": "178359353524926066"
+      "count": 622,
+      "totalWeight": "177903461526889418"
     },
     "provenance": {
       "isL1": "derived",
@@ -31,10 +31,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "a3b52e70d02dddcab95517fac6e674855aa1bbe2214bfecfd3a8715cf59acabc",
+    "contentHash": "5f94e1acfe60d1b8221eaee083b83f300d4e62304eccf6e4d6291692beaf3549",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-11-24T22:22:58.483Z",
-    "lastUpdatedAt": "2026-11-24T22:22:58.483Z",
+    "lastSeenAt": "2026-11-25T08:27:39.154Z",
+    "lastUpdatedAt": "2026-11-25T08:27:39.154Z",
     "staleSince": null
   },
   "1H2TczJ1U6x9VWLsSXCjy9NUN72LJM87axKe7T6Zh8fk3cXb6": {
@@ -706,22 +706,22 @@
   "24Bvo25NiZTeC95Q7kMwW116kp5su7yj43QyKagrZZULhrmYkF": {
     "_id": "24Bvo25NiZTeC95Q7kMwW116kp5su7yj43QyKagrZZULhrmYkF",
     "subnetId": "24Bvo25NiZTeC95Q7kMwW116kp5su7yj43QyKagrZZULhrmYkF",
-    "isL1": false,
-    "isPermissioned": true,
+    "isL1": true,
+    "isPermissioned": false,
     "controlKeys": [
       "P-avax13fjwfm974kuqgq8hndvrdn9rqjnd8vedyzsr9v"
     ],
     "threshold": 1,
     "locktime": "0",
-    "conversionId": "11111111111111111111111111111111LpoYY",
-    "managerChainId": "11111111111111111111111111111111LpoYY",
-    "managerAddress": null,
+    "conversionId": "22EDAaxFtYyTPNCnf9BsEXb189tpcrAhhCE5merCJePPyxqQTq",
+    "managerChainId": "6YLeDTNiHRJefJQQTRms3EkWn4D2Rhcwv5PC547vg6KbLc3jF",
+    "managerAddress": "0x14a6b3846d58f322cbdb3e02d2091be84a25a011",
     "blockchainIds": [
       "6YLeDTNiHRJefJQQTRms3EkWn4D2Rhcwv5PC547vg6KbLc3jF"
     ],
     "validatorSummary": {
-      "count": 0,
-      "totalWeight": "0"
+      "count": 2,
+      "totalWeight": "2000"
     },
     "provenance": {
       "isL1": "derived",
@@ -736,10 +736,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "baa3733ecdbab3809ba8000772f0b1f86ae7e007bf940404fe52eae26b2a1bce",
+    "contentHash": "8740ff9ad8bbfb4752735a4180f46646fd407213636a81021c69bb560d7181e5",
     "firstSeenAt": "2026-11-23T23:50:18.042Z",
-    "lastSeenAt": "2026-11-23T23:50:18.042Z",
-    "lastUpdatedAt": "2026-11-23T23:50:18.042Z",
+    "lastSeenAt": "2026-11-25T08:27:39.154Z",
+    "lastUpdatedAt": "2026-11-25T08:27:39.154Z",
     "staleSince": null
   },
   "24PDVyhFQb6GdRrvQnhf5kvH5HeTh8UTPje2wW56buS4VmMeLc": {
@@ -1532,7 +1532,7 @@
     "isL1": true,
     "isPermissioned": false,
     "controlKeys": [
-      "P-avax10ksugn55xn5ctfpfvf4mpf896dvvcxvfhu8v80"
+      "P-avax1lxdavlr45u5zph972cn66euvay90xz3smnwyer"
     ],
     "threshold": 1,
     "locktime": "0",
@@ -1559,10 +1559,10 @@
     },
     "fetchErrors": [],
     "stale": false,
-    "contentHash": "6c5b8b51578d13926ff75cfbb4e74151a834a2fc5ed3c56b64ce10d507d8df33",
+    "contentHash": "f8bde68c0499e6c11fa7f720ba95b527959c411aae91ccfb9994f89d13472ee9",
     "firstSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastSeenAt": "2026-06-10T21:06:39.932Z",
-    "lastUpdatedAt": "2026-06-10T21:06:39.932Z",
+    "lastSeenAt": "2026-11-25T08:27:39.154Z",
+    "lastUpdatedAt": "2026-11-25T08:27:39.154Z",
     "staleSince": null
   },
   "27mZh9HyNwGdqfkQDWabzo9BonhPSzh1qwdzaDsmPJDn1woCVV": {
