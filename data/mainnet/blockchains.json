@@ -23830,6 +23830,58 @@
     "lastUpdatedAt": "2026-06-10T23:28:41.642Z",
     "staleSince": null
   },
+  "u9oA36dJxYj44gTtUXCnG9NXTZHtC3EFiBKQBiaaYUo2dChSs": {
+    "_id": "u9oA36dJxYj44gTtUXCnG9NXTZHtC3EFiBKQBiaaYUo2dChSs",
+    "blockchainId": "u9oA36dJxYj44gTtUXCnG9NXTZHtC3EFiBKQBiaaYUo2dChSs",
+    "name": "WT1127T1MP",
+    "subnetId": "3RDPG94XgwKBwUawWTY4S7qZAk1FxBgnQQqcXFzS418q73CFK",
+    "vmId": "fThYAdxy56n1o6znK1fE4GSS4RbrcC5JptJidmCUuNgRKir5t",
+    "vmType": "custom",
+    "evmChainId": 85672,
+    "isEvm": true,
+    "isL1": true,
+    "isPermissioned": false,
+    "managerChainId": "u9oA36dJxYj44gTtUXCnG9NXTZHtC3EFiBKQBiaaYUo2dChSs",
+    "managerAddress": "0x0feedc0de0000000000000000000000000000000",
+    "conversionId": "4gmVTuoMiWdofS9vztvHNo6aD4ihCPykShSKELqTAyDHV1CJP",
+    "l1ConversionTxHash": "21pCfvDonGMZTnu9CgXj8xQfnn9u7TqppvZwSGv4z6a7piT6kH",
+    "validatorManager": {
+      "blockchainId": "u9oA36dJxYj44gTtUXCnG9NXTZHtC3EFiBKQBiaaYUo2dChSs",
+      "contractAddress": "0x0feedc0de0000000000000000000000000000000"
+    },
+    "rpcEndpoints": [
+      "https://subnets.avax.network/wt1127t1mp/mainnet/rpc"
+    ],
+    "rpcVerified": true,
+    "dataApiCovered": true,
+    "accessTier": "A",
+    "genesisData": null,
+    "provenance": {
+      "blockchainId": "pchain",
+      "name": "pchain",
+      "subnetId": "pchain",
+      "vmId": "pchain",
+      "vmType": "derived",
+      "isL1": "derived",
+      "accessTier": "derived",
+      "isPermissioned": "pchain",
+      "evmChainId": "dataapi",
+      "isEvm": "derived",
+      "rpcEndpoints": "derived",
+      "l1ConversionTxHash": "dataapi",
+      "validatorManager": "dataapi",
+      "managerChainId": "pchain",
+      "managerAddress": "pchain"
+    },
+    "conflicts": [],
+    "fetchErrors": [],
+    "stale": false,
+    "contentHash": "044b0c5902717117387a472b6d5e0b6659cc5f719b61bb207b81c1aaf908c4de",
+    "firstSeenAt": "2026-11-27T08:23:12.689Z",
+    "lastSeenAt": "2026-11-27T08:23:12.689Z",
+    "lastUpdatedAt": "2026-11-27T08:23:12.689Z",
+    "staleSince": null
+  },
   "uNjCdhwZ25PsvfPcZG2Ghv4zGCVzfpKiydGjZnbyvY6mcJLAi": {
     "_id": "uNjCdhwZ25PsvfPcZG2Ghv4zGCVzfpKiydGjZnbyvY6mcJLAi",
     "blockchainId": "uNjCdhwZ25PsvfPcZG2Ghv4zGCVzfpKiydGjZnbyvY6mcJLAi",
