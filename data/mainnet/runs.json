@@ -9195,6 +9195,63 @@
     },
     "errors": []
   },
+  "3dffc01a-cee0-4b9b-ac3b-1084c2ac8e97": {
+    "_id": "3dffc01a-cee0-4b9b-ac3b-1084c2ac8e97",
+    "runId": "3dffc01a-cee0-4b9b-ac3b-1084c2ac8e97",
+    "network": "mainnet",
+    "startedAt": "2026-11-28T07:43:38.603Z",
+    "finishedAt": "2026-11-28T07:48:10.025Z",
+    "durationMs": 271422,
+    "enumSource": "pchain",
+    "enrichmentEnabled": true,
+    "totals": {
+      "blockchains": 528,
+      "subnets": 508,
+      "l1s": 349,
+      "legacySubnets": 158,
+      "permissioned": 158,
+      "validators": 2176
+    },
+    "byVmType": {
+      "custom": 379,
+      "subnet-evm": 149
+    },
+    "byAccessTier": {
+      "C": 330,
+      "unreachable": 174,
+      "A": 24
+    },
+    "diff": {
+      "blockchains": {
+        "new": [],
+        "changed": [],
+        "wentStale": []
+      },
+      "subnets": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY"
+        ],
+        "wentStale": []
+      },
+      "validators": {
+        "new": [],
+        "changed": [
+          "11111111111111111111111111111111LpoYY:NodeID-E1ftrSDDy2xcq9NUXq4FRkuaFUiHEsVif",
+          "11111111111111111111111111111111LpoYY:NodeID-9HizgmjxzLCBUdugwjSM3RBnyJewZ2CZ6",
+          "11111111111111111111111111111111LpoYY:NodeID-ExDyRrwSPkmBsvr4UVjwMJrXZ1fvp8HCz",
+          "11111111111111111111111111111111LpoYY:NodeID-3LakPKhedK2RBvViCo7zM4s61dBa2rvVc",
+          "11111111111111111111111111111111LpoYY:NodeID-8MGoTPUouB48snkWNZFXzpD7nuyWLD7Xt",
+          "11111111111111111111111111111111LpoYY:NodeID-31k9WBBje8QqqhNCVuz1XH6UQ3oc9APKN"
+        ],
+        "wentStale": [
+          "11111111111111111111111111111111LpoYY:NodeID-E9WHoTctZJQfZ9Qnvc9Dr6oWypPWYiDDX",
+          "11111111111111111111111111111111LpoYY:NodeID-PcbM59gvaroHFJc1thiawBqvf87CMmVwN"
+        ]
+      }
+    },
+    "errors": []
+  },
   "3e6d95b1-97a1-4b38-a53d-506064ae13a2": {
     "_id": "3e6d95b1-97a1-4b38-a53d-506064ae13a2",
     "runId": "3e6d95b1-97a1-4b38-a53d-506064ae13a2",
